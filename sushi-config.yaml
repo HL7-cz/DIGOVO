@@ -3,11 +3,11 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: hl7.fhir.cz.empty
-canonical: https://hl7.cz/fhir/empty #!!change here!!
-name: HL7CzEmptyImplementationGuide
-title: HL7 Czech Empty Implementation Guide
-description: HL7 Czech Empty Implementation Guide
+id: hl7.fhir.cz.DIGOVO
+canonical: https://hl7.cz/fhir/DIGOVO #!!change here!!
+name: HL7CzDIGOVOImplementationGuide
+title: HL7 Czech DIGOVO Implementation Guide
+description: HL7 Czech DIGOVO Implementation Guide
 status: draft # draft | active | retired | unknown
 version: 0.0.1
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
@@ -36,6 +36,7 @@ publisher:
 #     version: 1.0.0
 dependencies:
   hl7.fhir.uv.ips: 1.1.0
+  hl7.fhir.eu.base: 0.1.0-ballot
   hl7.fhir.cz.core: current
 #
 #
@@ -62,16 +63,50 @@ dependencies:
 pages:
   index.md:
     title: Home
-# general-guidance.md:
-#   title: General Guidance
-# identifiers.md:
-#   title: Identifiers
-# artifacts.xml:
-#   title: Summary artifacts
-# profiles-and-extensions.md:
-#   title: Profiles and extensions
-# downloads.md:
-#   title: Download
+  index-cs.md:
+    title: Domovská stránka
+  #scope-and-content.md:
+    #title: Scope and content
+  scope-and-content-cs.md:
+    title: Oblasti a obsah
+  #examples.md:
+   # title: Examples
+  #examples-cs.md:
+    #title: Příklady
+  #logical-models.md:
+    #title: Logical models
+  logical-models-cs.md:
+    title: Datová sada - logické modely CZ
+  #model-map.md:
+    #title: Model maps
+  #model-map-cs.md:
+    #title: Mapování logického modelu
+  #obligations.md:
+    #title: Obligations
+  #obligations-cs.md:
+    #title: Obligations
+  #downloads.md:
+    #title: Downloads
+  #downloads-cs.md:
+    #title: Ke stažení
+ # implementation-notes.md:
+    #title: Implementation notes
+  #implementation-notes-cs.md:
+    #title: Implementační poznámky
+  #terminology-considerations.md:
+  #  title: Terminology considerations
+  #terminology-considerations-cs.md:
+  #  title: Terminologické aspekty
+  #  use-cases.md:
+  #    title: Use cases
+  #  use-cases-cs.md:
+  #    title: Příklady užití
+  #  workflow.md:
+  #    title: Workflow
+  #  workflow-cs.md:
+  #    title: Workflow
+  artifacts.xml:
+    title: Artifacts
 #
 # The parameters property represents IG.definition.parameter. Rather
 # than a list of code/value pairs (as in the ImplementationGuide
@@ -109,6 +144,8 @@ parameters:  #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+P
 #  generate-turtle:
 #  html-template:
 #  active-tables: false
+  pin-canonicals: pin-multiples
+# path-expansion-params: "../../expansion-params.json"
   apply-contact: true
   apply-jurisdiction: true
   apply-publisher: true
@@ -141,15 +178,15 @@ parameters:  #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+P
 # │ property below.                                                                                │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
-  Home: index.html
-#  Guidance:
-#    General guidance: general-guidance.html
-#    Identifiers: identifiers.html
-#  Artifacts: 
-#    Czech artifacts: artifacts.html
-#    Profiles and extensions: profiles-and-extensions.html
-#  About:
-#    Downloads: downloads.html
+  Home:
+    Home (en): index.html
+    Home (cs): index-cs.html
+  Introduction:
+    #Scope and content (en): scope-and-content.html
+    Scope and content (cs): scope-and-content-cs.html
+  Functional:
+    Logical models (cs): logical-models-cs.html
+  Artifacts: artifacts.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │

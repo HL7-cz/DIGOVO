@@ -1,0 +1,102 @@
+@startmindmap
+* DIGOVO
+** Souhlas
+*** Souhlas pacienta/zákonného zástupce s opakovaným použitím dat
+
+** Informace o pacientovi
+*** Národní identifikátor pacienta
+*** Mezinárodní identifikátor
+
+** Administrativní data
+*** Osobní údaje
+**** Rodné příjmení pacienta
+**** Příjmení pacienta
+**** Jméno pacienta
+**** Datum narození pacienta
+**** Pohlaví při narození
+**** Pohlaví v čase zadání
+**** Země narození
+**** Místo narození
+*** Demografická data
+**** Země trvalého pobytu
+**** Místo trvalého pobytu
+
+** Diagnóza vzácného onemocnění
+*** Název onemocnění (diagnózy)
+*** Aktuální stav diagnózy
+*** Metoda potvrzení diagnózy
+*** Biologická metoda použitá v diagnostice
+*** Gen a mutace (pokud lze použít)
+*** Genová varianta (je-li relevantní)
+*** Sporadické nebo familiární onemocnění
+*** Nediagnostikované ("undiagnosed") onemocnění
+
+** Anamnéza
+*** Věk nebo datum začátku potíží
+*** Věk nebo datum při diagnóze
+*** Dědičnost (je-li relevantní)
+*** Klinické manifestace
+*** Vyšetření
+*** Postižení
+
+** Prenatální / perinatální data
+*** Prenatálně zjištěná malformace
+*** Lékařsky asistovaná reprodukce
+*** Gestační věk při narození
+*** Porodní váha
+*** Porodní délka
+*** Obvod hlavy při narození
+*** Vícečetné těhotenství
+*** Foetopatologie
+
+** Rodinní předkové
+*** Postižený předek (propositus)
+**** Identifikátor prvního postiženého předka
+**** Rodičovský vztah k postiženému
+*** Konsanguinita
+*** Jiní relevantní předkové
+
+** Stav života
+*** Stav života
+*** Datum úmrtí pacienta
+
+** Terapie
+*** Pokračující léčba vzácného onemocnění
+*** Léky na vzácné onemocnění
+*** Léčebný přípravek
+*** Dávkování a cesta podání
+*** Jiné léčby nebo intervence
+*** Léčebný přípravek nebo prostředek
+*** Dávkování a cesta podání
+*** Intervence (chirurgická, fyzioterapie apod.)
+
+** Care Pathway (klinická trajektorie)
+*** Odesílající subjekt
+*** Datum doporučení
+*** Datum přijetí do specializovaného centra
+*** Jména ošetřujících lékařů
+*** Centrum pro vzácná onemocnění
+**** Klinická služba
+*** Název ERN
+**** Pacient zadán do registru ERN
+
+** Zdravotní péče
+*** Datum ošetření
+*** Poskytnutá péče
+*** Pacient zařazen do CPMS
+*** Cíle poskytnuté péče
+*** Povolání pracovníků poskytujících péči
+*** Pracovník poskytující péči
+*** Centrum pro vzácná onemocnění
+*** Umístění centra
+
+** Výzkum
+*** Účast pacienta na výzkumu/studii
+*** Souhlas s kontaktováním v případě výzkumu
+*** Biologický vzorek k dispozici pro výzkum
+*** Biologický vzorek v biobance
+
+** Užitečné informace
+*** Informace o onemocnění, klinická doporučení
+*** Main alert messages
+@endmindmap
