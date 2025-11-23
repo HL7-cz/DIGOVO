@@ -5,8 +5,6 @@ Title: "DIGOVO PatientHistory Logical Model → FHIR Mapping"
 Description: """
 Mapování logického modelu DIGOVO 'Anamnéza pacienta (LogCzPatientHistory)' na konkrétní FHIR profily CZ DIGOVO.
 """
-* url = "https://hl7.cz/fhir/digovo/ConceptMap/patientHistory2FHIR-cz-digovo"
-* name = "PatientHistory2FHIRCzDigovo"
 * status = #draft
 * experimental = true
 
@@ -90,3 +88,4 @@ Mapování logického modelu DIGOVO 'Anamnéza pacienta (LogCzPatientHistory)' n
 * group[=].element[=].target.display = "CZ_Observation_FunctionalDisability"
 * group[=].element[=].target.equivalence = #equal
 * group[=].element[=].target.comment = "Používá profil CZ_Observation_FunctionalDisability – kódování dle ICF (VsIcfFunctionalDisabilityCz)."
+

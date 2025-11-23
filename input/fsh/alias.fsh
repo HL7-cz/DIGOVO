@@ -17,4 +17,10 @@ Alias: $v2-0136 = http://terminology.hl7.org/CodeSystem/v2-0136
 Alias: $hpo = http://purl.obolibrary.org/obo/hp.owl
 Alias: $icf = http://id.who.int/icf
 Alias: $v3-ActCode = http://terminology.hl7.org/CodeSystem/v3-ActCode
+Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
+Alias: $relationshiptype = http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype
+Alias: $typCare = https://hl7.cz/fhir/digovo/CodeSystem/healthcare-procedure-type-cz
+Alias: $goal = https://hl7.cz/fhir/digovo/CodeSystem/healthcare-goal-cz
+Alias: $encounterType = https://hl7.cz/fhir/digovo/CodeSystem/carepathway-encounter-type-cz
 
+Alias: $DIGOVO = http://digovo.cz/CodeSystem/digovo

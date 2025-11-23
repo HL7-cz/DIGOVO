@@ -9,12 +9,12 @@
 
 ** Administrativní data
 *** Osobní údaje
-**** Rodné příjmení pacienta
-**** Příjmení pacienta
-**** Jméno pacienta
-**** Datum narození pacienta
-**** Pohlaví při narození
-**** Pohlaví v čase zadání
+****: Rodné příjmení pacienta
+****: Příjmení pacienta
+****: Jméno pacienta
+****: Datum narození pacienta
+****: Pohlaví při narození
+****: Pohlaví v čase zadání
 **** Země narození
 **** Místo narození
 *** Demografická data
