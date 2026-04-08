@@ -1,4 +1,5 @@
-@startmindmap
+@startmindmap digovo
+
 * DIGOVO
 ** Souhlas
 *** Souhlas pacienta/zákonného zástupce s opakovaným použitím dat
@@ -9,12 +10,12 @@
 
 ** Administrativní data
 *** Osobní údaje
-****: Rodné příjmení pacienta
-****: Příjmení pacienta
-****: Jméno pacienta
-****: Datum narození pacienta
-****: Pohlaví při narození
-****: Pohlaví v čase zadání
+**** Rodné příjmení pacienta
+**** Příjmení pacienta
+**** Jméno pacienta
+**** Datum narození pacienta
+**** Pohlaví při narození
+**** Pohlaví v čase zadání
 **** Země narození
 **** Místo narození
 *** Demografická data
@@ -29,7 +30,7 @@
 *** Gen a mutace (pokud lze použít)
 *** Genová varianta (je-li relevantní)
 *** Sporadické nebo familiární onemocnění
-*** Nediagnostikované ("undiagnosed") onemocnění
+*** Nediagnostikované onemocnění
 
 ** Anamnéza
 *** Věk nebo datum začátku potíží
@@ -99,4 +100,5 @@
 ** Užitečné informace
 *** Informace o onemocnění, klinická doporučení
 *** Main alert messages
+
 @endmindmap

@@ -27,7 +27,7 @@ Description:
   * jineLecby 0..* Base "Jiné léčby nebo intervence" """Záznam o jiných léčbách nebo intervencích souvisejících s terapií (např. chirurgické zákroky, fyzioterapie, pomůcky)."""
     * pripravekNeboProstredek 0..1 CodeableConcept "Léčebný přípravek nebo prostředek" """Kód léčebného přípravku či prostředku podle ATC klasifikace."""
     * davkovaniACesta 0..1 string "Dávkování a cesta podání" """Popis dávky, četnosti podání a cesty podání."""
-    * intervence 0..* CodeableConcept "Intervence" """Kód intervence dle klasifikací jako ICD-10, ICD-11 nebo SNOMED CT. Může jít o chirurgický zákrok, fyzioterapii apod."""
+  * intervence 0..* CodeableConcept "Intervence" """Kód intervence dle klasifikací jako ICD-10, ICD-11 nebo SNOMED CT. Může jít o chirurgický zákrok, fyzioterapii apod."""
     /* převzato z modelu PZ
     * stav 1..1 code "A.2.9.2.1 Stav" """Stav identifikuje změny v medikaci v průběhu hospitalizace. Položka je důležitá pro rozlišení medikace ukončené, změněné či nově podávané v průběhu hospitalizace."""
     * indikace 0..1 CodeableConcept "A.2.9.2.2 Indikace" """Důvod medikace. Důvod může být popsán textem případně odkazem na zdravotní důvod (zdravotní problém v seznamu problémů)."""
