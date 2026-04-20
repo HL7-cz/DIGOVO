@@ -6,6 +6,4 @@ TODO
 
 TODO
 
-{% include digovo-cz.svg %}
-
-
+![DIGOVO](images-source/digovo-cz.svg)
