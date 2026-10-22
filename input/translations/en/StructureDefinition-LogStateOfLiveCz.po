@@ -1,0 +1,57 @@
+# cs -> en
+
+#: StructureDefinition.title
+msgctxt "StructureDefinition.title"
+msgid "7. Životní stav"
+msgstr "7. Vital status"
+
+#: StructureDefinition.element.LogStateOfLiveCz/short
+msgctxt "StructureDefinition.element.LogStateOfLiveCz/short"
+msgid "7. Životní stav"
+msgstr "7. Vital status"
+
+#: StructureDefinition.element.LogStateOfLiveCz/definition
+msgctxt "StructureDefinition.element.LogStateOfLiveCz/definition"
+msgid "Logický model pro záznam životního stavu pacienta ve vztahu k vzácnému onemocnění."
+msgstr "Patient vital status in the context of rare disease. Items 7.1 and 7.3 are under review and currently invalid."
+
+#: StructureDefinition.element.LogStateOfLiveCz.stavZivota/short
+msgctxt "StructureDefinition.element.LogStateOfLiveCz.stavZivota/short"
+msgid "[V ŘEŠENÍ – AKTUÁLNĚ NEPLATNÉ] 7.1 Stav života"
+msgstr "[UNDER REVIEW – CURRENTLY INVALID] 7.1 Vital Status"
+
+#: StructureDefinition.element.LogStateOfLiveCz.stavZivota/definition
+msgctxt "StructureDefinition.element.LogStateOfLiveCz.stavZivota/definition"
+msgid "V ŘEŠENÍ – AKTUÁLNĚ NEPLATNÉ. Položka je ve zdrojovém Excelu označena červeně a není součástí aktuálně platných požadavků. Pracovní návrh zachycuje poslední známý nebo aktuální životní stav pacienta. Zdroj navrhuje Alive / Deceased / Unknown; původní model obsahoval také Lost to follow up / Opted-out. Číselník, datový typ a kardinalita jsou ponechány k projednání."
+msgstr "UNDER REVIEW – CURRENTLY INVALID. Red-highlighted in the source workbook and not a currently valid requirement. The proposed data type and cardinality are retained only for discussion. Define the last known or the current status of the patient. \n\nThis data element is Mandatory\n\nThe recommended data standard is Value Set: Alive, Deceased, or Unknown"
+
+#: StructureDefinition.element.LogStateOfLiveCz.datumUmrti/short
+msgctxt "StructureDefinition.element.LogStateOfLiveCz.datumUmrti/short"
+msgid "Datum úmrtí pacienta"
+msgstr "7.2 Date of death"
+
+#: StructureDefinition.element.LogStateOfLiveCz.datumUmrti/definition
+msgctxt "StructureDefinition.element.LogStateOfLiveCz.datumUmrti/definition"
+msgid "Datum úmrtí pacienta (formát dd/mm/yyyy).\nTento údaj se vyplňuje pouze, pokud je stav života = Deceased. \nMožný zdroj dat: NIS. Položka 7.2 má ve zdroji anglický název Link to Death Certificate, ale český název a odpověď znamenají datum úmrtí; model zachovává český význam do vyjasnění."
+msgstr "Date of death, applicable to a deceased patient. The English source name refers to a death certificate link, while the Czech name and response type refer to a date. The date representation is retained pending clarification."
+
+#: StructureDefinition.element.LogStateOfLiveCz.pricinaUmrti/short
+msgctxt "StructureDefinition.element.LogStateOfLiveCz.pricinaUmrti/short"
+msgid "[V ŘEŠENÍ – AKTUÁLNĚ NEPLATNÉ] 7.3 Příčina úmrtí"
+msgstr "[UNDER REVIEW – CURRENTLY INVALID] 7.3 Cause of Death"
+
+#: StructureDefinition.element.LogStateOfLiveCz.pricinaUmrti/definition
+msgctxt "StructureDefinition.element.LogStateOfLiveCz.pricinaUmrti/definition"
+msgid "V ŘEŠENÍ – AKTUÁLNĚ NEPLATNÉ. Položka je ve zdrojovém Excelu označena červeně a není součástí aktuálně platných požadavků. Pracovní návrh zachycuje příčinu úmrtí zemřelého pacienta; zdroj navrhuje povinnost při relevanci. Datový typ a kardinalita jsou ponechány pouze k projednání."
+msgstr "UNDER REVIEW – CURRENTLY INVALID. Red-highlighted in the source workbook and not a currently valid requirement. The proposed data type and cardinality are retained only for discussion. The cause of the patient's death. This element is only opened / to be completed when Vital Status is recorded as 'Deceased'.\n\nThis data element is Mandatory (if relevant).\n\nThe recommended data standards are ICD-10 and ORPHAcodes; at least one of the two must be provided, or the value 'Unknown' selected."
+
+#: StructureDefinition.element.LogStateOfLiveCz.stavZivota/comment
+msgctxt "StructureDefinition.element.LogStateOfLiveCz.stavZivota/comment"
+msgid "Stav podle červeného označení na listu Data Elements, řádek 52, položka 7.1. Do vyřešení se nepovažuje za platnou položku datasetu."
+msgstr "Status from the red highlighting in Data Elements, row 52, item 7.1. UNDER REVIEW – CURRENTLY INVALID; not a valid dataset item until resolved."
+
+#: StructureDefinition.element.LogStateOfLiveCz.pricinaUmrti/comment
+msgctxt "StructureDefinition.element.LogStateOfLiveCz.pricinaUmrti/comment"
+msgid "Stav podle červeného označení na listu Data Elements, řádek 54, položka 7.3. Do vyřešení se nepovažuje za platnou položku datasetu."
+msgstr "Status from the red highlighting in Data Elements, row 54, item 7.3. UNDER REVIEW – CURRENTLY INVALID; not a valid dataset item until resolved."
+

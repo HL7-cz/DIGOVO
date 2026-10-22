@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="cs" target-language="en" id="ValueSet-vs-condition-severity-raredisease" original="Resource ValueSet-vs-condition-severity-raredisease" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ValueSet-vs-condition-severity-raredisease" resname="ValueSet.name">
+             <notes>
+               <note id="n1">ValueSet.name</note>
+             </notes>
+        <source>VsConditionSeverityRareDisease</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-vs-condition-severity-raredisease" resname="ValueSet.title">
+             <notes>
+               <note id="n1">ValueSet.title</note>
+             </notes>
+        <source>Závažnost vzácného onemocnění – DIGOVO</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-vs-condition-severity-raredisease" resname="ValueSet.publisher">
+             <notes>
+               <note id="n1">ValueSet.publisher</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-vs-condition-severity-raredisease" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-vs-condition-severity-raredisease" resname="ValueSet.description">
+             <notes>
+               <note id="n1">ValueSet.description</note>
+             </notes>
+        <source>Kategorie závažnosti pro diagnózy vzácných onemocnění, kompatibilní s ERDRI a SNOMED CT.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-vs-condition-severity-raredisease" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Czechia</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-vs-condition-severity-raredisease" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">ValueSet.compose.include.concept.display</note>
+             </notes>
+        <source>Mild</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-vs-condition-severity-raredisease" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">ValueSet.compose.include.concept.display</note>
+             </notes>
+        <source>Moderate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-vs-condition-severity-raredisease" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">ValueSet.compose.include.concept.display</note>
+             </notes>
+        <source>Severe</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-vs-condition-severity-raredisease" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">ValueSet.compose.include.concept.display</note>
+             </notes>
+        <source>Life-threatening</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

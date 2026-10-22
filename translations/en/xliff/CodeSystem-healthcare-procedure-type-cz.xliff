@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="cs" target-language="en" id="CodeSystem-healthcare-procedure-type-cz" original="Resource CodeSystem-healthcare-procedure-type-cz" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CodeSystem-healthcare-procedure-type-cz" resname="CodeSystem.name">
+             <notes>
+               <note id="n1">CodeSystem.name</note>
+             </notes>
+        <source>CsHealthCareProcedureTypeCz</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-healthcare-procedure-type-cz" resname="CodeSystem.title">
+             <notes>
+               <note id="n1">CodeSystem.title</note>
+             </notes>
+        <source>Kódový systém – Typ poskytnuté péče (DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-healthcare-procedure-type-cz" resname="CodeSystem.publisher">
+             <notes>
+               <note id="n1">CodeSystem.publisher</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-healthcare-procedure-type-cz" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-healthcare-procedure-type-cz" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Czechia</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-healthcare-procedure-type-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Ambulantní vyšetření</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-healthcare-procedure-type-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Hospitalizace</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-healthcare-procedure-type-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Telemedicína</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-healthcare-procedure-type-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Multidisciplinární konzilium</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-healthcare-procedure-type-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Rehabilitace / fyzioterapie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-healthcare-procedure-type-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Jiná forma péče</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

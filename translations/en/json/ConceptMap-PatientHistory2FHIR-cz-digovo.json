@@ -1,0 +1,145 @@
+{
+  "id" : "ConceptMap-PatientHistory2FHIR-cz-digovo",
+  "baseLang" : "cs",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "ConceptMap.title",
+      "context" : "ConceptMap.title",
+      "source" : "DIGOVO PatientHistory Logical Model → FHIR Mapping",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.publisher",
+      "context" : "ConceptMap.publisher",
+      "source" : "HL7 Czech Republic",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "HL7 Czech Republic",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.description",
+      "context" : "ConceptMap.description",
+      "source" : "Mapování logického modelu DIGOVO 'Anamnéza pacienta (LogCzPatientHistory)' na konkrétní FHIR profily CZ DIGOVO.",
+      "target" : null
+    },
+    {
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "Czechia",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Věk nebo datum začátku potíží",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "CZ_Observation_PatientOnsetAge",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.comment",
+      "context" : "ConceptMap.group.element.target.comment",
+      "source" : "Koncepční vazba; věk lze převést na valueQuantity, datum vyžaduje samostatnou reprezentaci. Přímý převod obou alternativ není definován.",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Věk nebo datum při diagnóze",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "Rozšíření CZ_Condition_AgeAtDiagnosis",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.comment",
+      "context" : "ConceptMap.group.element.target.comment",
+      "source" : "Koncepční vazba; rozšíření zachycuje věk, datum diagnózy vyžaduje samostatnou reprezentaci.",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Dědičnost onemocnění",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "CZ_Observation_HereditaryPattern",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.comment",
+      "context" : "ConceptMap.group.element.target.comment",
+      "source" : "Používá profil CZ_Observation_HereditaryPattern (Yes/No/Unknown – VsYesNoUnknownCz).",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Klinické projevy",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "CZ_Observation_PhenotypicManifestation",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.comment",
+      "context" : "ConceptMap.group.element.target.comment",
+      "source" : "Používá profil CZ_Observation_PhenotypicManifestation – kódování dle HPO (VsHpoManifestationsCz).",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Vyšetření vztahující se k onemocnění",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "CZ_Procedure_Examination",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.comment",
+      "context" : "ConceptMap.group.element.target.comment",
+      "source" : "Vyšetření modelováno jako Procedure – profil CZ_Procedure_Examination (ValueSet VsSnomedProceduresCz).",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Funkční nebo strukturální postižení",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "CZ_Observation_FunctionalDisability",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.comment",
+      "context" : "ConceptMap.group.element.target.comment",
+      "source" : "Používá profil CZ_Observation_FunctionalDisability – kódování dle ICF (VsIcfFunctionalDisabilityCz).",
+      "target" : null
+    }]
+  }]
+}

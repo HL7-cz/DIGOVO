@@ -1,0 +1,77 @@
+# cs -> en
+
+#: StructureDefinition.title
+msgctxt "StructureDefinition.title"
+msgid "6. Rodinná anamnéza"
+msgstr "6. Family history"
+
+#: StructureDefinition.element.LogFamilyAncestorsCz/short
+msgctxt "StructureDefinition.element.LogFamilyAncestorsCz/short"
+msgid "6. Rodinná anamnéza"
+msgstr "6. Family history"
+
+#: StructureDefinition.element.LogFamilyAncestorsCz/definition
+msgctxt "StructureDefinition.element.LogFamilyAncestorsCz/definition"
+msgid "Logický model pro záznam informací o rodinných předcích ve vztahu k vzácnému onemocnění."
+msgstr "Family history relevant to rare disease, including affected relatives and consanguinity."
+
+#: StructureDefinition.element.LogFamilyAncestorsCz.rodinniPredkove/short
+msgctxt "StructureDefinition.element.LogFamilyAncestorsCz.rodinniPredkove/short"
+msgid "Rodinní předkové relevantní k VO"
+msgstr "Family history relevant to rare disease"
+
+#: StructureDefinition.element.LogFamilyAncestorsCz.rodinniPredkove/definition
+msgctxt "StructureDefinition.element.LogFamilyAncestorsCz.rodinniPredkove/definition"
+msgid "Údaje o rodinných předcích, kteří mohou být relevantní pro vzácné onemocnění.\nPoložky 6.1, 6.3 a 6.4 jsou ve zdroji povinné. Příbuzenský vztah 6.2 se vyplňuje v kontextu postiženého člena rodiny; povinnost při nepřítomnosti postiženého člena vyžaduje vyjasnění."
+msgstr "The source requires items 6.1, 6.3 and 6.4. Relationship 6.2 applies to an affected family member; applicability when no member is affected requires clarification."
+
+#: StructureDefinition.element.LogFamilyAncestorsCz.rodinniPredkove.postizenyPredek/short
+msgctxt "StructureDefinition.element.LogFamilyAncestorsCz.rodinniPredkove.postizenyPredek/short"
+msgid "Postižený předek (propositus)"
+msgstr "6.1 Affected Member (Propositus)"
+
+#: StructureDefinition.element.LogFamilyAncestorsCz.rodinniPredkove.postizenyPredek/definition
+msgctxt "StructureDefinition.element.LogFamilyAncestorsCz.rodinniPredkove.postizenyPredek/definition"
+msgid "Zda byl některý z předků postižen vzácným onemocněním. Hodnoty: Yes / No / Unknown / Not Asked."
+msgstr "If the patient is not the first person of his or her family to be identified with this rare disease, has a propositus / index case been identified?\n\nThis data element is Mandatory\n\nThe recommended data standard is Value Set: Yes No Unknown Not Asked\n•\thttps://terminology.hl7.org/7.0.1/ValueSet-yes-no-unknown-not-asked.html"
+
+#: StructureDefinition.element.LogFamilyAncestorsCz.rodinniPredkove.postizenyPredek.identifikatorPostizenehoPredka/short
+msgctxt "StructureDefinition.element.LogFamilyAncestorsCz.rodinniPredkove.postizenyPredek.identifikatorPostizenehoPredka/short"
+msgid "Identifikátor prvního postiženého předka"
+msgstr "Identifier of the first affected relative"
+
+#: StructureDefinition.element.LogFamilyAncestorsCz.rodinniPredkove.postizenyPredek.identifikatorPostizenehoPredka/definition
+msgctxt "StructureDefinition.element.LogFamilyAncestorsCz.rodinniPredkove.postizenyPredek.identifikatorPostizenehoPredka/definition"
+msgid "Identifikátor prvního postiženého předka (ID code).\nV případě více postižených lze použít rozšíření (rodokmen). Pokud ID není známo nebo předek zemřel, použije se N/A."
+msgstr "Identifier of the first affected relative, if known. Additional affected relatives may be represented in a pedigree."
+
+#: StructureDefinition.element.LogFamilyAncestorsCz.rodinniPredkove.postizenyPredek.rodicovskyVztah/short
+msgctxt "StructureDefinition.element.LogFamilyAncestorsCz.rodinniPredkove.postizenyPredek.rodicovskyVztah/short"
+msgid "Rodičovský vztah k postiženému"
+msgstr "6.2 Relationship to the affected family member"
+
+#: StructureDefinition.element.LogFamilyAncestorsCz.rodinniPredkove.postizenyPredek.rodicovskyVztah/definition
+msgctxt "StructureDefinition.element.LogFamilyAncestorsCz.rodinniPredkove.postizenyPredek.rodicovskyVztah/definition"
+msgid "Popis vztahu mezi postiženým a předkem (např. otec, matka, sourozenec). Příbuzenský vztah dle číselníku; používá se při relevantním postiženém členu rodiny."
+msgstr "Coded family relationship, used when an affected family member is relevant. The source mandatory flag requires clarification when no family member is affected."
+
+#: StructureDefinition.element.LogFamilyAncestorsCz.rodinniPredkove.konsanguinita/short
+msgctxt "StructureDefinition.element.LogFamilyAncestorsCz.rodinniPredkove.konsanguinita/short"
+msgid "Konsanguinita"
+msgstr "6.3 Consanguinity"
+
+#: StructureDefinition.element.LogFamilyAncestorsCz.rodinniPredkove.konsanguinita/definition
+msgctxt "StructureDefinition.element.LogFamilyAncestorsCz.rodinniPredkove.konsanguinita/definition"
+msgid "Informace o pokrevní příbuznosti mezi rodiči. Hodnoty: Yes / No / Unknown."
+msgstr "The patient is the product of parents who are blood relatives (parentswho share a common ancestor).\n\nThis data element is Mandatory\n\nThe recommended data standard is Value Set: Yes No Unknown Not Asked\nhttps://terminology.hl7.org/7.0.1/ValueSet-yes-no-unknown-not-asked.html"
+
+#: StructureDefinition.element.LogFamilyAncestorsCz.rodinniPredkove.jiniRelevantniPredkove/short
+msgctxt "StructureDefinition.element.LogFamilyAncestorsCz.rodinniPredkove.jiniRelevantniPredkove/short"
+msgid "Jiní relevantní předkové"
+msgstr "6.4 Other Relevant Familial Antecedents"
+
+#: StructureDefinition.element.LogFamilyAncestorsCz.rodinniPredkove.jiniRelevantniPredkove/definition
+msgctxt "StructureDefinition.element.LogFamilyAncestorsCz.rodinniPredkove.jiniRelevantniPredkove/definition"
+msgid "Další rodinní příslušníci relevantní k onemocnění.\nMožné kódování: orphacode, ICD-10, ICD-11, SNOMED CT nebo N/A."
+msgstr "Are there any family medical history items relevant to the rare disease (associated diagnoses, similar symptoms in relatives, miscarriages etc.). If so, please list by providing the relevant codes.\n\nThis data element is Mandatory\n\nThe recommended data standards are\n•\tORPHAcodes (if relevant)\n•\tICD-10\n•\tICD-11\n•\tSNOMED CT\n\nhttps://www.xt-ehr.eu/fhir/models/0.2.1/StructureDefinition-EHDSFamilyMemberHistory-definitions.html#key_EHDSFamilyMemberHistory.condition\n"
+

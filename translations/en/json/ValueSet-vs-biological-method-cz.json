@@ -1,0 +1,43 @@
+{
+  "id" : "ValueSet-vs-biological-method-cz",
+  "baseLang" : "cs",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "ValueSet.name",
+      "context" : "ValueSet.name",
+      "source" : "VsBiologicalMethodCz",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.title",
+      "context" : "ValueSet.title",
+      "source" : "Biologické metody použité v diagnostice (DIGOVO)",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.publisher",
+      "context" : "ValueSet.publisher",
+      "source" : "HL7 Czech Republic",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "HL7 Czech Republic",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.description",
+      "context" : "ValueSet.description",
+      "source" : "Soubor metod biologické diagnostiky používaných při potvrzení diagnózy vzácného onemocnění.\nPřevzato z logického modelu DIGOVO a harmonizováno s ERDRI Common Data Elements.",
+      "target" : null
+    },
+    {
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "Czechia",
+      "target" : null
+    }]
+  }]
+}

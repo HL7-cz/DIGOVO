@@ -1,0 +1,122 @@
+
+# ConceptMap.name
+#: ConceptMap.name
+msgid "FamilyAncestors2FHIRCzDigovo"
+msgstr ""
+
+# ConceptMap.title
+#: ConceptMap.title
+msgid "DIGOVO Family Ancestors Model to FHIR RelatedPerson Map"
+msgstr ""
+
+# ConceptMap.publisher
+#: ConceptMap.publisher
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ConceptMap.description
+#: ConceptMap.description
+msgid "Mapování logického modelu DIGOVO 'Rodinní předkové ve vztahu k VO' 
+na FHIR profil CZ_RelatedPerson_RareDisease."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Czechia"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Rodinní předkové relevantní k VO"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "RelatedPerson (Rodinní předkové relevantní k VO – DIGOVO)"
+msgstr ""
+
+# ConceptMap.group.element.target.comment
+#: ConceptMap.group.element.target.comment
+msgid "Celý záznam rodinných předků je reprezentován jako RelatedPerson profilovaný pro DIGOVO."
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Postižený předek (propositus)"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Extension: CZ_Ext_AffectedAncestor (Yes / No / N/A)"
+msgstr ""
+
+# ConceptMap.group.element.target.comment
+#: ConceptMap.group.element.target.comment
+msgid "Vyjadřuje, zda byl předek postižen vzácným onemocněním."
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Identifikátor prvního postiženého předka"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Identifikátor osoby (rodinný předek)"
+msgstr ""
+
+# ConceptMap.group.element.target.comment
+#: ConceptMap.group.element.target.comment
+msgid "Přímé mapování na RelatedPerson.identifier"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Rodičovský vztah k postiženému"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Rodičovský vztah (např. otec, matka, sourozenec)"
+msgstr ""
+
+# ConceptMap.group.element.target.comment
+#: ConceptMap.group.element.target.comment
+msgid "Mapováno na standardní prvek RelatedPerson.relationship"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Konsanguinita"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Extension: CZ_Ext_Consanguinity (Yes / No / Unknown)"
+msgstr ""
+
+# ConceptMap.group.element.target.comment
+#: ConceptMap.group.element.target.comment
+msgid "Vyjadřuje, zda jsou rodiče pacienta pokrevně příbuzní."
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Jiní relevantní předkové"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Poznámka nebo kód jiných relevantních předků"
+msgstr ""
+
+# ConceptMap.group.element.target.comment
+#: ConceptMap.group.element.target.comment
+msgid "Slouží pro záznam volného textu nebo kódovaného vztahu k jiným předkům."
+msgstr ""
+

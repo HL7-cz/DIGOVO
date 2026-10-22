@@ -1,0 +1,153 @@
+
+# ConceptMap.name
+#: ConceptMap.name
+msgid "LogRareDiseaseDiagnosisCz2DIGOVO"
+msgstr ""
+
+# ConceptMap.title
+#: ConceptMap.title
+msgid "LogCzRareDiseaseDiagnosis → CZ_ConditionRareDisease + CZ_Observation_* (DIGOVO)"
+msgstr ""
+
+# ConceptMap.publisher
+#: ConceptMap.publisher
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ConceptMap.description
+#: ConceptMap.description
+msgid "DIGOVO FHIR mapování na profily profily: CZ_ConditionRareDisease, CZ_Observation_Genotype,
+CZ_Observation_Phenotype, CZ_Observation_BiologicalMethod, CZ_Observation_GeneticTest,
+CZ_Observation_UndiagnosedFinding."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Czechia"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Název onemocnění (orpha)"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Condition.code (orpha)"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Aktuální stav diagnózy"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Condition.clinicalStatus"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Metoda potvrzení diagnózy"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Condition.verificationStatus"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Typ onemocnění (sporadické/familiární)"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Condition.extension (typOnemocneni)"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Gen (HGNC)"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Observation.value – Gen (HGNC)"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Genová varianta (HGVS)"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Observation.value – Genová varianta (HGVS)"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Fenotypické projevy (HPO)"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Observation.value – Fenotyp (HPO)"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Biologická metoda použitá v diagnostice"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Observation.value – Biologická metoda"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Metoda potvrzení (genetická/biochemická/clinical)"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Observation.value – Typ testu / metoda"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Nediagnostikovaný fenotyp (HPO)"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Observation.value – Nediagnostikovaný fenotyp"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Nediagnostikovaný genotyp (HGVS)"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Observation.value – Nediagnostikovaný genotyp"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Závažnost onemocnění"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Condition.severity"
+msgstr ""
+

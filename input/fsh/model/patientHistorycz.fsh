@@ -1,30 +1,33 @@
 Logical: LogCzPatientHistory
 Id: LogPatientHistoryCz
-Title: "Anamnéza"
+Title: "4. Anamnéza onemocnění"
 Description: """Logický model pro sekci anamnézy v datasetu vzácných onemocnění."""
 
 * anamneza 1..1 Base "Anamnéza" """Základní informace o průběhu onemocnění, jeho začátku, dědičnosti, klinických projevech, vyšetřeních a postižení."""
 
-  * vekZacatekPotizi 1..1 dateTime "Věk nebo datum začátku potíží" """Datum (dd/mm/yyyy) nebo věk v letech, kdy začaly potíže. Automatické dopočítání data podle věku – není třeba přesný den, lze uvést rok nebo měsíc a rok."""
-  * vekPriDiagnoze 1..1 dateTime "Věk nebo datum při diagnóze" """Datum (dd/mm/yyyy) nebo věk v letech, kdy byla stanovena diagnóza."""
+  * obdobiPriDiagnoze 1..1 CodeableConcept "4.1 Vývojové období při diagnóze" """Vývojové období při stanovení diagnózy, samostatně od data nebo věku v položce 4.2."""
+  * obdobiZacatkuPotizi 1..1 CodeableConcept "4.3 Vývojové období při začátku potíží" """Vývojové období prvních klinických projevů, samostatně od data nebo věku v položce 4.4."""
+
+  * vekZacatekPotizi[x] 1..1 dateTime or Age "4.4 Věk nebo datum začátku potíží" """Datum nebo věk při začátku potíží. Datum může být částečné; hodnota věku se zapisuje typem Age."""
+  * vekPriDiagnoze[x] 1..1 dateTime or Age "4.2 Věk nebo datum při diagnóze" """Datum nebo věk při stanovení diagnózy. Hodnota věku se zapisuje typem Age."""
   * dedicnost 0..1 CodeableConcept "Dědičnost (je-li relevantní)" """Informace o dědičnosti onemocnění – hodnoty Yes / No / Unknown. Používá se pouze v případě, že je relevantní."""
-  * klinickeManifestace 0..* CodeableConcept "Klinické manifestace" """Klinické projevy onemocnění vyjádřené pomocí HPO, SNOMED CT nebo N/A. 
-  Z diskuze: nutno umožnit nezadání do doby, než budou příslušné kódovací systémy customizovány pro jednotlivé skupiny vzácných onemocnění. 
+  * klinickeManifestace 1..* CodeableConcept "Klinické manifestace" """Klinické projevy onemocnění vyjádřené pomocí HPO, SNOMED CT nebo N/A.
+  Dataset označuje položku jako povinnou; konkrétní způsob zachycení neznámé nebo nepoužitelné hodnoty určí implementační profil.
   """
-  * vysetreni 0..* CodeableConcept "Vyšetření" """Vyšetření vztahující se k danému onemocnění, vyjádřené pomocí SNOMED CT nebo N/A. 
+  * vysetreni 0..* CodeableConcept "Vyšetření" """Vyšetření vztahující se k danému onemocnění, vyjádřené pomocí SNOMED CT nebo N/A.
   Z diskuze: v budoucnu lze získat z NRHZS, zatím ponecháno a přidáno N/A."""
-  * postizeni 1..* CodeableConcept "Postižení" """Funkční nebo strukturální postižení vyjádřené pomocí klasifikace ICF nebo N/A. 
+  * postizeni 1..* CodeableConcept "Postižení" """Funkční nebo strukturální postižení vyjádřené pomocí klasifikace ICF nebo N/A.
   Viz: http://www.who.int/classifications/icf/whodasii/en/
-  Z diskuze: probrat s ÚZIS, zatím ponecháno a přidáno N/A. 
-  Dotaz na autory: What about children? Discuss at JARDIN. 
-  What about disease-specific functional scale – irrelevant in the generic dataset. 
+  Z diskuze: probrat s ÚZIS, zatím ponecháno a přidáno N/A.
+  Dotaz na autory: What about children? Discuss at JARDIN.
+  What about disease-specific functional scale – irrelevant in the generic dataset.
   """
     * ^binding.strength = #preferred
     * ^binding.description = "Použít kódování dle ICF"
 
 
 /* -----------------------------------------------------------------------------------------------------------
-  ANAMNÉZA DLE HDR CZ                                       
+  ANAMNÉZA DLE HDR CZ
 --------------------------------------------------------------------------------------------------------------
 Logical: LogCzPatientHistoryCz
 Id: LogPatientHistoryCz
@@ -116,3 +119,10 @@ Description: """Nemocniční propouštěcí zpráva - Anamnéza"""
     * komentar 0..1 string "A.2.6.4.3.5 - Komentář" """Komentář volným textem."""
 
     */
+
+// English metadata; element translations are maintained in input/translations/en.
+* ^description.extension[+].url = "http://hl7.org/fhir/StructureDefinition/translation"
+* ^description.extension[=].extension[0].url = "lang"
+* ^description.extension[=].extension[0].valueCode = #en
+* ^description.extension[=].extension[1].url = "content"
+* ^description.extension[=].extension[1].valueString = "Logical model for the disease history section of the rare disease dataset."

@@ -1,0 +1,32 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "VsCarePathwayEncounterTypeCz"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "Typ klinické trajektorie (Encounter – DIGOVO)"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ValueSet.description
+#: ValueSet.description
+msgid "Hodnoty pro klasifikaci typu kontaktu pacienta v rámci klinické trajektorie (Care Pathway)
+v projektu DIGOVO. Používá se v profilu CZ_Encounter_SpecializedCenter."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Czechia"
+msgstr ""
+

@@ -1,0 +1,107 @@
+# cs -> en
+
+#: StructureDefinition.title
+msgctxt "StructureDefinition.title"
+msgid "5. Prenatální a perinatální údaje"
+msgstr "5. Antenatal and perinatal data"
+
+#: StructureDefinition.element.LogPrenatalDataCz/short
+msgctxt "StructureDefinition.element.LogPrenatalDataCz/short"
+msgid "5. Prenatální a perinatální údaje"
+msgstr "5. Antenatal and perinatal data"
+
+#: StructureDefinition.element.LogPrenatalDataCz/definition
+msgctxt "StructureDefinition.element.LogPrenatalDataCz/definition"
+msgid "Logický model pro prenatální a perinatální údaje relevantní především u dětských pacientů."
+msgstr "Antenatal and perinatal information, particularly relevant to paediatric patients."
+
+#: StructureDefinition.element.LogPrenatalDataCz.prenatalniData/short
+msgctxt "StructureDefinition.element.LogPrenatalDataCz.prenatalniData/short"
+msgid "Prenatální / perinatální data"
+msgstr "Antenatal and perinatal data"
+
+#: StructureDefinition.element.LogPrenatalDataCz.prenatalniData/definition
+msgctxt "StructureDefinition.element.LogPrenatalDataCz.prenatalniData/definition"
+msgid "Údaje o prenatálním a perinatálním období. \nPoužívají se pouze, pokud jsou relevantní (yes/no). Pro dospělé pacienty se sekce nevyplňuje. \nPoznámka ze Scalesoft: pokud není relevantní, sekce zmizí celá."
+msgstr "Antenatal and perinatal information, used when relevant. This section is distinct from foetal and maternal data 2b."
+
+#: StructureDefinition.element.LogPrenatalDataCz.prenatalniData.prenatalniMalformace/short
+msgctxt "StructureDefinition.element.LogPrenatalDataCz.prenatalniData.prenatalniMalformace/short"
+msgid "Prenatálně zjištěná malformace"
+msgstr "5.1 Anomaly Detected Antenatally"
+
+#: StructureDefinition.element.LogPrenatalDataCz.prenatalniData.prenatalniMalformace/definition
+msgctxt "StructureDefinition.element.LogPrenatalDataCz.prenatalniData.prenatalniMalformace/definition"
+msgid "Informace o malformacích zjištěných prenatálně. Hodnoty: No / Unique / Multiple."
+msgstr "Indicate if any structural or functional foetal anomaly was detected during antenatal imaging or screening (amniotic fluid anomaly, umbilical cord anomaly, foetal anomaly, etc.).\n\nThis data element is Not Mandatory and is only to be completed if relevant.\n\nThe recommended data standard is Value Set: No / Unique / Multiple\n\n•\tNo: no anomalies were detected during antenatal screening.\n•\tSingle: a single abnormality was detected during antenatal screening.\n•\tMultiple: several abnormalities were detected during antenatal screening."
+
+#: StructureDefinition.element.LogPrenatalDataCz.prenatalniData.lekarAssReprodukce/short
+msgctxt "StructureDefinition.element.LogPrenatalDataCz.prenatalniData.lekarAssReprodukce/short"
+msgid "Lékařsky asistovaná reprodukce"
+msgstr "5.2 Medically Assisted Procreation"
+
+#: StructureDefinition.element.LogPrenatalDataCz.prenatalniData.lekarAssReprodukce/definition
+msgctxt "StructureDefinition.element.LogPrenatalDataCz.prenatalniData.lekarAssReprodukce/definition"
+msgid "Zda bylo těhotenství výsledkem lékařsky asistované reprodukce. Hodnoty: Yes / No / N/A."
+msgstr "Was the patient conceived through a medically assisted reproduction programme?\n\nThis data element is Not Mandatory and is only to be completed if relevant.\n\nThe recommended data standard is Value Set: Yes No Unknown Not Asked\n•\thttps://terminology.hl7.org/7.0.1/ValueSet-yes-no-unknown-not-asked.html"
+
+#: StructureDefinition.element.LogPrenatalDataCz.prenatalniData.gestacniVek/short
+msgctxt "StructureDefinition.element.LogPrenatalDataCz.prenatalniData.gestacniVek/short"
+msgid "Gestační věk při narození"
+msgstr "5.3 Gestational Age at Birth"
+
+#: StructureDefinition.element.LogPrenatalDataCz.prenatalniData.gestacniVek/definition
+msgctxt "StructureDefinition.element.LogPrenatalDataCz.prenatalniData.gestacniVek/definition"
+msgid "Gestační věk v týdnech (weeks), kdy došlo k narození. Hodnoty mohou obsahovat i možnost N/A."
+msgstr "Completed weeks + days at time of delivery (e.g., 38+4 weeks).\n\nThis data element is Not Mandatory and is only to be completed if relevant.\n\nThe recommended data standard is EHDSCurrentPregnancy.gestationalAge\n•\thttps://www.xt-ehr.eu/fhir/models/0.2.1/StructureDefinition-EHDSCurrentPregnancy-definitions.html#key_EHDSCurrentPregnancy.gestationalAge\n"
+
+#: StructureDefinition.element.LogPrenatalDataCz.prenatalniData.porodniVaha/short
+msgctxt "StructureDefinition.element.LogPrenatalDataCz.prenatalniData.porodniVaha/short"
+msgid "Porodní váha"
+msgstr "5.4 Weight at Birth"
+
+#: StructureDefinition.element.LogPrenatalDataCz.prenatalniData.porodniVaha/definition
+msgctxt "StructureDefinition.element.LogPrenatalDataCz.prenatalniData.porodniVaha/definition"
+msgid "Porodní hmotnost v gramech (grams)."
+msgstr "Neonatal weight at birth.\n\nThis data element is Not Mandatory and is only to be completed if relevant.\n\nThe recommended data standard is grams"
+
+#: StructureDefinition.element.LogPrenatalDataCz.prenatalniData.porodniDelka/short
+msgctxt "StructureDefinition.element.LogPrenatalDataCz.prenatalniData.porodniDelka/short"
+msgid "Porodní délka"
+msgstr "5.5 Height at Birth"
+
+#: StructureDefinition.element.LogPrenatalDataCz.prenatalniData.porodniDelka/definition
+msgctxt "StructureDefinition.element.LogPrenatalDataCz.prenatalniData.porodniDelka/definition"
+msgid "Porodní délka v centimetrech (centimetres)."
+msgstr "Crown-heel length at birth\n\nThis data element is Not Mandatory and is only to be completed if relevant.\n\nThe recommended data standard is centimetres \nCrown-heel length at birth\n\nThis data element is Not Mandatory and is only to be completed if relevant.\n\nThe recommended data standard is centimetres "
+
+#: StructureDefinition.element.LogPrenatalDataCz.prenatalniData.obvodHlavy/short
+msgctxt "StructureDefinition.element.LogPrenatalDataCz.prenatalniData.obvodHlavy/short"
+msgid "Obvod hlavy při narození"
+msgstr "5.6 Head Circumference at Birth"
+
+#: StructureDefinition.element.LogPrenatalDataCz.prenatalniData.obvodHlavy/definition
+msgctxt "StructureDefinition.element.LogPrenatalDataCz.prenatalniData.obvodHlavy/definition"
+msgid "Obvod hlavy v centimetrech (centimetres)."
+msgstr "Neonatal occipitofrontal circumference\n\nThis data element is Not Mandatory and is only to be completed if relevant.\n\nThe recommended data standard is centimetres "
+
+#: StructureDefinition.element.LogPrenatalDataCz.prenatalniData.vicecetneTehotenstvi/short
+msgctxt "StructureDefinition.element.LogPrenatalDataCz.prenatalniData.vicecetneTehotenstvi/short"
+msgid "Vícečetné těhotenství"
+msgstr "5.7 Multiple Pregnancy"
+
+#: StructureDefinition.element.LogPrenatalDataCz.prenatalniData.vicecetneTehotenstvi/definition
+msgctxt "StructureDefinition.element.LogPrenatalDataCz.prenatalniData.vicecetneTehotenstvi/definition"
+msgid "Zda se jednalo o vícečetné těhotenství. Hodnoty: Yes / No."
+msgstr "Indicator whether birth was part of a multiple pregnancy (twin, triplet, etc.)\n\nThis data element is Not Mandatory and is only to be completed if relevant.\n\nThe recommended data standard is Value Set: Yes No Unknown Not Asked\n•\thttps://terminology.hl7.org/7.0.1/ValueSet-yes-no-unknown-not-asked.html"
+
+#: StructureDefinition.element.LogPrenatalDataCz.prenatalniData.foetopatologie/short
+msgctxt "StructureDefinition.element.LogPrenatalDataCz.prenatalniData.foetopatologie/short"
+msgid "Foetopatologie"
+msgstr "5.8 Foetopathology Examination"
+
+#: StructureDefinition.element.LogPrenatalDataCz.prenatalniData.foetopatologie/definition
+msgctxt "StructureDefinition.element.LogPrenatalDataCz.prenatalniData.foetopatologie/definition"
+msgid "Informace o zjištěné foetopatologii. Hodnoty: Yes / No."
+msgstr "Indicate whether a foetal pathological examination (post-termination or stillbirth) was performed.\n\nThis data element is Not Mandatory and is only to be completed if relevant. It applies to deceased foetal cases.\n\nThe recommended data standard is Value Set: Yes No Unknown Not Asked\n•\thttps://terminology.hl7.org/7.0.1/ValueSet-yes-no-unknown-not-asked.html\n"
+

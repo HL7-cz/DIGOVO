@@ -1,0 +1,116 @@
+
+# ConceptMap.title
+#: ConceptMap.title
+msgid "DIGOVO PatientHistory Logical Model → FHIR Mapping"
+msgstr ""
+
+# ConceptMap.publisher
+#: ConceptMap.publisher
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ConceptMap.description
+#: ConceptMap.description
+msgid "Mapování logického modelu DIGOVO 'Anamnéza pacienta (LogCzPatientHistory)' na konkrétní FHIR profily CZ DIGOVO."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Czechia"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Věk nebo datum začátku potíží"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "CZ_Observation_PatientOnsetAge"
+msgstr ""
+
+# ConceptMap.group.element.target.comment
+#: ConceptMap.group.element.target.comment
+msgid "Koncepční vazba; věk lze převést na valueQuantity, datum vyžaduje samostatnou reprezentaci. Přímý převod obou alternativ není definován."
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Věk nebo datum při diagnóze"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Rozšíření CZ_Condition_AgeAtDiagnosis"
+msgstr ""
+
+# ConceptMap.group.element.target.comment
+#: ConceptMap.group.element.target.comment
+msgid "Koncepční vazba; rozšíření zachycuje věk, datum diagnózy vyžaduje samostatnou reprezentaci."
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Dědičnost onemocnění"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "CZ_Observation_HereditaryPattern"
+msgstr ""
+
+# ConceptMap.group.element.target.comment
+#: ConceptMap.group.element.target.comment
+msgid "Používá profil CZ_Observation_HereditaryPattern (Yes/No/Unknown – VsYesNoUnknownCz)."
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Klinické projevy"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "CZ_Observation_PhenotypicManifestation"
+msgstr ""
+
+# ConceptMap.group.element.target.comment
+#: ConceptMap.group.element.target.comment
+msgid "Používá profil CZ_Observation_PhenotypicManifestation – kódování dle HPO (VsHpoManifestationsCz)."
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Vyšetření vztahující se k onemocnění"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "CZ_Procedure_Examination"
+msgstr ""
+
+# ConceptMap.group.element.target.comment
+#: ConceptMap.group.element.target.comment
+msgid "Vyšetření modelováno jako Procedure – profil CZ_Procedure_Examination (ValueSet VsSnomedProceduresCz)."
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Funkční nebo strukturální postižení"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "CZ_Observation_FunctionalDisability"
+msgstr ""
+
+# ConceptMap.group.element.target.comment
+#: ConceptMap.group.element.target.comment
+msgid "Používá profil CZ_Observation_FunctionalDisability – kódování dle ICF (VsIcfFunctionalDisabilityCz)."
+msgstr ""
+

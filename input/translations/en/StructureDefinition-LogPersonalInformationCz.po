@@ -1,0 +1,107 @@
+# cs -> en
+
+#: StructureDefinition.title
+msgctxt "StructureDefinition.title"
+msgid "2a. Osobní a demografické údaje"
+msgstr "2a. Personal and demographic information"
+
+#: StructureDefinition.element.LogPersonalInformationCz/short
+msgctxt "StructureDefinition.element.LogPersonalInformationCz/short"
+msgid "2a. Osobní a demografické údaje"
+msgstr "2a. Personal and demographic information"
+
+#: StructureDefinition.element.LogPersonalInformationCz/definition
+msgctxt "StructureDefinition.element.LogPersonalInformationCz/definition"
+msgid "Položky 2a.1–2a.9 datasetu RD_Data_Elements_CZ_EHR_VFN_16_9_VS.xlsx. Spojuje osobní a demografické údaje, které mají ve zdroji společné označení 2a. Povinné položky se vztahují k přítomné sekci."
+msgstr "Items 2a.1–2a.9 of the rare disease dataset. Combines the personal and demographic source headings numbered 2a. Required items apply when this subsection is used."
+
+#: StructureDefinition.element.LogPersonalInformationCz.rodnePrijmeni/short
+msgctxt "StructureDefinition.element.LogPersonalInformationCz.rodnePrijmeni/short"
+msgid "2a.1 Rodné příjmení pacienta"
+msgstr "2a.1 Surname at birth"
+
+#: StructureDefinition.element.LogPersonalInformationCz.rodnePrijmeni/definition
+msgctxt "StructureDefinition.element.LogPersonalInformationCz.rodnePrijmeni/definition"
+msgid "Příjmení při narození."
+msgstr "Legal surname at birth."
+
+#: StructureDefinition.element.LogPersonalInformationCz.prijmeni/short
+msgctxt "StructureDefinition.element.LogPersonalInformationCz.prijmeni/short"
+msgid "2a.2 Příjmení pacienta"
+msgstr "2a.2 Common Surname"
+
+#: StructureDefinition.element.LogPersonalInformationCz.prijmeni/definition
+msgctxt "StructureDefinition.element.LogPersonalInformationCz.prijmeni/definition"
+msgid "Aktuální příjmení, pokud se liší od rodného."
+msgstr "Current family name if different from Patronymic Name."
+
+#: StructureDefinition.element.LogPersonalInformationCz.jmeno/short
+msgctxt "StructureDefinition.element.LogPersonalInformationCz.jmeno/short"
+msgid "2a.3 Jméno pacienta"
+msgstr "2a.3 First Name"
+
+#: StructureDefinition.element.LogPersonalInformationCz.jmeno/definition
+msgctxt "StructureDefinition.element.LogPersonalInformationCz.jmeno/definition"
+msgid "Jméno podle úředního dokladu."
+msgstr "Given name as on birth certificate or legal ID."
+
+#: StructureDefinition.element.LogPersonalInformationCz.datumNarozeni/short
+msgctxt "StructureDefinition.element.LogPersonalInformationCz.datumNarozeni/short"
+msgid "2a.4 Datum narození pacienta"
+msgstr "2a.4 Date of Birth"
+
+#: StructureDefinition.element.LogPersonalInformationCz.datumNarozeni/definition
+msgctxt "StructureDefinition.element.LogPersonalInformationCz.datumNarozeni/definition"
+msgid "Kalendářní datum narození."
+msgstr "Calendar date of birth (DD-MM-YYYY)."
+
+#: StructureDefinition.element.LogPersonalInformationCz.pohlaviPriNarozeni/short
+msgctxt "StructureDefinition.element.LogPersonalInformationCz.pohlaviPriNarozeni/short"
+msgid "2a.5 Pohlaví při narození"
+msgstr "2a.5 Sex at Birth"
+
+#: StructureDefinition.element.LogPersonalInformationCz.pohlaviPriNarozeni/definition
+msgctxt "StructureDefinition.element.LogPersonalInformationCz.pohlaviPriNarozeni/definition"
+msgid "Muž / Žena / Neurčeno; jde o pohlaví při narození, nikoli administrativní pohlaví při zadání."
+msgstr "Sex as designated on birth certificate (Male / Female / Indeterminate)."
+
+#: StructureDefinition.element.LogPersonalInformationCz.zemeNarozeni/short
+msgctxt "StructureDefinition.element.LogPersonalInformationCz.zemeNarozeni/short"
+msgid "2a.6 Země narození"
+msgstr "2a.6 Country of Birth"
+
+#: StructureDefinition.element.LogPersonalInformationCz.zemeNarozeni/definition
+msgctxt "StructureDefinition.element.LogPersonalInformationCz.zemeNarozeni/definition"
+msgid "Země podle ISO 3166-1 alpha-2."
+msgstr "Country in which the patient was born."
+
+#: StructureDefinition.element.LogPersonalInformationCz.mistoNarozeni/short
+msgctxt "StructureDefinition.element.LogPersonalInformationCz.mistoNarozeni/short"
+msgid "2a.7 Místo narození"
+msgstr "2a.7 City of Birth"
+
+#: StructureDefinition.element.LogPersonalInformationCz.mistoNarozeni/definition
+msgctxt "StructureDefinition.element.LogPersonalInformationCz.mistoNarozeni/definition"
+msgid "Město nebo PSČ místa narození."
+msgstr "City in which the patient was born."
+
+#: StructureDefinition.element.LogPersonalInformationCz.zemePobytu/short
+msgctxt "StructureDefinition.element.LogPersonalInformationCz.zemePobytu/short"
+msgid "2a.8 Země trvalého pobytu"
+msgstr "2a.8 Country of Residence"
+
+#: StructureDefinition.element.LogPersonalInformationCz.zemePobytu/definition
+msgctxt "StructureDefinition.element.LogPersonalInformationCz.zemePobytu/definition"
+msgid "Země podle ISO 3166-1 alpha-2."
+msgstr "Country in which the patient resides."
+
+#: StructureDefinition.element.LogPersonalInformationCz.mistoPobytu/short
+msgctxt "StructureDefinition.element.LogPersonalInformationCz.mistoPobytu/short"
+msgid "2a.9 Místo trvalého pobytu"
+msgstr "2a.9 City of Residence"
+
+#: StructureDefinition.element.LogPersonalInformationCz.mistoPobytu/definition
+msgctxt "StructureDefinition.element.LogPersonalInformationCz.mistoPobytu/definition"
+msgid "Město nebo PSČ trvalého pobytu."
+msgstr "City in which the patient resides."
+

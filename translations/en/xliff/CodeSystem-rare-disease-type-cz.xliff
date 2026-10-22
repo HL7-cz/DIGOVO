@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="cs" target-language="en" id="CodeSystem-rare-disease-type-cz" original="Resource CodeSystem-rare-disease-type-cz" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CodeSystem-rare-disease-type-cz" resname="CodeSystem.name">
+             <notes>
+               <note id="n1">CodeSystem.name</note>
+             </notes>
+        <source>CsRareDiseaseTypeCz</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-rare-disease-type-cz" resname="CodeSystem.title">
+             <notes>
+               <note id="n1">CodeSystem.title</note>
+             </notes>
+        <source>Typ vzácného onemocnění (DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-rare-disease-type-cz" resname="CodeSystem.publisher">
+             <notes>
+               <note id="n1">CodeSystem.publisher</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-rare-disease-type-cz" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-rare-disease-type-cz" resname="CodeSystem.description">
+             <notes>
+               <note id="n1">CodeSystem.description</note>
+             </notes>
+        <source>Číselník pro určení, zda je vzácné onemocnění sporadické nebo familiární.
+Používá se v rozšíření `Condition.extension:typOnemocneni`.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-rare-disease-type-cz" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Czechia</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-rare-disease-type-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Sporadické onemocnění</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-rare-disease-type-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Vzácné onemocnění, které se vyskytlo izolovaně bez rodinné anamnézy.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-rare-disease-type-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Sporadic disease</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-rare-disease-type-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Familiární onemocnění</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-rare-disease-type-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Vzácné onemocnění, které se vyskytuje u více členů rodiny.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-rare-disease-type-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Familial disease</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-rare-disease-type-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Neznámý typ</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-rare-disease-type-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Typ onemocnění nelze určit z dostupných dat.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-rare-disease-type-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Unknown</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

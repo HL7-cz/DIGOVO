@@ -1,0 +1,27 @@
+# cs -> en
+
+#: StructureDefinition.title
+msgctxt "StructureDefinition.title"
+msgid "1. Souhlas s opakovaným použitím dat"
+msgstr "1. Consent to data reuse"
+
+#: StructureDefinition.element.LogConsentReuseDataCz/short
+msgctxt "StructureDefinition.element.LogConsentReuseDataCz/short"
+msgid "1. Souhlas s opakovaným použitím dat"
+msgstr "1. Consent to data reuse"
+
+#: StructureDefinition.element.LogConsentReuseDataCz/definition
+msgctxt "StructureDefinition.element.LogConsentReuseDataCz/definition"
+msgid "Záznam o souhlasu pacienta nebo zákonného zástupce s opakovaným použitím dat pacienta."
+msgstr "Records consent by the patient or legal representative to reuse patient data. The source inconsistency between consent and objection remains open."
+
+#: StructureDefinition.element.LogConsentReuseDataCz.souhlasOpakovanePouzitiDat/short
+msgctxt "StructureDefinition.element.LogConsentReuseDataCz.souhlasOpakovanePouzitiDat/short"
+msgid "Souhlas pacienta/zákonného zástupce s opakovaným použitím dat"
+msgstr "1.1 Consent to data reuse"
+
+#: StructureDefinition.element.LogConsentReuseDataCz.souhlasOpakovanePouzitiDat/definition
+msgctxt "StructureDefinition.element.LogConsentReuseDataCz.souhlasOpakovanePouzitiDat/definition"
+msgid "Určuje, zda pacient nebo jeho zákonný zástupce udělil souhlas s opakovaným použitím dat (Yes / No / Unknown / Not Asked). Pokud je pacient neschopen souhlasu, bezvědomí apod., souhlas vyjádří zákonný zástupce. Neznámá odpověď se nesmí automaticky převést na „ne“. Dataset má rozpor mezi českým souhlasem a anglickou námitkou; do vyjasnění je zachován český význam stávajícího prvku a nesmí se automaticky invertovat odpověď."
+msgstr "Whether the patient or legal representative agreed to reuse patient data: Yes / No / Unknown / Not Asked. Unknown must not be converted to No. The Czech source describes consent while the English source describes objection; the model retains the existing Czech meaning pending clarification. Automatic inversion is not defined."
+

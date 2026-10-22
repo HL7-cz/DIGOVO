@@ -1,0 +1,31 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "PrenatalMalformationCzVS"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "Prenatálně zjištěné malformace (CZ)"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ValueSet.description
+#: ValueSet.description
+msgid "Stav prenatálních malformací – žádná, jednotlivá, vícečetná."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Czechia"
+msgstr ""
+

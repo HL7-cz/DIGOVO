@@ -1,0 +1,61 @@
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "DIGOVO"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "DIGOVO CodeSystem"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# CodeSystem.description
+#: CodeSystem.description
+msgid "Kódy používané v projektu DIGOVO pro prenatální, perinatální a specializované klinické informace."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Czechia"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Bez prenatálně zjištěných malformací"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Jednotlivá prenatální malformace"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Vícečetné prenatální malformace"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Ano – těhotenství vzniklo asistovanou reprodukcí"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Ne – těhotenství nevzniklo asistovanou reprodukcí"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "N/A – informace není dostupná / není aplikovatelné"
+msgstr ""
+

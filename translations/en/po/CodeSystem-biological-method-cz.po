@@ -1,0 +1,123 @@
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "CsBiologicalMethodCz"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "Biologické metody použité v diagnostice (DIGOVO)"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# CodeSystem.description
+#: CodeSystem.description
+msgid "Číselník biologických metod používaných při diagnostice vzácných onemocnění.
+Vyjadřuje, jakým způsobem byla provedena biologická nebo laboratorní analýza, 
+která vedla ke zjištění genotypu nebo potvrzení diagnózy."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Czechia"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Chromozomální analýza"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Vyšetření chromozomů nebo jejich strukturálních změn."
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Chromosomal analysis"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "APCA (Amplified Probe-based Comparative Analysis)"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Metoda založená na hybridizaci amplifikovaných sond pro detekci variant."
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "APCA"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Cílené sekvenování"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Analýza specifických genů nebo úseků DNA pomocí cíleného sekvenování."
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Targeted sequencing"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Sekvenování nové generace (NGS)"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Vysoce výkonná metoda sekvenování genomu nebo exomu."
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Next Generation Sequencing (NGS)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Jiná metoda"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Jiná biologická metoda mimo uvedené."
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Other"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Nevztahuje se"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Metoda není aplikovatelná."
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Not applicable"
+msgstr ""
+

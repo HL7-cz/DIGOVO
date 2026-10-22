@@ -1,0 +1,56 @@
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "CsHealthCareGoalCz"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "Kódový systém – Cíle poskytované péče (DIGOVO)"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Czechia"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Stanovení diagnózy"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Management onemocnění"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Prenatální diagnostika"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Edukace pacienta"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Výzkum / klinická studie"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Sledování pacienta (follow-up)"
+msgstr ""
+

@@ -1,0 +1,146 @@
+
+# ConceptMap.name
+#: ConceptMap.name
+msgid "LogHealthCareCzToFHIR"
+msgstr ""
+
+# ConceptMap.title
+#: ConceptMap.title
+msgid "DIGOVO Mapování: LogCzHealthCare → FHIR profily"
+msgstr ""
+
+# ConceptMap.publisher
+#: ConceptMap.publisher
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ConceptMap.description
+#: ConceptMap.description
+msgid "Mapování logického modelu zdravotní péče (LogCzHealthCare) na FHIR profily DIGOVO a CZ Core."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Czechia"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Zdravotní péče"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Záznam o poskytované zdravotní péči (CZ_Encounter_SpecializedCenter)"
+msgstr ""
+
+# ConceptMap.group.element.target.comment
+#: ConceptMap.group.element.target.comment
+msgid "Hlavní záznam o poskytnuté péči reprezentován Encounterem."
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Datum ošetření"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Datum zahájení poskytované péče"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Typ poskytnuté péče"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Kód typu výkonu nebo intervence (CZ_Procedure_HealthCare)"
+msgstr ""
+
+# ConceptMap.group.element.target.comment
+#: ConceptMap.group.element.target.comment
+msgid "Vykázaný výkon, hospitalizace, ambulantní vyšetření apod."
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Pacient zařazen do CPMS"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Zařazení do CPMS (CZ_Observation_CPMSParticipation)"
+msgstr ""
+
+# ConceptMap.group.element.target.comment
+#: ConceptMap.group.element.target.comment
+msgid "Informace o účasti pacienta v systému CPMS (Yes/No)."
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Cíle poskytované péče"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Cíle péče / důvody kontaktu"
+msgstr ""
+
+# ConceptMap.group.element.target.comment
+#: ConceptMap.group.element.target.comment
+msgid "Např. diagnóza, management, prenatální diagnostika, výzkum."
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Povolání poskytovatelů péče"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Profese zdravotníka (CZ_PractitionerRoleCore)"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Pracovník poskytující péči"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Identifikátor nebo jméno poskytovatele (CZ_PractitionerCore)"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Centrum pro vzácná onemocnění"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Identifikátor centra (CZ_OrganizationCore)"
+msgstr ""
+
+# ConceptMap.group.element.target.comment
+#: ConceptMap.group.element.target.comment
+msgid "Odpovídá specializovanému centru poskytujícímu péči."
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Umístění centra"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Lokalizace centra (CZ_LocationCore)"
+msgstr ""
+

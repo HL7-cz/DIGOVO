@@ -1,0 +1,43 @@
+{
+  "id" : "ValueSet-vs-healthcare-goal-cz",
+  "baseLang" : "cs",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "ValueSet.name",
+      "context" : "ValueSet.name",
+      "source" : "VsHealthCareGoalCz",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.title",
+      "context" : "ValueSet.title",
+      "source" : "Cíle poskytnuté péče (DIGOVO)",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.publisher",
+      "context" : "ValueSet.publisher",
+      "source" : "HL7 Czech Republic",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "HL7 Czech Republic",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.description",
+      "context" : "ValueSet.description",
+      "source" : "Hodnoty pro vyjádření účelu nebo cíle poskytované péče v rámci DIGOVO.\nPoužívá se v `Procedure.reasonCode`.",
+      "target" : null
+    },
+    {
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "Czechia",
+      "target" : null
+    }]
+  }]
+}

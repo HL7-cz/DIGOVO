@@ -1,0 +1,181 @@
+{
+  "id" : "ConceptMap-map-LogHealthCareCz",
+  "baseLang" : "cs",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "ConceptMap.name",
+      "context" : "ConceptMap.name",
+      "source" : "LogHealthCareCzToFHIR",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.title",
+      "context" : "ConceptMap.title",
+      "source" : "DIGOVO Mapování: LogCzHealthCare → FHIR profily",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.publisher",
+      "context" : "ConceptMap.publisher",
+      "source" : "HL7 Czech Republic",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "HL7 Czech Republic",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.description",
+      "context" : "ConceptMap.description",
+      "source" : "Mapování logického modelu zdravotní péče (LogCzHealthCare) na FHIR profily DIGOVO a CZ Core.",
+      "target" : null
+    },
+    {
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "Czechia",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Zdravotní péče",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "Záznam o poskytované zdravotní péči (CZ_Encounter_SpecializedCenter)",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.comment",
+      "context" : "ConceptMap.group.element.target.comment",
+      "source" : "Hlavní záznam o poskytnuté péči reprezentován Encounterem.",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Datum ošetření",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "Datum zahájení poskytované péče",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Typ poskytnuté péče",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "Kód typu výkonu nebo intervence (CZ_Procedure_HealthCare)",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.comment",
+      "context" : "ConceptMap.group.element.target.comment",
+      "source" : "Vykázaný výkon, hospitalizace, ambulantní vyšetření apod.",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Pacient zařazen do CPMS",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "Zařazení do CPMS (CZ_Observation_CPMSParticipation)",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.comment",
+      "context" : "ConceptMap.group.element.target.comment",
+      "source" : "Informace o účasti pacienta v systému CPMS (Yes/No).",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Cíle poskytované péče",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "Cíle péče / důvody kontaktu",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.comment",
+      "context" : "ConceptMap.group.element.target.comment",
+      "source" : "Např. diagnóza, management, prenatální diagnostika, výzkum.",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Povolání poskytovatelů péče",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "Profese zdravotníka (CZ_PractitionerRoleCore)",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Pracovník poskytující péči",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "Identifikátor nebo jméno poskytovatele (CZ_PractitionerCore)",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Centrum pro vzácná onemocnění",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "Identifikátor centra (CZ_OrganizationCore)",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.comment",
+      "context" : "ConceptMap.group.element.target.comment",
+      "source" : "Odpovídá specializovanému centru poskytujícímu péči.",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Umístění centra",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "Lokalizace centra (CZ_LocationCore)",
+      "target" : null
+    }]
+  }]
+}

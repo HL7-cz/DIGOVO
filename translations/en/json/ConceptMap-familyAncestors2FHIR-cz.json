@@ -1,0 +1,151 @@
+{
+  "id" : "ConceptMap-familyAncestors2FHIR-cz",
+  "baseLang" : "cs",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "ConceptMap.name",
+      "context" : "ConceptMap.name",
+      "source" : "FamilyAncestors2FHIRCzDigovo",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.title",
+      "context" : "ConceptMap.title",
+      "source" : "DIGOVO Family Ancestors Model to FHIR RelatedPerson Map",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.publisher",
+      "context" : "ConceptMap.publisher",
+      "source" : "HL7 Czech Republic",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "HL7 Czech Republic",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.description",
+      "context" : "ConceptMap.description",
+      "source" : "Mapování logického modelu DIGOVO 'Rodinní předkové ve vztahu k VO' \nna FHIR profil CZ_RelatedPerson_RareDisease.",
+      "target" : null
+    },
+    {
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "Czechia",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Rodinní předkové relevantní k VO",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "RelatedPerson (Rodinní předkové relevantní k VO – DIGOVO)",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.comment",
+      "context" : "ConceptMap.group.element.target.comment",
+      "source" : "Celý záznam rodinných předků je reprezentován jako RelatedPerson profilovaný pro DIGOVO.",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Postižený předek (propositus)",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "Extension: CZ_Ext_AffectedAncestor (Yes / No / N/A)",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.comment",
+      "context" : "ConceptMap.group.element.target.comment",
+      "source" : "Vyjadřuje, zda byl předek postižen vzácným onemocněním.",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Identifikátor prvního postiženého předka",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "Identifikátor osoby (rodinný předek)",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.comment",
+      "context" : "ConceptMap.group.element.target.comment",
+      "source" : "Přímé mapování na RelatedPerson.identifier",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Rodičovský vztah k postiženému",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "Rodičovský vztah (např. otec, matka, sourozenec)",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.comment",
+      "context" : "ConceptMap.group.element.target.comment",
+      "source" : "Mapováno na standardní prvek RelatedPerson.relationship",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Konsanguinita",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "Extension: CZ_Ext_Consanguinity (Yes / No / Unknown)",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.comment",
+      "context" : "ConceptMap.group.element.target.comment",
+      "source" : "Vyjadřuje, zda jsou rodiče pacienta pokrevně příbuzní.",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Jiní relevantní předkové",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "Poznámka nebo kód jiných relevantních předků",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.comment",
+      "context" : "ConceptMap.group.element.target.comment",
+      "source" : "Slouží pro záznam volného textu nebo kódovaného vztahu k jiným předkům.",
+      "target" : null
+    }]
+  }]
+}

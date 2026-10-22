@@ -33,7 +33,7 @@ multidisciplinární konzilium, telemedicína apod.).
 * performer ^short = "Zdravotnický pracovník nebo organizace, která výkon provedla."
 
 * location 0..1
-* location only Reference(CZ_LocationCore)
+
 * location ^short = "Místo, kde byl výkon proveden (např. centrum VO)."
 
 //-----------------------------------------------------------

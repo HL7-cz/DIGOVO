@@ -1,0 +1,12 @@
+{% assign digovo_language = include.lang | default: 'cs' %}
+<nav id="language" class="digovo-language-switch" aria-label="{% if digovo_language == 'en' %}Language{% else %}Jazyk{% endif %}">
+  <a href="../cs/{{page.name | escape}}" lang="cs" hreflang="cs" title="Česky" onclick="this.hash = window.location.hash;"{% if digovo_language == 'cs' %} aria-current="page"{% endif %}>CZ</a>
+  <span aria-hidden="true"> / </span>
+  <a href="../en/{{page.name | escape}}" lang="en" hreflang="en" title="English" onclick="this.hash = window.location.hash;"{% if digovo_language == 'en' %} aria-current="page"{% endif %}>EN</a>
+</nav>
+<style>
+  .digovo-language-switch { float: right; padding: 12px 8px; white-space: nowrap; }
+  .digovo-language-switch a { color: var(--btn-text-color, #fff); padding: 4px 6px; border-radius: 3px; }
+  .digovo-language-switch a[aria-current="page"] { font-weight: bold; text-decoration: underline; text-underline-offset: 4px; }
+  .digovo-language-switch a:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+</style>

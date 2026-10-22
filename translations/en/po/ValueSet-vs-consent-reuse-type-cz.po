@@ -1,0 +1,31 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "VsConsentCz"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "Souhlas s opakovaným použitím dat (Yes/No)"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ValueSet.description
+#: ValueSet.description
+msgid "Hodnoty určující, zda byl udělen souhlas s opakovaným použitím dat pacienta."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Czechia"
+msgstr ""
+

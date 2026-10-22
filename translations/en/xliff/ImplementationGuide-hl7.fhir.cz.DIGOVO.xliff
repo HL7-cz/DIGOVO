@@ -1,0 +1,1082 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="cs" target-language="en" id="ImplementationGuide-hl7.fhir.cz.DIGOVO" original="Resource ImplementationGuide-hl7.fhir.cz.DIGOVO" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.name">
+             <notes>
+               <note id="n1">ImplementationGuide.name</note>
+             </notes>
+        <source>HL7CzDIGOVOImplementationGuide</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.title">
+             <notes>
+               <note id="n1">ImplementationGuide.title</note>
+             </notes>
+        <source>HL7 Czech DIGOVO Implementation Guide</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.publisher">
+             <notes>
+               <note id="n1">ImplementationGuide.publisher</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.description">
+             <notes>
+               <note id="n1">ImplementationGuide.description</note>
+             </notes>
+        <source>Implementační příručka DIGOVO pro dokumentaci vzácných onemocnění</source>
+        <target>DIGOVO implementation guide for rare disease documentation</target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Czechia</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>1. Souhlas s opakovaným použitím dat</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Záznam o souhlasu pacienta nebo zákonného zástupce s opakovaným použitím dat pacienta.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>10. Poskytnutá péče</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Logický model pro zachycení údajů o zdravotní péči poskytnuté pacientovi, včetně typu intervence, účelu, zapojení do systémů jako CPMS, profese poskytovatelů a lokalizace centra péče. Vhodné primárně pro standardní dokumentaci; pro registry může být problematické kvůli variabilitě údajů.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>11. Výzkum</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Logický model pro zachycení údajů o účasti pacienta na výzkumu nebo studii včetně dostupnosti biologických vzorků a souhlasu s kontaktováním. Struktura odpovídá českým národním požadavkům a je v souladu s CDE.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>12. Užitečné informace</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Logický model pro zachycení doplňujících informací o onemocnění, doporučeních a hlavních varováních důležitých pro péči o pacienta. Součástí může být i pacientský souhrn.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>2. Informace o pacientovi</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Identifikace případu a příznak plodu podle položek 2.1–2.2 datasetu RD_Data_Elements_CZ_EHR_VFN_16_9_VS.xlsx. Osobní údaje 2a a údaje o plodu 2b jsou samostatné dílčí modely. Větve jsou volitelné na úrovni struktury; jejich použitelnost závisí na příznaku plodu a klinickém kontextu.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>2a. Osobní a demografické údaje</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Položky 2a.1–2a.9 datasetu RD_Data_Elements_CZ_EHR_VFN_16_9_VS.xlsx. Spojuje osobní a demografické údaje, které mají ve zdroji společné označení 2a. Povinné položky se vztahují k přítomné sekci.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>2b. Údaje o plodu a matce</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Položky 2b.1–2b.11 datasetu RD_Data_Elements_CZ_EHR_VFN_16_9_VS.xlsx. Záznam se vede pro každý postižený plod samostatně. Povinné položky platí při použití této sekce; způsob zachycení neznámých hodnot musí určit konkrétní implementace.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>3. Diagnóza vzácného onemocnění</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Záznam diagnózy vzácného onemocnění včetně klasifikace, potvrzovací metody a genetických údajů.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>4. Anamnéza onemocnění</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Logický model pro sekci anamnézy v datasetu vzácných onemocnění.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>5. Prenatální a perinatální údaje</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Logický model pro prenatální a perinatální údaje relevantní především u dětských pacientů.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>6. Rodinná anamnéza</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Logický model pro záznam informací o rodinných předcích ve vztahu k vzácnému onemocnění.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>7. Životní stav</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Logický model pro záznam životního stavu pacienta ve vztahu k vzácnému onemocnění.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>8. Léčba</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Logický model pro zachycení informací o terapii u pacientů, zejména při léčbě vzácných onemocnění. Obsahuje informace o léčivech, dávkování, dalších intervencích a způsobech léčby. V souladu s českými národními požadavky a standardem PZ.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>9. Trajektorie péče</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Logický model pro zachycení informací o klinické trajektorii (care pathway) pacienta v rámci péče o vzácné onemocnění. Obsahuje informace o odesílajícím subjektu, datu přijetí do specializovaného centra, zapojených lékařích a klinických službách.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Ano / Ne / Neznámé / Nezjišťováno (DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Čtyřstavové odpovědi podle datasetu vzácných onemocnění. Neznámá odpověď a nezjišťování jsou odlišné od záporné odpovědi.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Biologické metody použité v diagnostice (DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Soubor metod biologické diagnostiky používaných při potvrzení diagnózy vzácného onemocnění.
+Převzato z logického modelu DIGOVO a harmonizováno s ERDRI Common Data Elements.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Číselník biologických metod používaných při diagnostice vzácných onemocnění.
+Vyjadřuje, jakým způsobem byla provedena biologická nebo laboratorní analýza, 
+která vedla ke zjištění genotypu nebo potvrzení diagnózy.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Composition (DIGOVO – klinický dokument o vzácném onemocnění)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Hlavní klinický dokument DIGOVO pro vzácná onemocnění.
+Zahrnuje sekce pro identifikaci pacienta, diagnózu, anamnézu, klinickou trajektorii, souhlas a další relevantní údaje.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Condition (Vzácné onemocnění – DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Diagnóza vzácného onemocnění s kódováním dle orphacode.
+Vazby na genetické a fenotypové důkazy jsou vedeny přes `Condition.evidence.detail`.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Consent (Souhlas s opakovaným použitím dat – DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Záznam o souhlasu pacienta nebo zákonného zástupce s opakovaným použitím dat pacienta.
+Používá se v rámci datasetu DIGOVO (část Souhlas).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Cíle poskytnuté péče (DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Hodnoty pro vyjádření účelu nebo cíle poskytované péče v rámci DIGOVO.
+Používá se v `Procedure.reasonCode`.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Datová sada vzácných onemocnění – celkový logický model</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Nadřazený logický model datasetu RD_Data_Elements_CZ_EHR_VFN_16_9_VS.xlsx (list Data Elements). Dvanáct sekcí je propojeno s dílčími modely jejich datovým typem. Model pacienta zahrnuje podsekce 2a a 2b. Kardinality sekcí představují návrh pro EHR; podmíněná povinnost a otevřené otázky zdroje jsou popsány na stránce logických modelů.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Diagnóza vzácného onemocnění předka</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Diagnóza vzácného onemocnění, které postihlo rodinného předka.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>DIGOVO CodeSystem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Kódy používané v projektu DIGOVO pro prenatální, perinatální a specializované klinické informace.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>DIGOVO Consent Reuse Data Logical Model → FHIR Mapping</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Mapování logického modelu DIGOVO 'Souhlas s opakovaným použitím dat' na FHIR profil CZ_Consent_ReuseData.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>DIGOVO Family Ancestors Model to FHIR RelatedPerson Map</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Mapování logického modelu DIGOVO 'Rodinní předkové ve vztahu k VO' 
+na FHIR profil CZ_RelatedPerson_RareDisease.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>DIGOVO Mapování: LogCzHealthCare → FHIR profily</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Mapování logického modelu zdravotní péče (LogCzHealthCare) na FHIR profily DIGOVO a CZ Core.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>DIGOVO PatientHistory Logical Model → FHIR Mapping</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Mapování logického modelu DIGOVO 'Anamnéza pacienta (LogCzPatientHistory)' na konkrétní FHIR profily CZ DIGOVO.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>DIGOVO Subject Model to CZ Core Patient Map</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Mapování logického modelu DIGOVO 'Informace o subjektu - pacient' na FHIR Patient podle českého národního profilu CZ Core Patient.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Encounter (Odeslání pacienta – DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Záznam o odeslání nebo doporučení pacienta k dalšímu vyšetření či do specializovaného centra.
+Vztahuje se k části klinické trajektorie pacienta v DIGOVO.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Encounter (Přijetí do specializovaného centra – DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Záznam o přijetí pacienta do specializovaného centra péče o vzácné onemocnění.
+Profil pokrývá údaje o datu přijetí, doporučení, a organizaci, která pacienta přijala.
+Odpovídá části 'Care Pathway' logického modelu DIGOVO (LogCzCarePathway).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Fenotypické projevy (HPO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Subset Human Phenotype Ontology (HPO) pro klinické projevy vzácných onemocnění.
+Používá se v rámci DIGOVO projektu.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Genetické a diagnostické metody (DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Číselník metod použitých pro potvrzení diagnózy vzácného onemocnění.
+Zahrnuje klinické, genetické, biochemické a zobrazovací metody.
+Vybráno podle logického modelu DIGOVO a harmonizováno s ERDRI Common Data Elements.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Genetické testovací metody (DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Soubor genetických testovacích metod a přístupů používaných při diagnostice vzácných onemocnění.
+Zahrnuje klasifikaci Clinical, Genetic, Biochemical, Biological, Imaging, Functional Exploration, Pathological anatomy, Other.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>HGVS kódování genetických variant (DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Soubor kódů pro popis genetických variant dle standardu HGVS (Human Genome Variation Society).
+Používá se v rámci profilu CZ_Observation_Genotype jako hodnota (`valueCodeableConcept`).
+Hodnoty odpovídají záznamům genetických variant, např. c.76A&gt;T, p.Glu6Val.
+Zdrojem dat jsou HGVS zápisy, OMIM, ClinVar nebo interní registr variant.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>ICF funkční postižení (CZ)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Subset klasifikace ICF dle WHO.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Konsanguinita (pokrevní příbuznost)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Informace o pokrevní příbuznosti mezi rodiči.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Kódový systém – Cíle poskytované péče (DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Kódový systém – Typ poskytnuté péče (DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>LogCzRareDiseaseDiagnosis → CZ_ConditionRareDisease + CZ_Observation_* (DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>DIGOVO FHIR mapování na profily profily: CZ_ConditionRareDisease, CZ_Observation_Genotype,
+CZ_Observation_Phenotype, CZ_Observation_BiologicalMethod, CZ_Observation_GeneticTest,
+CZ_Observation_UndiagnosedFinding.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Lékařsky asistovaná reprodukce (CZ)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Zda bylo těhotenství výsledkem asistované reprodukce.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Observation (Biologická metoda – DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Záznam biologické nebo laboratorní metody použitý k potvrzení diagnózy vzácného onemocnění.
+Slouží jako podpůrný důkaz (`Condition.evidence.detail`), na který mohou odkazovat genotypové výsledky.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Observation (Dědičnost – DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Záznam o dědičnosti onemocnění (Yes / No / Unknown).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Observation (Fenotyp – DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Fenotypické projevy pacienta, vyjádřené pomocí terminologie HPO (Human Phenotype Ontology).
+Používá se jako podpůrný důkaz (`Condition.evidence.detail`) pro diagnózu vzácného onemocnění.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Observation (Genetická metoda – DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Záznam genetické testovací metody, například chromozomální, sekvenační, nebo NGS.
+Používá se pro popis konkrétního testu v rámci diagnostiky vzácného onemocnění.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Observation (Genotyp – DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Záznam genotypu pacienta ve vztahu ke vzácnému onemocnění.
+Používá se jako podkladový důkaz (`Condition.evidence.detail`) v rámci diagnózy vzácného onemocnění.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Observation (Klinické projevy – DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Záznam klinických fenotypových projevů pomocí HPO nebo SNOMED CT.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Observation (Nediagnostikovaný nález – DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Používá se v případech, kdy fenotypické nebo genetické rysy pacienta nelze zatím přiřadit ke konkrétní diagnóze.
+Slouží jako podklad pro evidenci nediagnostikovaných stavů (CDE-RD „Undiagnosed case“).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Observation (Postižení – DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Záznam funkčního nebo strukturálního postižení dle klasifikace ICF.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Observation (Věk při začátku potíží / diagnóze – DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Záznam o věku nebo datu, kdy začaly potíže spojené se vzácným onemocněním.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Observation (Účast pacienta v systému CPMS – DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Záznam o tom, zda je pacient zařazen do systému CPMS (Clinical Patient Management System).
+Součást sekce Zdravotní péče v rámci DIGOVO.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Postižený předek (Yes/No/N/A)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Zda byl některý z rodinných předků postižen vzácným onemocněním.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Prenatalni a perinatalni souhrn (CZ)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Souhrnné prenatální a perinatální údaje relevantní pro projekt DIGOVO.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Prenatálně zjištěné malformace (CZ)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Stav prenatálních malformací – žádná, jednotlivá, vícečetná.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Procedure (Vyšetření – DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Záznam o vyšetření provedeném u pacienta v souvislosti se vzácným onemocněním.
+Vyšetření je modelováno jako FHIR Procedure a kódováno pomocí SNOMED CT.
+Používá se v sekci anamnézy (PatientHistory).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Procedure (Zdravotní výkon / poskytnutá péče – DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Záznam o konkrétní poskytované zdravotní péči, výkonu nebo klinické intervenci
+v rámci DIGOVO datasetu.  
+Profil se používá pro popis typu poskytnuté péče (hospitalizace, ambulantní vyšetření, 
+multidisciplinární konzilium, telemedicína apod.).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>RelatedPerson (Rodinní předkové relevantní k VO – DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Rozšíření profilu CZ_RelatedPersonCore pro záznam rodinných předků relevantních ke vzácným onemocněním.
+Odpovídá logickému modelu LogCzFamilyAncestors.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Souhlas s opakovaným použitím dat (Yes/No)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Hodnoty určující, zda byl udělen souhlas s opakovaným použitím dat pacienta.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Typ klinické trajektorie (Encounter – DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Hodnoty pro klasifikaci typu kontaktu pacienta v rámci klinické trajektorie (Care Pathway)
+v projektu DIGOVO. Používá se v profilu CZ_Encounter_SpecializedCenter.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Typ kontaktu v klinické trajektorii (Care Pathway – DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Kódy pro klasifikaci typu klinického kontaktu nebo epizody péče v rámci projektu DIGOVO.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Typ poskytnuté péče (DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Seznam typů poskytované péče nebo zdravotního výkonu v rámci DIGOVO.
+Používá se v `Procedure.code` pro rozlišení formy kontaktu – ambulantní, hospitalizace, konzilium, telemedicína apod.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Typ vzácného onemocnění (DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Typ vzácného onemocnění — zda je onemocnění sporadické nebo familiární.
+Používá se v rozšíření Condition.extension:typOnemocneni.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Číselník pro určení, zda je vzácné onemocnění sporadické nebo familiární.
+Používá se v rozšíření `Condition.extension:typOnemocneni`.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>ValueSet – orphaCode (CZ)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>ValueSet pro kódování diagnóz vzácných onemocnění dle orphanet (orphacode).
+Používá se v rámci IG DIGOVO pro Condition nebo Observation.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Věk při stanovení diagnózy (DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Rozšíření pro uvedení věku pacienta v době stanovení diagnózy.
+Používá se v profilu CZ_ConditionRareDisease.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Závažnost vzácného onemocnění – DIGOVO</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Kategorie závažnosti pro diagnózy vzácných onemocnění, kompatibilní s ERDRI a SNOMED CT.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Table of Contents</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Domovská stránka</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Oblasti a obsah</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Kontext projektu</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Logický model – přehled a hierarchie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Mapování na profily</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Příklady</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Záznam změn</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Autoři a vydavatel</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Ke stažení</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Závislosti</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Autorská práva</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Jazyky a překlady</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.DIGOVO" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Artifacts</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

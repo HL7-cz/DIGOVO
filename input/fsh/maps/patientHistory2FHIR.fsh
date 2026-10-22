@@ -16,12 +16,12 @@ Mapování logického modelu DIGOVO 'Anamnéza pacienta (LogCzPatientHistory)' n
 * group[=].target = "https://hl7.cz/fhir/digovo/StructureDefinition/cz-observation-patient-onset-age"
 
 
-* group[=].element[+].code = #vekZacatekPotizi
+* group[=].element[+].code = #anamneza.vekZacatekPotizi[x]
 * group[=].element[=].display = "Věk nebo datum začátku potíží"
 * group[=].element[=].target.code = #Observation.valueQuantity
 * group[=].element[=].target.display = "CZ_Observation_PatientOnsetAge"
-* group[=].element[=].target.equivalence = #equal
-* group[=].element[=].target.comment = "Mapováno na profil CZ_Observation_PatientOnsetAge (věk nebo datum začátku potíží)."
+* group[=].element[=].target.equivalence = #relatedto
+* group[=].element[=].target.comment = "Koncepční vazba; věk lze převést na valueQuantity, datum vyžaduje samostatnou reprezentaci. Přímý převod obou alternativ není definován."
 
 
 //---------------------------------------------
@@ -30,12 +30,12 @@ Mapování logického modelu DIGOVO 'Anamnéza pacienta (LogCzPatientHistory)' n
 * group[+].source = "https://hl7.cz/fhir/digovo/StructureDefinition/LogPatientHistoryCz"
 * group[=].target = "https://hl7.cz/fhir/digovo/StructureDefinition/cz-condition-raredisease"
 
-* group[=].element[+].code = #vekPriDiagnoze
+* group[=].element[+].code = #anamneza.vekPriDiagnoze[x]
 * group[=].element[=].display = "Věk nebo datum při diagnóze"
 * group[=].element[=].target.code = #Condition.extension:ageAtDiagnosis
 * group[=].element[=].target.display = "Rozšíření CZ_Condition_AgeAtDiagnosis"
-* group[=].element[=].target.equivalence = #equal
-* group[=].element[=].target.comment = "Rozšíření CZ_Condition_AgeAtDiagnosis pro věk při diagnóze (Quantity – jednotky UCUM)."
+* group[=].element[=].target.equivalence = #relatedto
+* group[=].element[=].target.comment = "Koncepční vazba; rozšíření zachycuje věk, datum diagnózy vyžaduje samostatnou reprezentaci."
 
 //---------------------------------------------
 // Dědičnost → CZ_Observation_HereditaryPattern

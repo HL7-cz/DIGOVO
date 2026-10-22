@@ -1,0 +1,197 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="cs" target-language="en" id="ConceptMap-subject2FHIR-cz" original="Resource ConceptMap-subject2FHIR-cz" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ConceptMap-subject2FHIR-cz" resname="ConceptMap.name">
+             <notes>
+               <note id="n1">ConceptMap.name</note>
+             </notes>
+        <source>Subject2FHIRCzDigovo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-subject2FHIR-cz" resname="ConceptMap.title">
+             <notes>
+               <note id="n1">ConceptMap.title</note>
+             </notes>
+        <source>DIGOVO Subject Model to CZ Core Patient Map</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-subject2FHIR-cz" resname="ConceptMap.publisher">
+             <notes>
+               <note id="n1">ConceptMap.publisher</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-subject2FHIR-cz" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-subject2FHIR-cz" resname="ConceptMap.description">
+             <notes>
+               <note id="n1">ConceptMap.description</note>
+             </notes>
+        <source>Mapování logického modelu DIGOVO 'Informace o subjektu - pacient' na FHIR Patient podle českého národního profilu CZ Core Patient.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-subject2FHIR-cz" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Czechia</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-subject2FHIR-cz" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Identifikátor pacienta</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-subject2FHIR-cz" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Identifikátor pacienta (NIS ID, EU RD ID)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-subject2FHIR-cz" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Jméno pacienta</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-subject2FHIR-cz" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Given name</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-subject2FHIR-cz" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Příjmení pacienta</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-subject2FHIR-cz" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Family name</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-subject2FHIR-cz" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Datum narození</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-subject2FHIR-cz" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Date of birth</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-subject2FHIR-cz" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Pohlaví</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-subject2FHIR-cz" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Gender</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-subject2FHIR-cz" resname="ConceptMap.group.element.target.comment">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.comment</note>
+             </notes>
+        <source>Pohlaví při narození není obecně totožné s administrativním Patient.gender. Přesná reprezentace vyžaduje implementační profil.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-subject2FHIR-cz" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Země narození</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-subject2FHIR-cz" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Country of birth</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-subject2FHIR-cz" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Místo narození</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-subject2FHIR-cz" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Place of birth (city)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-subject2FHIR-cz" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Trvalý pobyt</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-subject2FHIR-cz" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Patient address (home)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-subject2FHIR-cz" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Země trvalého pobytu</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-subject2FHIR-cz" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Country (ISO3166)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-subject2FHIR-cz" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Místo trvalého pobytu</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-subject2FHIR-cz" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>City of permanent residence</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

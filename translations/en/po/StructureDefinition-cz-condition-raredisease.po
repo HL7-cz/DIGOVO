@@ -1,0 +1,56 @@
+
+# A natural language name identifying the structure definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+#: StructureDefinition.name
+msgid "CZ_ConditionRareDisease"
+msgstr "CZ_ConditionRareDisease"
+
+# A short, descriptive, user-friendly title for the structure definition.
+#: StructureDefinition.title
+msgid "Condition (Vzácné onemocnění – DIGOVO)"
+msgstr "Condition (Vzácné onemocnění – DIGOVO)"
+
+# The name of the organization or individual responsible for the release and ongoing maintenance of the structure definition.
+#: StructureDefinition.publisher
+msgid "HL7 Czech Republic"
+msgstr "HL7 Czech Republic"
+
+# The name of an individual to contact.
+#: StructureDefinition.contact.name
+msgid "HL7 Czech Republic"
+msgstr "HL7 Czech Republic"
+
+# A name for the specification that is being mapped to.
+#: StructureDefinition.mapping.workflow/name
+msgid "Workflow Pattern"
+msgstr "Workflow Pattern"
+
+# A name for the specification that is being mapped to.
+#: StructureDefinition.mapping.sct-concept/name
+msgid "SNOMED CT Concept Domain Binding"
+msgstr "SNOMED CT Concept Domain Binding"
+
+# A name for the specification that is being mapped to.
+#: StructureDefinition.mapping.v2/name
+msgid "HL7 v2 Mapping"
+msgstr "HL7 v2 Mapping"
+
+# A name for the specification that is being mapped to.
+#: StructureDefinition.mapping.rim/name
+msgid "RIM Mapping"
+msgstr "RIM Mapping"
+
+# A name for the specification that is being mapped to.
+#: StructureDefinition.mapping.w5/name
+msgid "FiveWs Pattern Mapping"
+msgstr "FiveWs Pattern Mapping"
+
+# A name for the specification that is being mapped to.
+#: StructureDefinition.mapping.sct-attr/name
+msgid "SNOMED CT Attribute Binding"
+msgstr "SNOMED CT Attribute Binding"
+
+# Free-text guidance on the codes that are appropriate for this element.
+#: StructureDefinition.element.Condition.severity/b/desc
+msgid "Použít kódy pro mírné, střední, těžké nebo život-ohrožující onemocnění."
+msgstr "Použít kódy pro mírné, střední, těžké nebo život-ohrožující onemocnění."
+

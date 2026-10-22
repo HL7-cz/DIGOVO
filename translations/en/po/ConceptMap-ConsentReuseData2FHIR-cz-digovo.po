@@ -1,0 +1,46 @@
+
+# ConceptMap.name
+#: ConceptMap.name
+msgid "ConsentReuseData2FHIRCzDigovo"
+msgstr ""
+
+# ConceptMap.title
+#: ConceptMap.title
+msgid "DIGOVO Consent Reuse Data Logical Model → FHIR Mapping"
+msgstr ""
+
+# ConceptMap.publisher
+#: ConceptMap.publisher
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ConceptMap.description
+#: ConceptMap.description
+msgid "Mapování logického modelu DIGOVO 'Souhlas s opakovaným použitím dat' na FHIR profil CZ_Consent_ReuseData."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Czechia"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Souhlas pacienta/zákonného zástupce s opakovaným použitím dat"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Souhlas (Yes/No)"
+msgstr ""
+
+# ConceptMap.group.element.target.comment
+#: ConceptMap.group.element.target.comment
+msgid "Pouze koncepční vazba. Čtyřstavovou odpověď nelze přímo převést na permit/deny v Consent.provision.type. Unknown a Not Asked vyžadují vlastní reprezentaci a rozpor souhlas/námitka musí být před transformací vyjasněn."
+msgstr ""
+

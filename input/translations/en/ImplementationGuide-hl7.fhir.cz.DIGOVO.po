@@ -1,0 +1,67 @@
+# cs -> en
+
+#: ImplementationGuide.description
+msgctxt "ImplementationGuide.description"
+msgid "Implementační příručka DIGOVO pro dokumentaci vzácných onemocnění"
+msgstr "DIGOVO implementation guide for rare disease documentation"
+
+#: ImplementationGuide.definition.page.page.title
+msgctxt "ImplementationGuide.definition.page.page.title"
+msgid "Domovská stránka"
+msgstr "Home"
+
+#: ImplementationGuide.definition.page.page.title
+msgctxt "ImplementationGuide.definition.page.page.title"
+msgid "Oblasti a obsah"
+msgstr "Scope and content"
+
+#: ImplementationGuide.definition.page.page.title
+msgctxt "ImplementationGuide.definition.page.page.title"
+msgid "Logický model – přehled a hierarchie"
+msgstr "Logical model – overview and hierarchy"
+
+#: ImplementationGuide.definition.page.page.title
+msgctxt "ImplementationGuide.definition.page.page.title"
+msgid "Jazyky a překlady"
+msgstr "Languages and translations"
+
+#: ImplementationGuide.definition.page.page.title
+msgctxt "ImplementationGuide.definition.page.page.title"
+msgid "Kontext projektu"
+msgstr "Background"
+
+#: ImplementationGuide.definition.page.page.title
+msgctxt "ImplementationGuide.definition.page.page.title"
+msgid "Mapování na profily"
+msgstr "Mapping to profiles"
+
+#: ImplementationGuide.definition.page.page.title
+msgctxt "ImplementationGuide.definition.page.page.title"
+msgid "Příklady"
+msgstr "Examples"
+
+#: ImplementationGuide.definition.page.page.title
+msgctxt "ImplementationGuide.definition.page.page.title"
+msgid "Záznam změn"
+msgstr "Changes"
+
+#: ImplementationGuide.definition.page.page.title
+msgctxt "ImplementationGuide.definition.page.page.title"
+msgid "Autoři a vydavatel"
+msgstr "Authors and publisher"
+
+#: ImplementationGuide.definition.page.page.title
+msgctxt "ImplementationGuide.definition.page.page.title"
+msgid "Ke stažení"
+msgstr "Downloads"
+
+#: ImplementationGuide.definition.page.page.title
+msgctxt "ImplementationGuide.definition.page.page.title"
+msgid "Závislosti"
+msgstr "Dependencies"
+
+#: ImplementationGuide.definition.page.page.title
+msgctxt "ImplementationGuide.definition.page.page.title"
+msgid "Autorská práva"
+msgstr "Copyright"
+

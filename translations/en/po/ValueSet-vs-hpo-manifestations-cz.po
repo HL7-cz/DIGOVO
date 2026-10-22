@@ -1,0 +1,32 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "VsHpoManifestationsCz"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "Fenotypické projevy (HPO)"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ValueSet.description
+#: ValueSet.description
+msgid "Subset Human Phenotype Ontology (HPO) pro klinické projevy vzácných onemocnění.
+Používá se v rámci DIGOVO projektu."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Czechia"
+msgstr ""
+

@@ -1,0 +1,127 @@
+# cs -> en
+
+#: StructureDefinition.title
+msgctxt "StructureDefinition.title"
+msgid "2b. Údaje o plodu a matce"
+msgstr "2b. Foetal and maternal data"
+
+#: StructureDefinition.element.LogFoetalDataCz/short
+msgctxt "StructureDefinition.element.LogFoetalDataCz/short"
+msgid "2b. Údaje o plodu a matce"
+msgstr "2b. Foetal and maternal data"
+
+#: StructureDefinition.element.LogFoetalDataCz/definition
+msgctxt "StructureDefinition.element.LogFoetalDataCz/definition"
+msgid "Položky 2b.1–2b.11 datasetu RD_Data_Elements_CZ_EHR_VFN_16_9_VS.xlsx. Záznam se vede pro každý postižený plod samostatně. Povinné položky platí při použití této sekce; způsob zachycení neznámých hodnot musí určit konkrétní implementace."
+msgstr "Items 2b.1–2b.11 of the rare disease dataset. A separate record is kept for each affected foetus. Required items apply when this subsection is used. The implementation must define how unknown values are represented."
+
+#: StructureDefinition.element.LogFoetalDataCz.rodnePrijmeniMatky/short
+msgctxt "StructureDefinition.element.LogFoetalDataCz.rodnePrijmeniMatky/short"
+msgid "2b.1 Rodné příjmení matky"
+msgstr "2b.1 Mother's surname at birth"
+
+#: StructureDefinition.element.LogFoetalDataCz.rodnePrijmeniMatky/definition
+msgctxt "StructureDefinition.element.LogFoetalDataCz.rodnePrijmeniMatky/definition"
+msgid "Příjmení matky při narození."
+msgstr "The mother's legal surname at birth."
+
+#: StructureDefinition.element.LogFoetalDataCz.prijmeniMatky/short
+msgctxt "StructureDefinition.element.LogFoetalDataCz.prijmeniMatky/short"
+msgid "2b.2 Příjmení matky"
+msgstr "2b.2 Mother's Common Surname"
+
+#: StructureDefinition.element.LogFoetalDataCz.prijmeniMatky/definition
+msgctxt "StructureDefinition.element.LogFoetalDataCz.prijmeniMatky/definition"
+msgid "Aktuální příjmení, pokud se liší od rodného."
+msgstr "Current family name / surname of Mother if different from Patronymic Name. To be used for patient contact and correspondence.\n\nThis data element is Not Mandatory\n\nThe recommended data standard is Logical Model: EHDSHumanName\n•\thttps://www.xt-ehr.eu/fhir/models/0.2.1/StructureDefinition-EHDSHumanName-definitions.html#key_EHDSHumanName.family"
+
+#: StructureDefinition.element.LogFoetalDataCz.jmenoMatky/short
+msgctxt "StructureDefinition.element.LogFoetalDataCz.jmenoMatky/short"
+msgid "2b.3 Jméno matky"
+msgstr "2b.3 Mother's First Name"
+
+#: StructureDefinition.element.LogFoetalDataCz.jmenoMatky/definition
+msgctxt "StructureDefinition.element.LogFoetalDataCz.jmenoMatky/definition"
+msgid "Jméno matky podle úředního dokladu."
+msgstr "The mother’s given name as listed on their birth certificate or legal identification\n\nThis data element is Not Mandatory\n\nThe recommended data standard is Logical Model: EHDSHumanName\n•\thttps://www.xt-ehr.eu/fhir/models/0.2.1/StructureDefinition-EHDSHumanName-definitions.html#key_EHDSHumanName.given\n"
+
+#: StructureDefinition.element.LogFoetalDataCz.identifikatorMatky/short
+msgctxt "StructureDefinition.element.LogFoetalDataCz.identifikatorMatky/short"
+msgid "2b.4 Národní identifikátor matky"
+msgstr "2b.4 Mother's ID Number"
+
+#: StructureDefinition.element.LogFoetalDataCz.identifikatorMatky/definition
+msgctxt "StructureDefinition.element.LogFoetalDataCz.identifikatorMatky/definition"
+msgid "Rodné číslo nebo jiný identifikátor matky pro propojení záznamů."
+msgstr "A unique patient identifier (alphanumerical) used to unambiguously identify the mother within the local health system, ideally in the form of a National Patient Identifier. Facilitates identifying the mother’s dossier if necessary, as well as to link the foetal dossier.\n\nThis data element is Mandatory\n\nThe recommended data standard is the National Patient Identifier via EHDSPatient.personalIdentifier\n•\thttps://www.xt-ehr.eu/fhir/models/0.2.1/StructureDefinition-EHDSPatient-definitions.html#key_EHDSPatient.personalIdentifier\n"
+
+#: StructureDefinition.element.LogFoetalDataCz.pocatekTehotenstvi/short
+msgctxt "StructureDefinition.element.LogFoetalDataCz.pocatekTehotenstvi/short"
+msgid "2b.5 Datum počátku těhotenství"
+msgstr "2b.5 Start date of pregnancy"
+
+#: StructureDefinition.element.LogFoetalDataCz.pocatekTehotenstvi/definition
+msgctxt "StructureDefinition.element.LogFoetalDataCz.pocatekTehotenstvi/definition"
+msgid "Datum začátku těhotenství nebo početí, případně částečné datum. Neznámé datum není textová hodnota typu date; jeho zachycení je nutné vyřešit v implementačním profilu."
+msgstr "Date of pregnancy onset or conception, possibly a partial date. An unknown date is not a text value of the date type; the implementation profile must define its representation."
+
+#: StructureDefinition.element.LogFoetalDataCz.vicecetneTehotenstvi/short
+msgctxt "StructureDefinition.element.LogFoetalDataCz.vicecetneTehotenstvi/short"
+msgid "2b.6 Vícečetné těhotenství"
+msgstr "2b.6 Multiple Pregnancy"
+
+#: StructureDefinition.element.LogFoetalDataCz.vicecetneTehotenstvi/definition
+msgctxt "StructureDefinition.element.LogFoetalDataCz.vicecetneTehotenstvi/definition"
+msgid "Yes / No / Unknown / Not Asked."
+msgstr "A multiple pregnancy is the simultaneous gestation of two or more embryos / foetuses.\n\nIn the case of a multiple pregnancy, it is important to fill out a form for each affected foetus.\n\nThis data element is Mandatory\n\nThe recommended data standard is Value Set: Yes No Unknown Not Asked\nhttps://terminology.hl7.org/7.0.1/ValueSet-yes-no-unknown-not-asked.html"
+
+#: StructureDefinition.element.LogFoetalDataCz.pohlaviPlodu/short
+msgctxt "StructureDefinition.element.LogFoetalDataCz.pohlaviPlodu/short"
+msgid "2b.7 Pohlaví plodu"
+msgstr "2b.7 Foetal Sex"
+
+#: StructureDefinition.element.LogFoetalDataCz.pohlaviPlodu/definition
+msgctxt "StructureDefinition.element.LogFoetalDataCz.pohlaviPlodu/definition"
+msgid "Mužské / Ženské / Neurčené."
+msgstr "Sex of the foetus\n•\tMale indicates that the foetus is of the male sex\n•\tFemale indicates that the foetus is of the female sex\n•\tIndeterminate indicates that the sex of the foetus is unknown\n\nThis data element is Mandatory\n\nThe recommended data standard is Sex Assigned at Birth\n•\thttps://build.fhir.org/ig/hl7au/au-fhir-base/sexgender.html#sex-assigned-at-birth"
+
+#: StructureDefinition.element.LogFoetalDataCz.jmenoPlodu/short
+msgctxt "StructureDefinition.element.LogFoetalDataCz.jmenoPlodu/short"
+msgid "2b.8 Jméno plodu"
+msgstr "2b.8 Foetus First Name"
+
+#: StructureDefinition.element.LogFoetalDataCz.jmenoPlodu/definition
+msgctxt "StructureDefinition.element.LogFoetalDataCz.jmenoPlodu/definition"
+msgid "Plánované nebo prozatímní jméno, je-li určeno."
+msgstr "The foetus’ given name, if decided. May be temporary\n\nThis data element is Not Mandatory\n\nThe recommended data standard is Logical Model: EHDSHumanName\n•\thttps://www.xt-ehr.eu/fhir/models/0.2.1/StructureDefinition-EHDSHumanName-definitions.html#key_EHDSHumanName.given"
+
+#: StructureDefinition.element.LogFoetalDataCz.identifikatorPlodu/short
+msgctxt "StructureDefinition.element.LogFoetalDataCz.identifikatorPlodu/short"
+msgid "2b.9 Identifikátor plodu"
+msgstr "2b.9 Foetal identifier"
+
+#: StructureDefinition.element.LogFoetalDataCz.identifikatorPlodu/definition
+msgctxt "StructureDefinition.element.LogFoetalDataCz.identifikatorPlodu/definition"
+msgid "Lokální identifikátor plodu. Zdroj označuje položku jako povinnou, ale český název a nápověda ji podmiňují dostupností; do vyjasnění je zachována povinnost dle sloupce Mandatory?."
+msgstr "Local foetal identifier. The Mandatory? column requires it but the Czech help text conditions it on availability. The draft retains the mandatory flag pending clarification."
+
+#: StructureDefinition.element.LogFoetalDataCz.zemePobytuMatky/short
+msgctxt "StructureDefinition.element.LogFoetalDataCz.zemePobytuMatky/short"
+msgid "2b.10 Země trvalého pobytu matky"
+msgstr "2b.10 Country of Residence"
+
+#: StructureDefinition.element.LogFoetalDataCz.zemePobytuMatky/definition
+msgctxt "StructureDefinition.element.LogFoetalDataCz.zemePobytuMatky/definition"
+msgid "Země podle ISO 3166-1 alpha-2."
+msgstr "Country in which the mother resides\nBeyond correspondence, this information is useful for studies pertaining to disease prevalence and access to care (distances between residence and care activities).\n\nThis data element is Mandatory\n\nThe recommended data standard is EHDSAddress.country (ISO 3166-1 alpha-2)\n•\thttps://www.xt-ehr.eu/fhir/models/0.2.1/StructureDefinition-EHDSAddress-definitions.html#key_EHDSAddress.country"
+
+#: StructureDefinition.element.LogFoetalDataCz.mistoPobytuMatky/short
+msgctxt "StructureDefinition.element.LogFoetalDataCz.mistoPobytuMatky/short"
+msgid "2b.11 Místo trvalého pobytu matky"
+msgstr "2b.11 City of Residence"
+
+#: StructureDefinition.element.LogFoetalDataCz.mistoPobytuMatky/definition
+msgctxt "StructureDefinition.element.LogFoetalDataCz.mistoPobytuMatky/definition"
+msgid "Město nebo PSČ trvalého pobytu matky."
+msgstr "City in which the mother resides.\nBeyond correspondence, this information is useful for studies pertaining to disease prevalence and access to care (distances between residence and care activities).\n\nThis data element is Mandatory\n\nThe recommended data standards are EHDSAddress.city and EHDSAddress.postalCode\n•\thttps://www.xt-ehr.eu/fhir/models/0.2.1/StructureDefinition-EHDSAddress-definitions.html#key_EHDSAddress.city\n•\thttps://www.xt-ehr.eu/fhir/models/0.2.1/StructureDefinition-EHDSAddress-definitions.html#key_EHDSAddress.postalCode"
+

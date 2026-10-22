@@ -1,0 +1,35 @@
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li><a href="index.html">{% if page.url contains '/en/' %}Home{% else %}Domů{% endif %}</a></li>
+  <li class="dropdown">
+    <a href="scope-and-content.html" data-toggle="dropdown" class="dropdown-toggle">{% if page.url contains '/en/' %}Introduction{% else %}Úvod{% endif %} <b class="caret"> </b></a>
+    <ul class="dropdown-menu">
+      <li><a href="scope-and-content.html">{% if page.url contains '/en/' %}Scope and content{% else %}Oblasti a obsah{% endif %}</a></li>
+      <li><a href="background.html">{% if page.url contains '/en/' %}Background{% else %}Kontext projektu{% endif %}</a></li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a href="logical-models.html" data-toggle="dropdown" class="dropdown-toggle">{% if page.url contains '/en/' %}Functional{% else %}Funkční popis{% endif %} <b class="caret"> </b></a>
+    <ul class="dropdown-menu">
+      <li><a href="logical-models.html">{% if page.url contains '/en/' %}Logical model{% else %}Logický model{% endif %}</a></li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a href="model-map.html" data-toggle="dropdown" class="dropdown-toggle">{% if page.url contains '/en/' %}Implementation{% else %}Implementace{% endif %} <b class="caret"> </b></a>
+    <ul class="dropdown-menu">
+      <li><a href="model-map.html">{% if page.url contains '/en/' %}Mapping to profiles{% else %}Mapování na profily{% endif %}</a></li>
+      <li><a href="examples.html">{% if page.url contains '/en/' %}Examples{% else %}Příklady{% endif %}</a></li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a href="authors.html" data-toggle="dropdown" class="dropdown-toggle">{% if page.url contains '/en/' %}About{% else %}O příručce{% endif %} <b class="caret"> </b></a>
+    <ul class="dropdown-menu">
+      <li><a href="changes.html">{% if page.url contains '/en/' %}Changes{% else %}Záznam změn{% endif %}</a></li>
+      <li><a href="authors.html">{% if page.url contains '/en/' %}Authors{% else %}Autoři a vydavatel{% endif %}</a></li>
+      <li><a href="downloads.html">{% if page.url contains '/en/' %}Downloads{% else %}Ke stažení{% endif %}</a></li>
+      <li><a href="dependencies.html">{% if page.url contains '/en/' %}Dependencies{% else %}Závislosti{% endif %}</a></li>
+      <li><a href="copyright.html">{% if page.url contains '/en/' %}Copyright{% else %}Autorská práva{% endif %}</a></li>
+      <li><a href="translationinfo.html">{% if page.url contains '/en/' %}Translations{% else %}Překlady{% endif %}</a></li>
+    </ul>
+  </li>
+  <li><a href="artifacts.html">{% if page.url contains '/en/' %}Artifacts{% else %}Artefakty{% endif %}</a></li>
+</ul>

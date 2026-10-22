@@ -1,0 +1,153 @@
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "CsGeneticMethodCz"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "Genetické a diagnostické metody (DIGOVO)"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# CodeSystem.description
+#: CodeSystem.description
+msgid "Číselník metod použitých pro potvrzení diagnózy vzácného onemocnění.
+Zahrnuje klinické, genetické, biochemické a zobrazovací metody.
+Vybráno podle logického modelu DIGOVO a harmonizováno s ERDRI Common Data Elements."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Czechia"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Klinické vyšetření"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Diagnóza založená na klinickém posouzení a symptomatologii."
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Clinical evaluation"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Genetická metoda"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Potvrzení diagnózy pomocí genetické analýzy."
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Genetic method"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Biochemická analýza"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Potvrzení diagnózy biochemickými testy (např. enzymová aktivita, metabolity)."
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Biochemical analysis"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Biologická metoda"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Vyšetření založené na biologických nebo funkčních aspektech (např. buněčné testy)."
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Biological assay"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Zobrazovací metoda"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Potvrzení diagnózy pomocí zobrazovacích technik (např. MRI, CT)."
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Imaging method"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Funkční vyšetření"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Vyšetření zaměřené na funkční parametry orgánů nebo systémů."
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Functional exploration"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Patologicko-anatomická analýza"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Diagnóza potvrzená histologicky nebo patologickým vyšetřením."
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Pathological anatomy"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Jiná metoda"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Jiná diagnostická metoda mimo uvedené."
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Other"
+msgstr ""
+

@@ -1,0 +1,211 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="cs" target-language="en" id="ConceptMap-map-LogHealthCareCz" original="Resource ConceptMap-map-LogHealthCareCz" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ConceptMap-map-LogHealthCareCz" resname="ConceptMap.name">
+             <notes>
+               <note id="n1">ConceptMap.name</note>
+             </notes>
+        <source>LogHealthCareCzToFHIR</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-map-LogHealthCareCz" resname="ConceptMap.title">
+             <notes>
+               <note id="n1">ConceptMap.title</note>
+             </notes>
+        <source>DIGOVO Mapování: LogCzHealthCare → FHIR profily</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-map-LogHealthCareCz" resname="ConceptMap.publisher">
+             <notes>
+               <note id="n1">ConceptMap.publisher</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-map-LogHealthCareCz" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-map-LogHealthCareCz" resname="ConceptMap.description">
+             <notes>
+               <note id="n1">ConceptMap.description</note>
+             </notes>
+        <source>Mapování logického modelu zdravotní péče (LogCzHealthCare) na FHIR profily DIGOVO a CZ Core.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-map-LogHealthCareCz" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Czechia</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-map-LogHealthCareCz" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Zdravotní péče</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-map-LogHealthCareCz" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Záznam o poskytované zdravotní péči (CZ_Encounter_SpecializedCenter)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-map-LogHealthCareCz" resname="ConceptMap.group.element.target.comment">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.comment</note>
+             </notes>
+        <source>Hlavní záznam o poskytnuté péči reprezentován Encounterem.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-map-LogHealthCareCz" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Datum ošetření</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-map-LogHealthCareCz" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Datum zahájení poskytované péče</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-map-LogHealthCareCz" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Typ poskytnuté péče</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-map-LogHealthCareCz" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Kód typu výkonu nebo intervence (CZ_Procedure_HealthCare)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-map-LogHealthCareCz" resname="ConceptMap.group.element.target.comment">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.comment</note>
+             </notes>
+        <source>Vykázaný výkon, hospitalizace, ambulantní vyšetření apod.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-map-LogHealthCareCz" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Pacient zařazen do CPMS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-map-LogHealthCareCz" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Zařazení do CPMS (CZ_Observation_CPMSParticipation)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-map-LogHealthCareCz" resname="ConceptMap.group.element.target.comment">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.comment</note>
+             </notes>
+        <source>Informace o účasti pacienta v systému CPMS (Yes/No).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-map-LogHealthCareCz" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Cíle poskytované péče</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-map-LogHealthCareCz" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Cíle péče / důvody kontaktu</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-map-LogHealthCareCz" resname="ConceptMap.group.element.target.comment">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.comment</note>
+             </notes>
+        <source>Např. diagnóza, management, prenatální diagnostika, výzkum.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-map-LogHealthCareCz" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Povolání poskytovatelů péče</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-map-LogHealthCareCz" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Profese zdravotníka (CZ_PractitionerRoleCore)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-map-LogHealthCareCz" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Pracovník poskytující péči</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-map-LogHealthCareCz" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Identifikátor nebo jméno poskytovatele (CZ_PractitionerCore)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-map-LogHealthCareCz" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Centrum pro vzácná onemocnění</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-map-LogHealthCareCz" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Identifikátor centra (CZ_OrganizationCore)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-map-LogHealthCareCz" resname="ConceptMap.group.element.target.comment">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.comment</note>
+             </notes>
+        <source>Odpovídá specializovanému centru poskytujícímu péči.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-map-LogHealthCareCz" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Umístění centra</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-map-LogHealthCareCz" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Lokalizace centra (CZ_LocationCore)</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

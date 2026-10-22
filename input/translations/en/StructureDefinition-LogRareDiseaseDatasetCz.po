@@ -1,0 +1,137 @@
+# cs -> en
+
+#: StructureDefinition.title
+msgctxt "StructureDefinition.title"
+msgid "Datová sada vzácných onemocnění – celkový logický model"
+msgstr "Rare disease dataset – overall logical model"
+
+#: StructureDefinition.element.LogRareDiseaseDatasetCz/short
+msgctxt "StructureDefinition.element.LogRareDiseaseDatasetCz/short"
+msgid "Datová sada vzácných onemocnění – celkový logický model"
+msgstr "Rare disease dataset – overall logical model"
+
+#: StructureDefinition.element.LogRareDiseaseDatasetCz/definition
+msgctxt "StructureDefinition.element.LogRareDiseaseDatasetCz/definition"
+msgid "Nadřazený logický model datasetu RD_Data_Elements_CZ_EHR_VFN_16_9_VS.xlsx (list Data Elements). Dvanáct sekcí je propojeno s dílčími modely jejich datovým typem. Model pacienta zahrnuje podsekce 2a a 2b. Kardinality sekcí představují návrh pro EHR; podmíněná povinnost a otevřené otázky zdroje jsou popsány na stránce logických modelů."
+msgstr "Overall logical model of RD_Data_Elements_CZ_EHR_VFN_16_9_VS.xlsx, worksheet Data Elements. Its twelve sections link to individual models by data type. Patient information includes 2a and 2b. Section cardinalities are an EHR proposal; conditional requirements and source inconsistencies are described on the logical model overview page."
+
+#: StructureDefinition.element.LogRareDiseaseDatasetCz.souhlas/short
+msgctxt "StructureDefinition.element.LogRareDiseaseDatasetCz.souhlas/short"
+msgid "1. Souhlas / námitka proti opakovanému použití dat"
+msgstr "1. Consent / objection to data reuse"
+
+#: StructureDefinition.element.LogRareDiseaseDatasetCz.souhlas/definition
+msgctxt "StructureDefinition.element.LogRareDiseaseDatasetCz.souhlas/definition"
+msgid "Položka 1.1. Význam odpovědi vyžaduje vyjasnění rozporu mezi anglickou námitkou a českým souhlasem."
+msgstr "Section 1 of the rare disease dataset; see the linked individual model."
+
+#: StructureDefinition.element.LogRareDiseaseDatasetCz.pacient/short
+msgctxt "StructureDefinition.element.LogRareDiseaseDatasetCz.pacient/short"
+msgid "2. Informace o pacientovi"
+msgstr "2. Patient information"
+
+#: StructureDefinition.element.LogRareDiseaseDatasetCz.pacient/definition
+msgctxt "StructureDefinition.element.LogRareDiseaseDatasetCz.pacient/definition"
+msgid "Položky 2.1–2.2 a podsekce 2a (osobní a demografické údaje) a 2b (údaje o plodu a matce)."
+msgstr "Section 2 of the rare disease dataset; see the linked individual model."
+
+#: StructureDefinition.element.LogRareDiseaseDatasetCz.diagnoza/short
+msgctxt "StructureDefinition.element.LogRareDiseaseDatasetCz.diagnoza/short"
+msgid "3. Diagnóza vzácného onemocnění"
+msgstr "3. Rare disease diagnosis"
+
+#: StructureDefinition.element.LogRareDiseaseDatasetCz.diagnoza/definition
+msgctxt "StructureDefinition.element.LogRareDiseaseDatasetCz.diagnoza/definition"
+msgid "Položky 3.1–3.7; dílčí model umožňuje více diagnóz. Položka 3.7 je V ŘEŠENÍ – AKTUÁLNĚ NEPLATNÁ a je zachována pouze jako pracovní návrh."
+msgstr "Section 3 of the rare disease dataset; see the linked individual model. Red-highlighted items 3.7, 7.1 and 7.3 remain UNDER REVIEW – CURRENTLY INVALID wherever present."
+
+#: StructureDefinition.element.LogRareDiseaseDatasetCz.anamneza/short
+msgctxt "StructureDefinition.element.LogRareDiseaseDatasetCz.anamneza/short"
+msgid "4. Anamnéza onemocnění"
+msgstr "4. Disease history"
+
+#: StructureDefinition.element.LogRareDiseaseDatasetCz.anamneza/definition
+msgctxt "StructureDefinition.element.LogRareDiseaseDatasetCz.anamneza/definition"
+msgid "Položky 4.1–4.8."
+msgstr "Section 4 of the rare disease dataset; see the linked individual model."
+
+#: StructureDefinition.element.LogRareDiseaseDatasetCz.prenatalniAPerinatalniUdaje/short
+msgctxt "StructureDefinition.element.LogRareDiseaseDatasetCz.prenatalniAPerinatalniUdaje/short"
+msgid "5. Prenatální a perinatální údaje"
+msgstr "5. Antenatal and perinatal data"
+
+#: StructureDefinition.element.LogRareDiseaseDatasetCz.prenatalniAPerinatalniUdaje/definition
+msgctxt "StructureDefinition.element.LogRareDiseaseDatasetCz.prenatalniAPerinatalniUdaje/definition"
+msgid "Položky 5.1–5.8. Samostatná sekce odlišná od údajů o plodu 2b."
+msgstr "Section 5 of the rare disease dataset; see the linked individual model."
+
+#: StructureDefinition.element.LogRareDiseaseDatasetCz.rodinnaAnamneza/short
+msgctxt "StructureDefinition.element.LogRareDiseaseDatasetCz.rodinnaAnamneza/short"
+msgid "6. Rodinná anamnéza"
+msgstr "6. Family history"
+
+#: StructureDefinition.element.LogRareDiseaseDatasetCz.rodinnaAnamneza/definition
+msgctxt "StructureDefinition.element.LogRareDiseaseDatasetCz.rodinnaAnamneza/definition"
+msgid "Položky 6.1–6.4."
+msgstr "Section 6 of the rare disease dataset; see the linked individual model."
+
+#: StructureDefinition.element.LogRareDiseaseDatasetCz.stavZivota/short
+msgctxt "StructureDefinition.element.LogRareDiseaseDatasetCz.stavZivota/short"
+msgid "7. Životní stav"
+msgstr "7. Vital status"
+
+#: StructureDefinition.element.LogRareDiseaseDatasetCz.stavZivota/definition
+msgctxt "StructureDefinition.element.LogRareDiseaseDatasetCz.stavZivota/definition"
+msgid "Položky 7.1–7.3. Položky 7.1 a 7.3 jsou V ŘEŠENÍ – AKTUÁLNĚ NEPLATNÉ a jsou zachovány pouze jako pracovní návrh. Položka 7.2 není ve zdroji červeně označena. Údaje o úmrtí jsou podmíněné relevancí."
+msgstr "Section 7 of the rare disease dataset; see the linked individual model. Red-highlighted items 3.7, 7.1 and 7.3 remain UNDER REVIEW – CURRENTLY INVALID wherever present."
+
+#: StructureDefinition.element.LogRareDiseaseDatasetCz.lecba/short
+msgctxt "StructureDefinition.element.LogRareDiseaseDatasetCz.lecba/short"
+msgid "8. Léčba"
+msgstr "8. Treatments"
+
+#: StructureDefinition.element.LogRareDiseaseDatasetCz.lecba/definition
+msgctxt "StructureDefinition.element.LogRareDiseaseDatasetCz.lecba/definition"
+msgid "Položky 8.1–8.3; dílčí model umožňuje opakované záznamy terapie."
+msgstr "Section 8 of the rare disease dataset; see the linked individual model."
+
+#: StructureDefinition.element.LogRareDiseaseDatasetCz.trajektoriePece/short
+msgctxt "StructureDefinition.element.LogRareDiseaseDatasetCz.trajektoriePece/short"
+msgid "9. Trajektorie péče"
+msgstr "9. Care pathway"
+
+#: StructureDefinition.element.LogRareDiseaseDatasetCz.trajektoriePece/definition
+msgctxt "StructureDefinition.element.LogRareDiseaseDatasetCz.trajektoriePece/definition"
+msgid "Položky 9.1–9.9."
+msgstr "Section 9 of the rare disease dataset; see the linked individual model."
+
+#: StructureDefinition.element.LogRareDiseaseDatasetCz.poskytnutaPece/short
+msgctxt "StructureDefinition.element.LogRareDiseaseDatasetCz.poskytnutaPece/short"
+msgid "10. Poskytnutá péče"
+msgstr "10. Care activities"
+
+#: StructureDefinition.element.LogRareDiseaseDatasetCz.poskytnutaPece/definition
+msgctxt "StructureDefinition.element.LogRareDiseaseDatasetCz.poskytnutaPece/definition"
+msgid "Položky 10.1–10.6; dílčí model umožňuje opakované záznamy péče."
+msgstr "Section 10 of the rare disease dataset; see the linked individual model."
+
+#: StructureDefinition.element.LogRareDiseaseDatasetCz.vyzkum/short
+msgctxt "StructureDefinition.element.LogRareDiseaseDatasetCz.vyzkum/short"
+msgid "11. Výzkum"
+msgstr "11. Research"
+
+#: StructureDefinition.element.LogRareDiseaseDatasetCz.vyzkum/definition
+msgctxt "StructureDefinition.element.LogRareDiseaseDatasetCz.vyzkum/definition"
+msgid "Položky 11.1–11.4. Povinný záznam odpovědi neznamená povinnost udělit kladný souhlas."
+msgstr "Section 11 of the rare disease dataset; see the linked individual model."
+
+#: StructureDefinition.element.LogRareDiseaseDatasetCz.uzitecneInformace/short
+msgctxt "StructureDefinition.element.LogRareDiseaseDatasetCz.uzitecneInformace/short"
+msgid "12. Užitečné informace"
+msgstr "12. Useful information"
+
+#: StructureDefinition.element.LogRareDiseaseDatasetCz.uzitecneInformace/definition
+msgctxt "StructureDefinition.element.LogRareDiseaseDatasetCz.uzitecneInformace/definition"
+msgid "Položky 12.1–12.3. Volitelné pro EHR; zdroj je označuje jako požadované pro EHDS Patient Summary."
+msgstr "Section 12 of the rare disease dataset; see the linked individual model."
+

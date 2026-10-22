@@ -1,0 +1,32 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "VsorphaCodeCz"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "ValueSet – orphaCode (CZ)"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ValueSet.description
+#: ValueSet.description
+msgid "ValueSet pro kódování diagnóz vzácných onemocnění dle orphanet (orphacode).
+Používá se v rámci IG DIGOVO pro Condition nebo Observation."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Czechia"
+msgstr ""
+

@@ -1,0 +1,77 @@
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "CsRareDiseaseTypeCz"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "Typ vzácného onemocnění (DIGOVO)"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# CodeSystem.description
+#: CodeSystem.description
+msgid "Číselník pro určení, zda je vzácné onemocnění sporadické nebo familiární.
+Používá se v rozšíření `Condition.extension:typOnemocneni`."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Czechia"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Sporadické onemocnění"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Vzácné onemocnění, které se vyskytlo izolovaně bez rodinné anamnézy."
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Sporadic disease"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Familiární onemocnění"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Vzácné onemocnění, které se vyskytuje u více členů rodiny."
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Familial disease"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Neznámý typ"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Typ onemocnění nelze určit z dostupných dat."
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Unknown"
+msgstr ""
+

@@ -1,0 +1,57 @@
+# cs -> en
+
+#: StructureDefinition.title
+msgctxt "StructureDefinition.title"
+msgid "2. Informace o pacientovi"
+msgstr "2. Patient information"
+
+#: StructureDefinition.element.LogSubjectCz/short
+msgctxt "StructureDefinition.element.LogSubjectCz/short"
+msgid "2. Informace o pacientovi"
+msgstr "2. Patient information"
+
+#: StructureDefinition.element.LogSubjectCz/definition
+msgctxt "StructureDefinition.element.LogSubjectCz/definition"
+msgid "Identifikace případu a příznak plodu podle položek 2.1–2.2 datasetu RD_Data_Elements_CZ_EHR_VFN_16_9_VS.xlsx. Osobní údaje 2a a údaje o plodu 2b jsou samostatné dílčí modely. Větve jsou volitelné na úrovni struktury; jejich použitelnost závisí na příznaku plodu a klinickém kontextu."
+msgstr "Case identification and foetus flag, items 2.1–2.2. Personal information 2a and foetal data 2b have separate models. Branches are structurally optional; applicability depends on the foetus flag and clinical context."
+
+#: StructureDefinition.element.LogSubjectCz.identifikator/short
+msgctxt "StructureDefinition.element.LogSubjectCz.identifikator/short"
+msgid "2.1 Národní identifikátor pacienta"
+msgstr "2.1 National patient identifier"
+
+#: StructureDefinition.element.LogSubjectCz.identifikator/definition
+msgctxt "StructureDefinition.element.LogSubjectCz.identifikator/definition"
+msgid "Identifikátor pro propojení záznamů primární péče, např. rodné číslo nebo identifikátor cizince. Použitelnost pro případ plodu je nutné vyjasnit se správcem datasetu; nenahrazuje identifikátory matky a plodu v sekci 2b."
+msgstr "Identifier linking primary care records, such as a national identifier or an identifier for a foreign patient. Applicability to foetal cases must be clarified; it does not replace the separate maternal and foetal identifiers in 2b."
+
+#: StructureDefinition.element.LogSubjectCz.priznakPlodu/short
+msgctxt "StructureDefinition.element.LogSubjectCz.priznakPlodu/short"
+msgid "2.2 Příznak plodu"
+msgstr "2.2 Foetus flag"
+
+#: StructureDefinition.element.LogSubjectCz.priznakPlodu/definition
+msgctxt "StructureDefinition.element.LogSubjectCz.priznakPlodu/definition"
+msgid "Určuje, zda se případ týká plodu. Hodnoty Yes / No / Unknown / Not Asked."
+msgstr "An element that acts as a flag to indicate that the case concerns a foetus (rather than a born person). A foetal pathology signifies that foetal specific data elements are to be captured as part of this dataset."
+
+#: StructureDefinition.element.LogSubjectCz.osobniADemografickeUdaje/short
+msgctxt "StructureDefinition.element.LogSubjectCz.osobniADemografickeUdaje/short"
+msgid "2a. Osobní a demografické údaje"
+msgstr "2a. Personal and demographic information"
+
+#: StructureDefinition.element.LogSubjectCz.osobniADemografickeUdaje/definition
+msgctxt "StructureDefinition.element.LogSubjectCz.osobniADemografickeUdaje/definition"
+msgid "Položky 2a.1–2a.9 pro narozenou osobu. Přesné podmínky použitelnosti větví 2a a 2b zůstávají otevřené."
+msgstr "Items 2a.1–2a.9 for a born person. Exact applicability rules for branches 2a and 2b remain open."
+
+#: StructureDefinition.element.LogSubjectCz.udajeOPlodu/short
+msgctxt "StructureDefinition.element.LogSubjectCz.udajeOPlodu/short"
+msgid "2b. Údaje o plodu a matce"
+msgstr "2b. Foetal and maternal data"
+
+#: StructureDefinition.element.LogSubjectCz.udajeOPlodu/definition
+msgctxt "StructureDefinition.element.LogSubjectCz.udajeOPlodu/definition"
+msgid "Položky 2b.1–2b.11 pro případ týkající se plodu. Nezaměňovat s prenatální a perinatální anamnézou v sekci 5."
+msgstr "Items 2b.1–2b.11 for a case concerning a foetus. Distinct from antenatal and perinatal history in section 5."
+

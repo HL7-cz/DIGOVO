@@ -7,7 +7,8 @@ id: hl7.fhir.cz.DIGOVO
 canonical: https://hl7.cz/fhir/DIGOVO #!!change here!!
 name: HL7CzDIGOVOImplementationGuide
 title: HL7 Czech DIGOVO Implementation Guide
-description: HL7 Czech DIGOVO Implementation Guide
+description: Implementační příručka DIGOVO pro dokumentaci vzácných onemocnění
+language: cs
 status: draft # draft | active | retired | unknown
 version: 0.0.1
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
@@ -62,21 +63,37 @@ dependencies:
 #
 pages:
   index.md:
-    title: Home
-  index-cs.md:
     title: Domovská stránka
   #scope-and-content.md:
     #title: Scope and content
-  scope-and-content-cs.md:
+  scope-and-content.md:
     title: Oblasti a obsah
+  background.md:
+    title: Kontext projektu
   #examples.md:
    # title: Examples
   #examples-cs.md:
     #title: Příklady
   #logical-models.md:
     #title: Logical models
-  logical-models-cs.md:
-    title: Datová sada - logické modely CZ
+  logical-models.md:
+    title: Logický model – přehled a hierarchie
+  model-map.md:
+    title: Mapování na profily
+  examples.md:
+    title: Příklady
+  changes.md:
+    title: Záznam změn
+  authors.md:
+    title: Autoři a vydavatel
+  downloads.md:
+    title: Ke stažení
+  dependencies.md:
+    title: Závislosti
+  copyright.md:
+    title: Autorská práva
+  translationinfo.md:
+    title: Jazyky a překlady
   #model-map.md:
     #title: Model maps
   #model-map-cs.md:
@@ -116,6 +133,11 @@ pages:
 # https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
 #
 parameters:  #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
+  i18n-default-lang: cs
+  i18n-lang:
+    - en
+  translation-sources:
+    - input/translations/en
 #  special-url:
 #    - https://ncez.mzcr.cz/fhir/ValueSet/cz-administrative-gender-vs
 #    - https://ncez.mzcr.cz/fhir/ValueSet/cz-contact-person-relation-vs
@@ -177,16 +199,7 @@ parameters:  #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+P
 # │ input/includes. To use a provided input/includes/menu.xml file, delete the "menu"              │
 # │ property below.                                                                                │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-menu:
-  Home:
-    Home (en): index.html
-    Home (cs): index-cs.html
-  Introduction:
-    #Scope and content (en): scope-and-content.html
-    Scope and content (cs): scope-and-content-cs.html
-  Functional:
-    Logical models (cs): logical-models-cs.html
-  Artifacts: artifacts.html
+# The bilingual menu is authored in input/includes/menu.xml.
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │

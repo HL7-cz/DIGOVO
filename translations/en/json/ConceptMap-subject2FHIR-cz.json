@@ -1,0 +1,169 @@
+{
+  "id" : "ConceptMap-subject2FHIR-cz",
+  "baseLang" : "cs",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "ConceptMap.name",
+      "context" : "ConceptMap.name",
+      "source" : "Subject2FHIRCzDigovo",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.title",
+      "context" : "ConceptMap.title",
+      "source" : "DIGOVO Subject Model to CZ Core Patient Map",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.publisher",
+      "context" : "ConceptMap.publisher",
+      "source" : "HL7 Czech Republic",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "HL7 Czech Republic",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.description",
+      "context" : "ConceptMap.description",
+      "source" : "Mapování logického modelu DIGOVO 'Informace o subjektu - pacient' na FHIR Patient podle českého národního profilu CZ Core Patient.",
+      "target" : null
+    },
+    {
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "Czechia",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Identifikátor pacienta",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "Identifikátor pacienta (NIS ID, EU RD ID)",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Jméno pacienta",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "Given name",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Příjmení pacienta",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "Family name",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Datum narození",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "Date of birth",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Pohlaví",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "Gender",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.comment",
+      "context" : "ConceptMap.group.element.target.comment",
+      "source" : "Pohlaví při narození není obecně totožné s administrativním Patient.gender. Přesná reprezentace vyžaduje implementační profil.",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Země narození",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "Country of birth",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Místo narození",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "Place of birth (city)",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Trvalý pobyt",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "Patient address (home)",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Země trvalého pobytu",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "Country (ISO3166)",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.display",
+      "context" : "ConceptMap.group.element.display",
+      "source" : "Místo trvalého pobytu",
+      "target" : null
+    },
+    {
+      "id" : "ConceptMap.group.element.target.display",
+      "context" : "ConceptMap.group.element.target.display",
+      "source" : "City of permanent residence",
+      "target" : null
+    }]
+  }]
+}

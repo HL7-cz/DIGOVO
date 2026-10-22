@@ -1,0 +1,34 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "VsHgvsCodeCz"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "HGVS kódování genetických variant (DIGOVO)"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ValueSet.description
+#: ValueSet.description
+msgid "Soubor kódů pro popis genetických variant dle standardu HGVS (Human Genome Variation Society).
+Používá se v rámci profilu CZ_Observation_Genotype jako hodnota (`valueCodeableConcept`).
+Hodnoty odpovídají záznamům genetických variant, např. c.76A>T, p.Glu6Val.
+Zdrojem dat jsou HGVS zápisy, OMIM, ClinVar nebo interní registr variant."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Czechia"
+msgstr ""
+

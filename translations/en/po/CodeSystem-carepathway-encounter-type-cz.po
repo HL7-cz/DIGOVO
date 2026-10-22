@@ -1,0 +1,61 @@
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "CsCarePathwayEncounterTypeCz"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "Typ kontaktu v klinické trajektorii (Care Pathway – DIGOVO)"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# CodeSystem.description
+#: CodeSystem.description
+msgid "Kódy pro klasifikaci typu klinického kontaktu nebo epizody péče v rámci projektu DIGOVO."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Czechia"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Odeslání / doporučení pacienta"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Přijetí do specializovaného centra"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Konziliární vyšetření / multidisciplinární konzilium"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Telemedicínské vyšetření"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Přenos péče mezi centry"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Kontrolní / následná péče"
+msgstr ""
+

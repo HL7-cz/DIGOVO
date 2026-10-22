@@ -1,0 +1,707 @@
+# en -> cs
+
+#: NO_TRANS
+msgctxt "NO_TRANS"
+msgid "There is no translation page available for the current page, so it has been rendered in the default language"
+msgstr "Pro tuto stránku není překlad k dispozici; zobrazuje se ve výchozím jazyce."
+
+#: TRANS_HLP
+msgctxt "TRANS_HLP"
+msgid "This page includes translations from the original source language in which the guide was authored.  Information on these translations and instructions on how to provide feedback on the translations can be found [here](translationinfo.html)."
+msgstr "Tato stránka obsahuje překlad z výchozího jazyka příručky. Informace o překladech a hlášení připomínek najdete [zde](translationinfo.html)."
+
+#: Experimental
+msgctxt "Experimental"
+msgid "Experimental"
+msgstr "Experimentální"
+
+#: Swagger
+msgctxt "Swagger"
+msgid "Raw OpenAPI-Swagger Definition file"
+msgstr "Raw OpenAPI-Swagger Definition file"
+
+#: Download
+msgctxt "Download"
+msgid "Download"
+msgstr "Ke stažení"
+
+#: NoTestPlan
+msgctxt "NoTestPlan"
+msgid "No test plans are currently available for the %ARTIFACT%."
+msgstr "Pro %ARTIFACT% zatím nejsou k dispozici testovací plány."
+
+#: NoTestScript
+msgctxt "NoTestScript"
+msgid "No test scripts are currently available for the %ARTIFACT%."
+msgstr "Pro %ARTIFACT% zatím nejsou k dispozici testovací skripty."
+
+#: ChangeHistory
+msgctxt "ChangeHistory"
+msgid "Change History"
+msgstr "Historie změn"
+
+#: HistoryOfChange
+msgctxt "HistoryOfChange"
+msgid "History of changes for %ARTIFACT%."
+msgstr "Historie změn pro %ARTIFACT%."
+
+#: CodeSystemValuesets
+msgctxt "CodeSystemValuesets"
+msgid "This Code system is referenced in the definition of the following value sets:"
+msgstr "Tento kódový systém používají následující sady hodnot:"
+
+#: Contained
+msgctxt "Contained"
+msgid "Contained resources"
+msgstr "Vnořené zdroje"
+
+#: FormalExtension
+msgctxt "FormalExtension"
+msgid "Formal Views of Extension Content"
+msgstr "Formální pohledy na obsah rozšíření"
+
+#: FormalProfile
+msgctxt "FormalProfile"
+msgid "Formal Views of Profile Content"
+msgstr "Formální pohledy na obsah profilu"
+
+#: FormalResource
+msgctxt "FormalResource"
+msgid "Formal Views of Resource Content"
+msgstr "Formální pohledy na obsah zdroje"
+
+#: ReadingStructures
+msgctxt "ReadingStructures"
+msgid "Description Differentials, Snapshots, and other representations"
+msgstr "Popis diferenciálu, snapshotu a dalších reprezentací"
+
+#: ReadingTerminology
+msgctxt "ReadingTerminology"
+msgid "Description of the above table(s)"
+msgstr "Popis uvedených tabulek"
+
+#: KeyElementsTable
+msgctxt "KeyElementsTable"
+msgid "Key Elements Table"
+msgstr "Tabulka klíčových prvků"
+
+#: DifferentialTable
+msgctxt "DifferentialTable"
+msgid "Differential Table"
+msgstr "Tabulka diferenciálu"
+
+#: SnapshotTable
+msgctxt "SnapshotTable"
+msgid "Snapshot Table"
+msgstr "Tabulka snapshotu"
+
+#: PseudoXML
+msgctxt "PseudoXML"
+msgid "Pseudo XML"
+msgstr "Pseudo XML"
+
+#: PseudoJSON
+msgctxt "PseudoJSON"
+msgid "Pseudo JSON"
+msgstr "Pseudo JSON"
+
+#: PseudoTTL
+msgctxt "PseudoTTL"
+msgid "Pseudo TTL"
+msgstr "Pseudo TTL"
+
+#: StatisticsReferences
+msgctxt "StatisticsReferences"
+msgid "Statistics/References"
+msgstr "Statistiky a odkazy"
+
+#: AllTables
+msgctxt "AllTables"
+msgid "All"
+msgstr "Vše"
+
+#: Derive
+msgctxt "Derive"
+msgid "This structure is derived from %ARTIFACT%"
+msgstr "Tato struktura je odvozena z %ARTIFACT%"
+
+#: KeyElementsView
+msgctxt "KeyElementsView"
+msgid "Key Elements View"
+msgstr "Klíčové prvky"
+
+#: DifferentialView
+msgctxt "DifferentialView"
+msgid "Differential View"
+msgstr "Diferenciál"
+
+#: SnapshotView
+msgctxt "SnapshotView"
+msgid "Snapshot View"
+msgstr "Snapshot"
+
+#: XMLTemplate
+msgctxt "XMLTemplate"
+msgid "XML Template"
+msgstr "Šablona XML"
+
+#: JSONTemplate
+msgctxt "JSONTemplate"
+msgid "JSON Template"
+msgstr "Šablona JSON"
+
+#: TTLTemplate
+msgctxt "TTLTemplate"
+msgid "TTL Template"
+msgstr "Šablona TTL"
+
+#: OtherReps
+msgctxt "OtherReps"
+msgid "Other representations of profile:"
+msgstr "Další reprezentace profilu:"
+
+#: ResourceOtherReps
+msgctxt "ResourceOtherReps"
+msgid "Other representations of resource:"
+msgstr "Další reprezentace zdroje:"
+
+#: CSV
+msgctxt "CSV"
+msgid "CSV"
+msgstr "CSV"
+
+#: Excel
+msgctxt "Excel"
+msgid "Excel"
+msgstr "Excel"
+
+#: Schematron
+msgctxt "Schematron"
+msgid "Schematron"
+msgstr "Schematron"
+
+#: Example
+msgctxt "Example"
+msgid "Example"
+msgstr "Příklad"
+
+#: Examples
+msgctxt "Examples"
+msgid "Examples"
+msgstr "Příklady"
+
+#: Raw
+msgctxt "Raw"
+msgid "Raw %FMT%"
+msgstr "Zdrojový formát %FMT%"
+
+#: Abstract
+msgctxt "Abstract"
+msgid "Abstract"
+msgstr "Abstraktní"
+
+#: DetailedDescriptions
+msgctxt "DetailedDescriptions"
+msgid "Detailed Descriptions"
+msgstr "Podrobné definice"
+
+#: DefinitionsFor
+msgctxt "DefinitionsFor"
+msgid "Definitions for the %MODEL%"
+msgstr "Definice modelu %MODEL%"
+
+#: ExamplesForProfile
+msgctxt "ExamplesForProfile"
+msgid "Examples for the %ID% Profile."
+msgstr "Příklady pro profil %ID%."
+
+#: ExamplesForResource
+msgctxt "ExamplesForResource"
+msgid "Examples for the %ID% Resource."
+msgstr "Příklady pro zdroj %ID%."
+
+#: NoExamples
+msgctxt "NoExamples"
+msgid "No examples are currently available for the %ID% Profile."
+msgstr "Pro profil %ID% zatím nejsou k dispozici příklady."
+
+#: ResourceNoExamples
+msgctxt "ResourceNoExamples"
+msgid "No examples are currently available for the %ID% Resource"
+msgstr "Pro zdroj %ID% zatím nejsou k dispozici příklady."
+
+#: FormatProfile
+msgctxt "FormatProfile"
+msgid "%FMT% Profile"
+msgstr "Profil ve formátu %FMT%"
+
+#: FormatResource
+msgctxt "FormatResource"
+msgid "%FMT% Resource"
+msgstr "Zdroj ve formátu %FMT%"
+
+#: FormatRep
+msgctxt "FormatRep"
+msgid "%FMT% representation of the %ID% %TYPE%."
+msgstr "Reprezentace %ID% (%TYPE%) ve formátu %FMT%."
+
+#: Mappings
+msgctxt "Mappings"
+msgid "Mappings"
+msgstr "Mapování"
+
+#: MappingsFor
+msgctxt "MappingsFor"
+msgid "Mappings for the %ID% %TYPE%."
+msgstr "Mapování pro %ID% (%TYPE%)."
+
+#: ChangesIn
+msgctxt "ChangesIn"
+msgid "Changes in the %ID% %TYPE%."
+msgstr "Změny v %ID% (%TYPE%)."
+
+#: Testing
+msgctxt "Testing"
+msgid "Testing"
+msgstr "Testování"
+
+#: TestPlans
+msgctxt "TestPlans"
+msgid "Test Plans"
+msgstr "Testovací plány"
+
+#: TestScripts
+msgctxt "TestScripts"
+msgid "Test Scripts"
+msgstr "Testovací skripty"
+
+#: Expansion
+msgctxt "Expansion"
+msgid "Expansion"
+msgstr "Expanze"
+
+#: Content
+msgctxt "Content"
+msgid "Content"
+msgstr "Obsah"
+
+#: XML
+msgctxt "XML"
+msgid "XML"
+msgstr "XML"
+
+#: JSON
+msgctxt "JSON"
+msgid "JSON"
+msgstr "JSON"
+
+#: TTL
+msgctxt "TTL"
+msgid "TTL"
+msgstr "TTL"
+
+#: History
+msgctxt "History"
+msgid "History"
+msgstr "Historie"
+
+#: Extension
+msgctxt "Extension"
+msgid "Extension"
+msgstr "Rozšíření"
+
+#: LogicalModel
+msgctxt "LogicalModel"
+msgid "Logical Model"
+msgstr "Logický model"
+
+#: ResourceModel
+msgctxt "ResourceModel"
+msgid "Resource"
+msgstr "Zdroj"
+
+#: ResourceProfile
+msgctxt "ResourceProfile"
+msgid "Resource Profile"
+msgstr "Profil zdroje"
+
+#: DataTypeProfile
+msgctxt "DataTypeProfile"
+msgid "Data Type Profile"
+msgstr "Profil datového typu"
+
+#: Links
+msgctxt "Links"
+msgid "Links"
+msgstr "Odkazy"
+
+#: Notes
+msgctxt "Notes"
+msgid "Notes"
+msgstr "Poznámky"
+
+#: VisitFCP
+msgctxt "VisitFCP"
+msgid "Visit the FHIR Community Process Specification Registry"
+msgstr "Navštívit registr specifikací FHIR Community Process"
+
+#: CountryFlag
+msgctxt "CountryFlag"
+msgid "flag"
+msgstr "vlajka"
+
+#: PrevPage
+msgctxt "PrevPage"
+msgid "< prev"
+msgstr "< předchozí"
+
+#: NextPage
+msgctxt "NextPage"
+msgid "next >"
+msgstr "další >"
+
+#: PageBottom
+msgctxt "PageBottom"
+msgid "bottom"
+msgstr "dolů"
+
+#: PageTop
+msgctxt "PageTop"
+msgid "top"
+msgstr "nahoru"
+
+#: IGCopyright
+msgctxt "IGCopyright"
+msgid "IG © %YEAR%"
+msgstr "IG © %YEAR%"
+
+#: IGPackage
+msgctxt "IGPackage"
+msgid "Package %PKG% based on %FHIRVER%."
+msgstr "Balíček %PKG% založený na %FHIRVER%."
+
+#: GeneratedDate
+msgctxt "GeneratedDate"
+msgid "Generated %DATE%"
+msgstr "Vygenerováno %DATE%"
+
+#: PageStandardsStatus
+msgctxt "PageStandardsStatus"
+msgid "Page standards status"
+msgstr "Stav standardizace stránky"
+
+#: StandardsStatus
+msgctxt "StandardsStatus"
+msgid "Standards Status"
+msgstr "Stav standardizace"
+
+#: FromNormative
+msgctxt "FromNormative"
+msgid "from v%NORMVER%"
+msgstr "od v%NORMVER%"
+
+#: MaturityLevel
+msgctxt "MaturityLevel"
+msgid "Maturity Level"
+msgstr "Úroveň vyspělosti"
+
+#: OfficialURL
+msgctxt "OfficialURL"
+msgid "Official URL"
+msgstr "Oficiální URL"
+
+#: CopyURL
+msgctxt "CopyURL"
+msgid "Click to copy URL"
+msgstr "Kliknutím zkopírovat URL"
+
+#: CopyVersioned
+msgctxt "CopyVersioned"
+msgid "Click to copy versioned URL"
+msgstr "Kliknutím zkopírovat URL s verzí"
+
+#: Version
+msgctxt "Version"
+msgid "Version"
+msgstr "Verze"
+
+#: ResourceDate
+msgctxt "ResourceDate"
+msgid "as of %RESDATE%"
+msgstr "k %RESDATE%"
+
+#: Responsible
+msgctxt "Responsible"
+msgid "Responsible"
+msgstr "Odpovědný subjekt"
+
+#: Realm
+msgctxt "Realm"
+msgid "Realm"
+msgstr "Oblast platnosti"
+
+#: ComputableName
+msgctxt "ComputableName"
+msgid "Computable Name"
+msgstr "Strojový název"
+
+#: OtherIdentifiers
+msgctxt "OtherIdentifiers"
+msgid "Other Identifiers"
+msgstr "Další identifikátory"
+
+#: Keywords
+msgctxt "Keywords"
+msgid "Keywords"
+msgstr "Klíčová slova"
+
+#: Usage
+msgctxt "Usage"
+msgid "Usage"
+msgstr "Použití"
+
+#: CopyrightLegal
+msgctxt "CopyrightLegal"
+msgid "Copyright/Legal"
+msgstr "Autorská práva a licence"
+
+#: NarrativeContent
+msgctxt "NarrativeContent"
+msgid "Narrative Content"
+msgstr "Textový obsah"
+
+#: TableOfContents
+msgctxt "TableOfContents"
+msgid "Table of Contents"
+msgstr "Obsah příručky"
+
+#: QAReport
+msgctxt "QAReport"
+msgid "QA Report"
+msgstr "Zpráva o kontrole kvality"
+
+#: Actors
+msgctxt "Actors"
+msgid "Actors"
+msgstr "Aktéři"
+
+#: Diagram
+msgctxt "Diagram"
+msgid "Diagram"
+msgstr "Diagram"
+
+#: Processes
+msgctxt "Processes"
+msgid "Processes"
+msgstr "Procesy"
+
+#: Instances
+msgctxt "Instances"
+msgid "Instances"
+msgstr "Instance"
+
+#: WorkInProgress
+msgctxt "WorkInProgress"
+msgid "The content in this section has not undergone work group review and may be significantly revised prior to the next ballot."
+msgstr "Obsah této sekce zatím neprošel revizí pracovní skupiny a před dalším připomínkováním se může výrazně změnit."
+
+#: Contents
+msgctxt "Contents"
+msgid "Contents"
+msgstr "Obsah"
+
+#: Globals
+msgctxt "Globals"
+msgid "Globals"
+msgstr "Globální definice"
+
+#: GlobalProfiles
+msgctxt "GlobalProfiles"
+msgid "Global Profiles"
+msgstr "Globální profily"
+
+#: ArtifactsIntro
+msgctxt "ArtifactsIntro"
+msgid "This page provides a list of the FHIR artifacts defined as part of this implementation guide."
+msgstr "Přehled artefaktů FHIR definovaných v této implementační příručce."
+
+#: ArtifactsSummary
+msgctxt "ArtifactsSummary"
+msgid "Artifacts Summary"
+msgstr "Přehled artefaktů"
+
+#: ArtifactsTable
+msgctxt "ArtifactsTable"
+msgid "Artifacts Table"
+msgstr "Tabulka artefaktů"
+
+#: Language
+msgctxt "Language"
+msgid "Language"
+msgstr "Jazyk"
+
+#: UMLDiagram
+msgctxt "UMLDiagram"
+msgid "UML Diagram"
+msgstr "Diagram UML"
+
+#: Obligations
+msgctxt "Obligations"
+msgid "Obligations"
+msgstr "Povinnosti"
+
+#: OpenEHR
+msgctxt "OpenEHR"
+msgid "openEHR View"
+msgstr "Pohled openEHR"
+
+#: QuestionnaireTree
+msgctxt "QuestionnaireTree"
+msgid "Tree view"
+msgstr "Stromový pohled"
+
+#: QuestionnaireSample
+msgctxt "QuestionnaireSample"
+msgid "Sample Rendering"
+msgstr "Ukázkové zobrazení"
+
+#: QuestionnaireLogic
+msgctxt "QuestionnaireLogic"
+msgid "Form Logic"
+msgstr "Logika formuláře"
+
+#: QuestionnaireResponses
+msgctxt "QuestionnaireResponses"
+msgid "Sample completed form"
+msgstr "Ukázka vyplněného formuláře"
+
+#: TestQuestionnaire
+msgctxt "TestQuestionnaire"
+msgid "Test this Questionnaire"
+msgstr "Vyzkoušet dotazník"
+
+#: ResponsesQuestionnaire
+msgctxt "ResponsesQuestionnaire"
+msgid "Responses for this Questionnaire"
+msgstr "Odpovědi na tento dotazník"
+
+#: NoQuestionnaireResponses
+msgctxt "NoQuestionnaireResponses"
+msgid "There are currently no QuestionnaireResponse instances for this Questionnaire defined in this IG."
+msgstr "Pro tento dotazník zatím nejsou v IG definovány žádné instance QuestionnaireResponse."
+
+#: ADL
+msgctxt "ADL"
+msgid "ADL"
+msgstr "ADL"
+
+#: Structure
+msgctxt "Structure"
+msgid "Structure"
+msgstr "Struktura"
+
+#: SearchParameters
+msgctxt "SearchParameters"
+msgid "Search Parameters"
+msgstr "Parametry vyhledávání"
+
+#: HighlightChanges
+msgctxt "HighlightChanges"
+msgid "Highlight text changes?"
+msgstr "Zvýraznit změny textu?"
+
+#: HighlightChangesHelp
+msgctxt "HighlightChangesHelp"
+msgid "Enable this to see changes since the last official release"
+msgstr "Zobrazit změny od posledního oficiálního vydání"
+
+#: NewContent
+msgctxt "NewContent"
+msgid "New Content"
+msgstr "Nový obsah"
+
+#: ModifiedContent
+msgctxt "ModifiedContent"
+msgid "Modified Content"
+msgstr "Změněný obsah"
+
+#: TermParameters
+msgctxt "TermParameters"
+msgid "Terminology Parameters"
+msgstr "Terminologické parametry"
+
+#: ModelOf
+msgctxt "ModelOf"
+msgid "Instance of logical model"
+msgstr "Instance logického modelu"
+
+#: ArtifactsTableIntro
+msgctxt "ArtifactsTableIntro"
+msgid "This page provides a tabular view of the FHIR artifacts defined as part of this implementation guide."
+msgstr "Tabulkový přehled artefaktů FHIR definovaných v této implementační příručce."
+
+#: Grouping
+msgctxt "Grouping"
+msgid "Grouping"
+msgstr "Skupina"
+
+#: Title
+msgctxt "Title"
+msgid "Title"
+msgstr "Název"
+
+#: Id
+msgctxt "Id"
+msgid "Id"
+msgstr "Id"
+
+#: Type
+msgctxt "Type"
+msgid "Type"
+msgstr "Typ"
+
+#: Description
+msgctxt "Description"
+msgid "Description"
+msgstr "Popis"
+
+#: Search
+msgctxt "Search"
+msgid "Search"
+msgstr "Hledat"
+
+#: Category
+msgctxt "Category"
+msgid "Category"
+msgstr "Kategorie"
+
+#: UseGrouping
+msgctxt "UseGrouping"
+msgid "Use grouping"
+msgstr "Seskupit"
+
+#: ClearAll
+msgctxt "ClearAll"
+msgid "Clear all"
+msgstr "Vymazat vše"
+
+#: CurrentBuild
+msgctxt "CurrentBuild"
+msgid "Current Build"
+msgstr "Průběžné sestavení"
+
+#: CISearchMsg
+msgctxt "CISearchMsg"
+msgid "Note: this search searches the current build of @@@.  This page only exists for the CI build - published versions will use a different search page."
+msgstr "Vyhledávání se vztahuje k aktuálnímu sestavení @@@. Tato stránka je dostupná pouze pro průběžné sestavení."
+
+#: Specification
+msgctxt "Specification"
+msgid "Specification"
+msgstr "Specifikace"
+
+#: LinkToThisSection
+msgctxt "LinkToThisSection"
+msgid "Link to this section"
+msgstr "Odkaz na tuto sekci"
+

@@ -1,0 +1,177 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="cs" target-language="en" id="ConceptMap-familyAncestors2FHIR-cz" original="Resource ConceptMap-familyAncestors2FHIR-cz" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ConceptMap-familyAncestors2FHIR-cz" resname="ConceptMap.name">
+             <notes>
+               <note id="n1">ConceptMap.name</note>
+             </notes>
+        <source>FamilyAncestors2FHIRCzDigovo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-familyAncestors2FHIR-cz" resname="ConceptMap.title">
+             <notes>
+               <note id="n1">ConceptMap.title</note>
+             </notes>
+        <source>DIGOVO Family Ancestors Model to FHIR RelatedPerson Map</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-familyAncestors2FHIR-cz" resname="ConceptMap.publisher">
+             <notes>
+               <note id="n1">ConceptMap.publisher</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-familyAncestors2FHIR-cz" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-familyAncestors2FHIR-cz" resname="ConceptMap.description">
+             <notes>
+               <note id="n1">ConceptMap.description</note>
+             </notes>
+        <source>Mapování logického modelu DIGOVO 'Rodinní předkové ve vztahu k VO' 
+na FHIR profil CZ_RelatedPerson_RareDisease.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-familyAncestors2FHIR-cz" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Czechia</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-familyAncestors2FHIR-cz" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Rodinní předkové relevantní k VO</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-familyAncestors2FHIR-cz" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>RelatedPerson (Rodinní předkové relevantní k VO – DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-familyAncestors2FHIR-cz" resname="ConceptMap.group.element.target.comment">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.comment</note>
+             </notes>
+        <source>Celý záznam rodinných předků je reprezentován jako RelatedPerson profilovaný pro DIGOVO.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-familyAncestors2FHIR-cz" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Postižený předek (propositus)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-familyAncestors2FHIR-cz" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Extension: CZ_Ext_AffectedAncestor (Yes / No / N/A)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-familyAncestors2FHIR-cz" resname="ConceptMap.group.element.target.comment">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.comment</note>
+             </notes>
+        <source>Vyjadřuje, zda byl předek postižen vzácným onemocněním.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-familyAncestors2FHIR-cz" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Identifikátor prvního postiženého předka</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-familyAncestors2FHIR-cz" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Identifikátor osoby (rodinný předek)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-familyAncestors2FHIR-cz" resname="ConceptMap.group.element.target.comment">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.comment</note>
+             </notes>
+        <source>Přímé mapování na RelatedPerson.identifier</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-familyAncestors2FHIR-cz" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Rodičovský vztah k postiženému</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-familyAncestors2FHIR-cz" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Rodičovský vztah (např. otec, matka, sourozenec)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-familyAncestors2FHIR-cz" resname="ConceptMap.group.element.target.comment">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.comment</note>
+             </notes>
+        <source>Mapováno na standardní prvek RelatedPerson.relationship</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-familyAncestors2FHIR-cz" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Konsanguinita</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-familyAncestors2FHIR-cz" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Extension: CZ_Ext_Consanguinity (Yes / No / Unknown)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-familyAncestors2FHIR-cz" resname="ConceptMap.group.element.target.comment">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.comment</note>
+             </notes>
+        <source>Vyjadřuje, zda jsou rodiče pacienta pokrevně příbuzní.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-familyAncestors2FHIR-cz" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Jiní relevantní předkové</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-familyAncestors2FHIR-cz" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Poznámka nebo kód jiných relevantních předků</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-familyAncestors2FHIR-cz" resname="ConceptMap.group.element.target.comment">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.comment</note>
+             </notes>
+        <source>Slouží pro záznam volného textu nebo kódovaného vztahu k jiným předkům.</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

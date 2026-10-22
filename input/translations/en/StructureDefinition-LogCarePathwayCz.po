@@ -1,0 +1,137 @@
+# cs -> en
+
+#: StructureDefinition.title
+msgctxt "StructureDefinition.title"
+msgid "9. Trajektorie péče"
+msgstr "9. Care pathway"
+
+#: StructureDefinition.element.LogCarePathwayCz/short
+msgctxt "StructureDefinition.element.LogCarePathwayCz/short"
+msgid "9. Trajektorie péče"
+msgstr "9. Care pathway"
+
+#: StructureDefinition.element.LogCarePathwayCz/definition
+msgctxt "StructureDefinition.element.LogCarePathwayCz/definition"
+msgid "Logický model pro zachycení informací o klinické trajektorii (care pathway) pacienta v rámci péče o vzácné onemocnění. Obsahuje informace o odesílajícím subjektu, datu přijetí do specializovaného centra, zapojených lékařích a klinických službách."
+msgstr "Patient care pathway across providers and specialist centres, including referral, inclusion dates, physicians and clinical services."
+
+#: StructureDefinition.element.LogCarePathwayCz.carePathway/short
+msgctxt "StructureDefinition.element.LogCarePathwayCz.carePathway/short"
+msgid "Klinická trajektorie pacienta"
+msgstr "Care pathway"
+
+#: StructureDefinition.element.LogCarePathwayCz.carePathway/definition
+msgctxt "StructureDefinition.element.LogCarePathwayCz.carePathway/definition"
+msgid "Záznam o postupu péče pacienta napříč zdravotnickými subjekty a specializovanými centry."
+msgstr "Patient care across healthcare providers and specialist centres."
+
+#: StructureDefinition.element.LogCarePathwayCz.carePathway.odesilajiciSubjekt/short
+msgctxt "StructureDefinition.element.LogCarePathwayCz.carePathway.odesilajiciSubjekt/short"
+msgid "Odesílající subjekt"
+msgstr "9.1 Patient Referred By"
+
+#: StructureDefinition.element.LogCarePathwayCz.carePathway.odesilajiciSubjekt/definition
+msgctxt "StructureDefinition.element.LogCarePathwayCz.carePathway.odesilajiciSubjekt/definition"
+msgid "Identifikace odesílajícího subjektu (např. IČZ, typ poskytovatele, název)."
+msgstr "The clinician or healthcare professional that referred the patient to the current (rare disease) centre (e.g., GP, another specialist physician), ideally coded via the healthcare professional’s professional identifier.\n\nThis data element is Not Mandatory\n\nThe recommended data standard is EHDSHealthProfessional.identifier\n•\thttps://www.xt-ehr.eu/fhir/models/0.2.1/StructureDefinition-EHDSHealthProfessional-definitions.html#key_EHDSHealthProfessional.identifier"
+
+#: StructureDefinition.element.LogCarePathwayCz.carePathway.datumDoporuceni/short
+msgctxt "StructureDefinition.element.LogCarePathwayCz.carePathway.datumDoporuceni/short"
+msgid "Datum doporučení"
+msgstr "9.2 Date of Referral"
+
+#: StructureDefinition.element.LogCarePathwayCz.carePathway.datumDoporuceni/definition
+msgctxt "StructureDefinition.element.LogCarePathwayCz.carePathway.datumDoporuceni/definition"
+msgid "Datum, kdy byl pacient doporučen k dalšímu vyšetření nebo péči."
+msgstr "Date when referral was received by the treating (RD) centre. This information helps to assess wait times and access metrics.\n\nThis data element is Not Mandatory\n\nThe recommended data standard is EHDSEncounter.plannedStartDate\n•\thttps://www.xt-ehr.eu/fhir/models/0.2.1/StructureDefinition-EHDSEncounter-definitions.html#key_EHDSEncounter.plannedStartDate\n"
+
+#: StructureDefinition.element.LogCarePathwayCz.carePathway.datumPrijetiSCentra/short
+msgctxt "StructureDefinition.element.LogCarePathwayCz.carePathway.datumPrijetiSCentra/short"
+msgid "Datum přijetí do specializovaného centra"
+msgstr "9.3 Date of Inclusion in RD Centre"
+
+#: StructureDefinition.element.LogCarePathwayCz.carePathway.datumPrijetiSCentra/definition
+msgctxt "StructureDefinition.element.LogCarePathwayCz.carePathway.datumPrijetiSCentra/definition"
+msgid "Datum, kdy byl pacient přijat do specializovaného centra péče o vzácné onemocnění."
+msgstr "Date when the patient was first formally registered or included in the rare disease centre’s cohort/system. This data element refers to the patient’s first inclusion and is only to be completed once and does not require updating.\nThis information helps to assess wait times and access metrics.\n\nThis data element is Not Mandatory\n\nThe recommended data standard is EHDSEncounter.plannedStartDate\n•\thttps://www.xt-ehr.eu/fhir/models/0.2.1/StructureDefinition-EHDSEncounter-definitions.html#key_EHDSEncounter.plannedStartDate\n"
+
+#: StructureDefinition.element.LogCarePathwayCz.carePathway.osetrujiciLekari/short
+msgctxt "StructureDefinition.element.LogCarePathwayCz.carePathway.osetrujiciLekari/short"
+msgid "Jména ošetřujících lékařů"
+msgstr "9.4 Names of Treating Physicians"
+
+#: StructureDefinition.element.LogCarePathwayCz.carePathway.osetrujiciLekari/definition
+msgctxt "StructureDefinition.element.LogCarePathwayCz.carePathway.osetrujiciLekari/definition"
+msgid "Seznam jmen lékařů zapojených do péče. Může zahrnovat garanta léčby, ošetřující lékaře apod. Možnost výběru z nabídky."
+msgstr "Clinicians primarily responsible for the patient’s care (treating physician(s)).\n\nThis data element is Mandatory\n\nThe recommended data standard is EHDSHealthProfessional.identifier\n•\thttps://www.xt-ehr.eu/fhir/models/0.2.1/StructureDefinition-EHDSHealthProfessional-definitions.html#key_EHDSHealthProfessional.identifier\n\nAnd EHDSHealthProfessional.name\n•\thttps://www.xt-ehr.eu/fhir/models/0.2.1/StructureDefinition-EHDSHealthProfessional-definitions.html#key_EHDSHealthProfessional.name\n"
+
+#: StructureDefinition.element.LogCarePathwayCz.carePathway.datum/short
+msgctxt "StructureDefinition.element.LogCarePathwayCz.carePathway.datum/short"
+msgid "A.1.5.5 Datum a čas uložení"
+msgstr "Date and time last saved"
+
+#: StructureDefinition.element.LogCarePathwayCz.carePathway.datum/definition
+msgctxt "StructureDefinition.element.LogCarePathwayCz.carePathway.datum/definition"
+msgid "Datum a čas poslední modifikace dokumentu."
+msgstr "Date and time of the last modification. An existing model extension beyond the source dataset."
+
+#: StructureDefinition.element.LogCarePathwayCz.carePathway.centrumVzacnychOnemocneni/short
+msgctxt "StructureDefinition.element.LogCarePathwayCz.carePathway.centrumVzacnychOnemocneni/short"
+msgid "Centrum pro vzácná onemocnění"
+msgstr "9.5 Rare Disease Centre"
+
+#: StructureDefinition.element.LogCarePathwayCz.carePathway.centrumVzacnychOnemocneni/definition
+msgctxt "StructureDefinition.element.LogCarePathwayCz.carePathway.centrumVzacnychOnemocneni/definition"
+msgid "Název nebo kontakt na centrum péče o vzácná onemocnění. Vyplňuje se dle zadávající organizace."
+msgstr "Name of the centre providing specialised rare disease care.\n\nThis data element is Mandatory\n\nThe recommended data standard is EHDSHealthProfessional.professionalRole.organisation\n•\thttps://www.xt-ehr.eu/fhir/models/0.2.1/StructureDefinition-EHDSHealthProfessional-definitions.html#key_EHDSHealthProfessional.professionalRole.organisation\n•\thttps://www.xt-ehr.eu/fhir/models/0.2.1/StructureDefinition-EHDSOrganisation-definitions.html#key_EHDSOrganisation.address\n"
+
+#: StructureDefinition.element.LogCarePathwayCz.carePathway.klinickaSluzba/short
+msgctxt "StructureDefinition.element.LogCarePathwayCz.carePathway.klinickaSluzba/short"
+msgid "Klinická služba"
+msgstr "9.6 Clinical Service"
+
+#: StructureDefinition.element.LogCarePathwayCz.carePathway.klinickaSluzba/definition
+msgctxt "StructureDefinition.element.LogCarePathwayCz.carePathway.klinickaSluzba/definition"
+msgid "Popis souvisejících klinických služeb – může se týkat kontaktu, vyšetření, ERN centra nebo konziliární služby. Nutné upřesnit období."
+msgstr "Specific clinical unit / service within the centre responsible for providing care to the patient (e.g., cardiology unit, neuromuscular service etc).\n\nThis data element is Not Mandatory\n\nThe recommended data standard is EHDSHealthProfessional.professionalRole.specialty via SNOMED CT\n•\thttps://www.xt-ehr.eu/fhir/models/0.2.1/StructureDefinition-EHDSHealthProfessional-definitions.html#key_EHDSHealthProfessional.professionalRole.specialty\n"
+
+#: StructureDefinition.element.LogCarePathwayCz.carePathway.centrumSoucastiErn/short
+msgctxt "StructureDefinition.element.LogCarePathwayCz.carePathway.centrumSoucastiErn/short"
+msgid "9.7 Centrum součástí ERN"
+msgstr "9.7 Is RD Centre Part of an ERN"
+
+#: StructureDefinition.element.LogCarePathwayCz.carePathway.centrumSoucastiErn/definition
+msgctxt "StructureDefinition.element.LogCarePathwayCz.carePathway.centrumSoucastiErn/definition"
+msgid "Yes / No / Unknown / Not Asked. Při kladné odpovědi je vyžadován alespoň jeden název ERN v položce 9.8."
+msgstr "Data element acting as a flag to indicate whether the treating centre is formally affiliated with a European Reference Network (ERN).\n\nThis data element is Not Mandatory\n\nThe recommended data standard is Value Set: Yes No Unknown Not Asked\nhttps://terminology.hl7.org/7.0.1/ValueSet-yes-no-unknown-not-asked.html"
+
+#: StructureDefinition.element.LogCarePathwayCz.carePathway.ernUcast/short
+msgctxt "StructureDefinition.element.LogCarePathwayCz.carePathway.ernUcast/short"
+msgid "Zapojení do ERN"
+msgstr "ERN participation"
+
+#: StructureDefinition.element.LogCarePathwayCz.carePathway.ernUcast/definition
+msgctxt "StructureDefinition.element.LogCarePathwayCz.carePathway.ernUcast/definition"
+msgid "Údaje o zapojení pacienta do evropské referenční sítě (ERN) a případné registraci."
+msgstr "ERN names and registry participation. An ERN name is required when the centre is an ERN member."
+
+#: StructureDefinition.element.LogCarePathwayCz.carePathway.ernUcast.nazevErn/short
+msgctxt "StructureDefinition.element.LogCarePathwayCz.carePathway.ernUcast.nazevErn/short"
+msgid "Název ERN"
+msgstr "9.8 ERN Name"
+
+#: StructureDefinition.element.LogCarePathwayCz.carePathway.ernUcast.nazevErn/definition
+msgctxt "StructureDefinition.element.LogCarePathwayCz.carePathway.ernUcast.nazevErn/definition"
+msgid "Název evropské referenční sítě (ERN), do které je centrum zapojeno. Výběr z nabídky."
+msgstr "If answering ‘Yes’ to the question above, please provide the name of the ERN that the centre belongs to (e.g., ERN-ITHACA).\n\nThis data element is Mandatory\n\nThe recommended data standard is String\n"
+
+#: StructureDefinition.element.LogCarePathwayCz.carePathway.ernUcast.pacientVRegistru/short
+msgctxt "StructureDefinition.element.LogCarePathwayCz.carePathway.ernUcast.pacientVRegistru/short"
+msgid "Pacient zadán do registru ERN"
+msgstr "9.9 Patient Uploaded to ERN Registry"
+
+#: StructureDefinition.element.LogCarePathwayCz.carePathway.ernUcast.pacientVRegistru/definition
+msgctxt "StructureDefinition.element.LogCarePathwayCz.carePathway.ernUcast.pacientVRegistru/definition"
+msgid "Zda byl pacient zadán do registru v rámci dané ERN sítě (Yes / No / Unknown / Not Asked)."
+msgstr "Whether the patient’s de-identified data has been uploaded/shared with an ERN registry \n\nThis data element is Not Mandatory\n\nThe recommended data standard is Value Set: Yes No Unknown Not Asked\nhttps://terminology.hl7.org/7.0.1/ValueSet-yes-no-unknown-not-asked.html"
+

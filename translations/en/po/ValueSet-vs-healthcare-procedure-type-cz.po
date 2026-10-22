@@ -1,0 +1,32 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "VsHealthCareProcedureTypeCz"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "Typ poskytnuté péče (DIGOVO)"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ValueSet.description
+#: ValueSet.description
+msgid "Seznam typů poskytované péče nebo zdravotního výkonu v rámci DIGOVO.
+Používá se v `Procedure.code` pro rozlišení formy kontaktu – ambulantní, hospitalizace, konzilium, telemedicína apod."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Czechia"
+msgstr ""
+

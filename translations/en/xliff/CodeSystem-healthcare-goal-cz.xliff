@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="cs" target-language="en" id="CodeSystem-healthcare-goal-cz" original="Resource CodeSystem-healthcare-goal-cz" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CodeSystem-healthcare-goal-cz" resname="CodeSystem.name">
+             <notes>
+               <note id="n1">CodeSystem.name</note>
+             </notes>
+        <source>CsHealthCareGoalCz</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-healthcare-goal-cz" resname="CodeSystem.title">
+             <notes>
+               <note id="n1">CodeSystem.title</note>
+             </notes>
+        <source>Kódový systém – Cíle poskytované péče (DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-healthcare-goal-cz" resname="CodeSystem.publisher">
+             <notes>
+               <note id="n1">CodeSystem.publisher</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-healthcare-goal-cz" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-healthcare-goal-cz" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Czechia</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-healthcare-goal-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Stanovení diagnózy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-healthcare-goal-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Management onemocnění</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-healthcare-goal-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Prenatální diagnostika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-healthcare-goal-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Edukace pacienta</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-healthcare-goal-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Výzkum / klinická studie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-healthcare-goal-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Sledování pacienta (follow-up)</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

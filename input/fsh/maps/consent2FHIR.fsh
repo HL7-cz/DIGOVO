@@ -24,5 +24,5 @@ Mapování logického modelu DIGOVO 'Souhlas s opakovaným použitím dat' na FH
 * group[=].element[=].display = "Souhlas pacienta/zákonného zástupce s opakovaným použitím dat"
 * group[=].element[=].target.code = #Consent.provision.type
 * group[=].element[=].target.display = "Souhlas (Yes/No)"
-* group[=].element[=].target.equivalence = #equal
-* group[=].element[=].target.comment = "Mapováno na Consent.provision.type – hodnoty z VsConsentReuseTypeCz (Y/N)."
+* group[=].element[=].target.equivalence = #relatedto
+* group[=].element[=].target.comment = "Pouze koncepční vazba. Čtyřstavovou odpověď nelze přímo převést na permit/deny v Consent.provision.type. Unknown a Not Asked vyžadují vlastní reprezentaci a rozpor souhlas/námitka musí být před transformací vyjasněn."

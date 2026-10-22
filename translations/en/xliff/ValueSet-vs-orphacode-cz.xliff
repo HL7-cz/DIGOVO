@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="cs" target-language="en" id="ValueSet-vs-orphacode-cz" original="Resource ValueSet-vs-orphacode-cz" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ValueSet-vs-orphacode-cz" resname="ValueSet.name">
+             <notes>
+               <note id="n1">ValueSet.name</note>
+             </notes>
+        <source>VsorphaCodeCz</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-vs-orphacode-cz" resname="ValueSet.title">
+             <notes>
+               <note id="n1">ValueSet.title</note>
+             </notes>
+        <source>ValueSet – orphaCode (CZ)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-vs-orphacode-cz" resname="ValueSet.publisher">
+             <notes>
+               <note id="n1">ValueSet.publisher</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-vs-orphacode-cz" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-vs-orphacode-cz" resname="ValueSet.description">
+             <notes>
+               <note id="n1">ValueSet.description</note>
+             </notes>
+        <source>ValueSet pro kódování diagnóz vzácných onemocnění dle orphanet (orphacode).
+Používá se v rámci IG DIGOVO pro Condition nebo Observation.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-vs-orphacode-cz" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Czechia</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

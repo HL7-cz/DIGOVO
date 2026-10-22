@@ -50,3 +50,37 @@
 }
 #segment-footer > .container {background-color: #183C62;}
 .navbar-inverse {background-color: #183C62;}
+
+/* Keep the national navigation and the language switch on one desktop row. */
+@media (min-width: 768px) {
+    #segment-navbar nav.navbar > .container {
+        display: flex;
+        align-items: center;
+    }
+    #segment-navbar .navbar-inverse-collapse {
+        flex: 1 1 auto;
+        min-width: 0;
+    }
+    #segment-navbar .navbar-nav {
+        display: flex;
+        flex-wrap: nowrap;
+        float: none;
+        margin: 0;
+    }
+    #segment-navbar .navbar-nav > li {
+        float: none;
+        flex: 0 0 auto;
+    }
+    #segment-navbar .navbar-nav > li > a { white-space: nowrap; }
+    #segment-navbar #language {
+        flex: 0 0 auto;
+        float: none;
+        margin-left: auto;
+    }
+}
+/* Link-checker anchors are targets, not additional navigation buttons. */
+#segment-navbar .navbar-nav > li > a[name]:not([href]) {
+    display: inline;
+    padding: 0;
+    line-height: 0;
+}

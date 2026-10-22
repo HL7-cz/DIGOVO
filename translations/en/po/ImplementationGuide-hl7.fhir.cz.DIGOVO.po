@@ -1,0 +1,779 @@
+
+# ImplementationGuide.name
+#: ImplementationGuide.name
+msgid "HL7CzDIGOVOImplementationGuide"
+msgstr ""
+
+# ImplementationGuide.title
+#: ImplementationGuide.title
+msgid "HL7 Czech DIGOVO Implementation Guide"
+msgstr ""
+
+# ImplementationGuide.publisher
+#: ImplementationGuide.publisher
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ImplementationGuide.description
+#: ImplementationGuide.description
+msgid "Implementační příručka DIGOVO pro dokumentaci vzácných onemocnění"
+msgstr "DIGOVO implementation guide for rare disease documentation"
+
+# Coding.display
+#: Coding.display
+msgid "Czechia"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "1. Souhlas s opakovaným použitím dat"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Záznam o souhlasu pacienta nebo zákonného zástupce s opakovaným použitím dat pacienta."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "10. Poskytnutá péče"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Logický model pro zachycení údajů o zdravotní péči poskytnuté pacientovi, včetně typu intervence, účelu, zapojení do systémů jako CPMS, profese poskytovatelů a lokalizace centra péče. Vhodné primárně pro standardní dokumentaci; pro registry může být problematické kvůli variabilitě údajů."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "11. Výzkum"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Logický model pro zachycení údajů o účasti pacienta na výzkumu nebo studii včetně dostupnosti biologických vzorků a souhlasu s kontaktováním. Struktura odpovídá českým národním požadavkům a je v souladu s CDE."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "12. Užitečné informace"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Logický model pro zachycení doplňujících informací o onemocnění, doporučeních a hlavních varováních důležitých pro péči o pacienta. Součástí může být i pacientský souhrn."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "2. Informace o pacientovi"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Identifikace případu a příznak plodu podle položek 2.1–2.2 datasetu RD_Data_Elements_CZ_EHR_VFN_16_9_VS.xlsx. Osobní údaje 2a a údaje o plodu 2b jsou samostatné dílčí modely. Větve jsou volitelné na úrovni struktury; jejich použitelnost závisí na příznaku plodu a klinickém kontextu."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "2a. Osobní a demografické údaje"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Položky 2a.1–2a.9 datasetu RD_Data_Elements_CZ_EHR_VFN_16_9_VS.xlsx. Spojuje osobní a demografické údaje, které mají ve zdroji společné označení 2a. Povinné položky se vztahují k přítomné sekci."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "2b. Údaje o plodu a matce"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Položky 2b.1–2b.11 datasetu RD_Data_Elements_CZ_EHR_VFN_16_9_VS.xlsx. Záznam se vede pro každý postižený plod samostatně. Povinné položky platí při použití této sekce; způsob zachycení neznámých hodnot musí určit konkrétní implementace."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "3. Diagnóza vzácného onemocnění"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Záznam diagnózy vzácného onemocnění včetně klasifikace, potvrzovací metody a genetických údajů."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "4. Anamnéza onemocnění"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Logický model pro sekci anamnézy v datasetu vzácných onemocnění."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "5. Prenatální a perinatální údaje"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Logický model pro prenatální a perinatální údaje relevantní především u dětských pacientů."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "6. Rodinná anamnéza"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Logický model pro záznam informací o rodinných předcích ve vztahu k vzácnému onemocnění."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "7. Životní stav"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Logický model pro záznam životního stavu pacienta ve vztahu k vzácnému onemocnění."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "8. Léčba"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Logický model pro zachycení informací o terapii u pacientů, zejména při léčbě vzácných onemocnění. Obsahuje informace o léčivech, dávkování, dalších intervencích a způsobech léčby. V souladu s českými národními požadavky a standardem PZ."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "9. Trajektorie péče"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Logický model pro zachycení informací o klinické trajektorii (care pathway) pacienta v rámci péče o vzácné onemocnění. Obsahuje informace o odesílajícím subjektu, datu přijetí do specializovaného centra, zapojených lékařích a klinických službách."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Ano / Ne / Neznámé / Nezjišťováno (DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Čtyřstavové odpovědi podle datasetu vzácných onemocnění. Neznámá odpověď a nezjišťování jsou odlišné od záporné odpovědi."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Biologické metody použité v diagnostice (DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Soubor metod biologické diagnostiky používaných při potvrzení diagnózy vzácného onemocnění.
+Převzato z logického modelu DIGOVO a harmonizováno s ERDRI Common Data Elements."
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Číselník biologických metod používaných při diagnostice vzácných onemocnění.
+Vyjadřuje, jakým způsobem byla provedena biologická nebo laboratorní analýza, 
+která vedla ke zjištění genotypu nebo potvrzení diagnózy."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Composition (DIGOVO – klinický dokument o vzácném onemocnění)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Hlavní klinický dokument DIGOVO pro vzácná onemocnění.
+Zahrnuje sekce pro identifikaci pacienta, diagnózu, anamnézu, klinickou trajektorii, souhlas a další relevantní údaje."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Condition (Vzácné onemocnění – DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Diagnóza vzácného onemocnění s kódováním dle orphacode.
+Vazby na genetické a fenotypové důkazy jsou vedeny přes `Condition.evidence.detail`."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Consent (Souhlas s opakovaným použitím dat – DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Záznam o souhlasu pacienta nebo zákonného zástupce s opakovaným použitím dat pacienta.
+Používá se v rámci datasetu DIGOVO (část Souhlas)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Cíle poskytnuté péče (DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Hodnoty pro vyjádření účelu nebo cíle poskytované péče v rámci DIGOVO.
+Používá se v `Procedure.reasonCode`."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Datová sada vzácných onemocnění – celkový logický model"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Nadřazený logický model datasetu RD_Data_Elements_CZ_EHR_VFN_16_9_VS.xlsx (list Data Elements). Dvanáct sekcí je propojeno s dílčími modely jejich datovým typem. Model pacienta zahrnuje podsekce 2a a 2b. Kardinality sekcí představují návrh pro EHR; podmíněná povinnost a otevřené otázky zdroje jsou popsány na stránce logických modelů."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Diagnóza vzácného onemocnění předka"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Diagnóza vzácného onemocnění, které postihlo rodinného předka."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "DIGOVO CodeSystem"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Kódy používané v projektu DIGOVO pro prenatální, perinatální a specializované klinické informace."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "DIGOVO Consent Reuse Data Logical Model → FHIR Mapping"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Mapování logického modelu DIGOVO 'Souhlas s opakovaným použitím dat' na FHIR profil CZ_Consent_ReuseData."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "DIGOVO Family Ancestors Model to FHIR RelatedPerson Map"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Mapování logického modelu DIGOVO 'Rodinní předkové ve vztahu k VO' 
+na FHIR profil CZ_RelatedPerson_RareDisease."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "DIGOVO Mapování: LogCzHealthCare → FHIR profily"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Mapování logického modelu zdravotní péče (LogCzHealthCare) na FHIR profily DIGOVO a CZ Core."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "DIGOVO PatientHistory Logical Model → FHIR Mapping"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Mapování logického modelu DIGOVO 'Anamnéza pacienta (LogCzPatientHistory)' na konkrétní FHIR profily CZ DIGOVO."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "DIGOVO Subject Model to CZ Core Patient Map"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Mapování logického modelu DIGOVO 'Informace o subjektu - pacient' na FHIR Patient podle českého národního profilu CZ Core Patient."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Encounter (Odeslání pacienta – DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Záznam o odeslání nebo doporučení pacienta k dalšímu vyšetření či do specializovaného centra.
+Vztahuje se k části klinické trajektorie pacienta v DIGOVO."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Encounter (Přijetí do specializovaného centra – DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Záznam o přijetí pacienta do specializovaného centra péče o vzácné onemocnění.
+Profil pokrývá údaje o datu přijetí, doporučení, a organizaci, která pacienta přijala.
+Odpovídá části 'Care Pathway' logického modelu DIGOVO (LogCzCarePathway)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Fenotypické projevy (HPO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Subset Human Phenotype Ontology (HPO) pro klinické projevy vzácných onemocnění.
+Používá se v rámci DIGOVO projektu."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Genetické a diagnostické metody (DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Číselník metod použitých pro potvrzení diagnózy vzácného onemocnění.
+Zahrnuje klinické, genetické, biochemické a zobrazovací metody.
+Vybráno podle logického modelu DIGOVO a harmonizováno s ERDRI Common Data Elements."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Genetické testovací metody (DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Soubor genetických testovacích metod a přístupů používaných při diagnostice vzácných onemocnění.
+Zahrnuje klasifikaci Clinical, Genetic, Biochemical, Biological, Imaging, Functional Exploration, Pathological anatomy, Other."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "HGVS kódování genetických variant (DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Soubor kódů pro popis genetických variant dle standardu HGVS (Human Genome Variation Society).
+Používá se v rámci profilu CZ_Observation_Genotype jako hodnota (`valueCodeableConcept`).
+Hodnoty odpovídají záznamům genetických variant, např. c.76A>T, p.Glu6Val.
+Zdrojem dat jsou HGVS zápisy, OMIM, ClinVar nebo interní registr variant."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "ICF funkční postižení (CZ)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Subset klasifikace ICF dle WHO."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Konsanguinita (pokrevní příbuznost)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Informace o pokrevní příbuznosti mezi rodiči."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Kódový systém – Cíle poskytované péče (DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Kódový systém – Typ poskytnuté péče (DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "LogCzRareDiseaseDiagnosis → CZ_ConditionRareDisease + CZ_Observation_* (DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "DIGOVO FHIR mapování na profily profily: CZ_ConditionRareDisease, CZ_Observation_Genotype,
+CZ_Observation_Phenotype, CZ_Observation_BiologicalMethod, CZ_Observation_GeneticTest,
+CZ_Observation_UndiagnosedFinding."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Lékařsky asistovaná reprodukce (CZ)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Zda bylo těhotenství výsledkem asistované reprodukce."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Observation (Biologická metoda – DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Záznam biologické nebo laboratorní metody použitý k potvrzení diagnózy vzácného onemocnění.
+Slouží jako podpůrný důkaz (`Condition.evidence.detail`), na který mohou odkazovat genotypové výsledky."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Observation (Dědičnost – DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Záznam o dědičnosti onemocnění (Yes / No / Unknown)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Observation (Fenotyp – DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Fenotypické projevy pacienta, vyjádřené pomocí terminologie HPO (Human Phenotype Ontology).
+Používá se jako podpůrný důkaz (`Condition.evidence.detail`) pro diagnózu vzácného onemocnění."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Observation (Genetická metoda – DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Záznam genetické testovací metody, například chromozomální, sekvenační, nebo NGS.
+Používá se pro popis konkrétního testu v rámci diagnostiky vzácného onemocnění."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Observation (Genotyp – DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Záznam genotypu pacienta ve vztahu ke vzácnému onemocnění.
+Používá se jako podkladový důkaz (`Condition.evidence.detail`) v rámci diagnózy vzácného onemocnění."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Observation (Klinické projevy – DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Záznam klinických fenotypových projevů pomocí HPO nebo SNOMED CT."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Observation (Nediagnostikovaný nález – DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Používá se v případech, kdy fenotypické nebo genetické rysy pacienta nelze zatím přiřadit ke konkrétní diagnóze.
+Slouží jako podklad pro evidenci nediagnostikovaných stavů (CDE-RD „Undiagnosed case“)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Observation (Postižení – DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Záznam funkčního nebo strukturálního postižení dle klasifikace ICF."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Observation (Věk při začátku potíží / diagnóze – DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Záznam o věku nebo datu, kdy začaly potíže spojené se vzácným onemocněním."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Observation (Účast pacienta v systému CPMS – DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Záznam o tom, zda je pacient zařazen do systému CPMS (Clinical Patient Management System).
+Součást sekce Zdravotní péče v rámci DIGOVO."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Postižený předek (Yes/No/N/A)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Zda byl některý z rodinných předků postižen vzácným onemocněním."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Prenatalni a perinatalni souhrn (CZ)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Souhrnné prenatální a perinatální údaje relevantní pro projekt DIGOVO."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Prenatálně zjištěné malformace (CZ)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Stav prenatálních malformací – žádná, jednotlivá, vícečetná."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Procedure (Vyšetření – DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Záznam o vyšetření provedeném u pacienta v souvislosti se vzácným onemocněním.
+Vyšetření je modelováno jako FHIR Procedure a kódováno pomocí SNOMED CT.
+Používá se v sekci anamnézy (PatientHistory)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Procedure (Zdravotní výkon / poskytnutá péče – DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Záznam o konkrétní poskytované zdravotní péči, výkonu nebo klinické intervenci
+v rámci DIGOVO datasetu.  
+Profil se používá pro popis typu poskytnuté péče (hospitalizace, ambulantní vyšetření, 
+multidisciplinární konzilium, telemedicína apod.)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "RelatedPerson (Rodinní předkové relevantní k VO – DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Rozšíření profilu CZ_RelatedPersonCore pro záznam rodinných předků relevantních ke vzácným onemocněním.
+Odpovídá logickému modelu LogCzFamilyAncestors."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Souhlas s opakovaným použitím dat (Yes/No)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Hodnoty určující, zda byl udělen souhlas s opakovaným použitím dat pacienta."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Typ klinické trajektorie (Encounter – DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Hodnoty pro klasifikaci typu kontaktu pacienta v rámci klinické trajektorie (Care Pathway)
+v projektu DIGOVO. Používá se v profilu CZ_Encounter_SpecializedCenter."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Typ kontaktu v klinické trajektorii (Care Pathway – DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Kódy pro klasifikaci typu klinického kontaktu nebo epizody péče v rámci projektu DIGOVO."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Typ poskytnuté péče (DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Seznam typů poskytované péče nebo zdravotního výkonu v rámci DIGOVO.
+Používá se v `Procedure.code` pro rozlišení formy kontaktu – ambulantní, hospitalizace, konzilium, telemedicína apod."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Typ vzácného onemocnění (DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Typ vzácného onemocnění — zda je onemocnění sporadické nebo familiární.
+Používá se v rozšíření Condition.extension:typOnemocneni."
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Číselník pro určení, zda je vzácné onemocnění sporadické nebo familiární.
+Používá se v rozšíření `Condition.extension:typOnemocneni`."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "ValueSet – orphaCode (CZ)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "ValueSet pro kódování diagnóz vzácných onemocnění dle orphanet (orphacode).
+Používá se v rámci IG DIGOVO pro Condition nebo Observation."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Věk při stanovení diagnózy (DIGOVO)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Rozšíření pro uvedení věku pacienta v době stanovení diagnózy.
+Používá se v profilu CZ_ConditionRareDisease."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Závažnost vzácného onemocnění – DIGOVO"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Kategorie závažnosti pro diagnózy vzácných onemocnění, kompatibilní s ERDRI a SNOMED CT."
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Table of Contents"
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Domovská stránka"
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Oblasti a obsah"
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Kontext projektu"
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Logický model – přehled a hierarchie"
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Mapování na profily"
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Příklady"
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Záznam změn"
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Autoři a vydavatel"
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Ke stažení"
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Závislosti"
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Autorská práva"
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Jazyky a překlady"
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Artifacts"
+msgstr ""
+

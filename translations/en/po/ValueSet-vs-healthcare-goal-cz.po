@@ -1,0 +1,32 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "VsHealthCareGoalCz"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "Cíle poskytnuté péče (DIGOVO)"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ValueSet.description
+#: ValueSet.description
+msgid "Hodnoty pro vyjádření účelu nebo cíle poskytované péče v rámci DIGOVO.
+Používá se v `Procedure.reasonCode`."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Czechia"
+msgstr ""
+

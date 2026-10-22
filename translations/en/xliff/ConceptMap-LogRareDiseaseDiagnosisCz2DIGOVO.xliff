@@ -1,0 +1,220 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="cs" target-language="en" id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" original="Resource ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="ConceptMap.name">
+             <notes>
+               <note id="n1">ConceptMap.name</note>
+             </notes>
+        <source>LogRareDiseaseDiagnosisCz2DIGOVO</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="ConceptMap.title">
+             <notes>
+               <note id="n1">ConceptMap.title</note>
+             </notes>
+        <source>LogCzRareDiseaseDiagnosis → CZ_ConditionRareDisease + CZ_Observation_* (DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="ConceptMap.publisher">
+             <notes>
+               <note id="n1">ConceptMap.publisher</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="ConceptMap.description">
+             <notes>
+               <note id="n1">ConceptMap.description</note>
+             </notes>
+        <source>DIGOVO FHIR mapování na profily profily: CZ_ConditionRareDisease, CZ_Observation_Genotype,
+CZ_Observation_Phenotype, CZ_Observation_BiologicalMethod, CZ_Observation_GeneticTest,
+CZ_Observation_UndiagnosedFinding.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Czechia</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Název onemocnění (orpha)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Condition.code (orpha)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Aktuální stav diagnózy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Condition.clinicalStatus</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Metoda potvrzení diagnózy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Condition.verificationStatus</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Typ onemocnění (sporadické/familiární)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Condition.extension (typOnemocneni)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Gen (HGNC)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Observation.value – Gen (HGNC)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Genová varianta (HGVS)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Observation.value – Genová varianta (HGVS)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Fenotypické projevy (HPO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Observation.value – Fenotyp (HPO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Biologická metoda použitá v diagnostice</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Observation.value – Biologická metoda</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Metoda potvrzení (genetická/biochemická/clinical)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Observation.value – Typ testu / metoda</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Nediagnostikovaný fenotyp (HPO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Observation.value – Nediagnostikovaný fenotyp</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Nediagnostikovaný genotyp (HGVS)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Observation.value – Nediagnostikovaný genotyp</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Závažnost onemocnění</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-LogRareDiseaseDiagnosisCz2DIGOVO" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Condition.severity</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

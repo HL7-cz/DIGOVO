@@ -1,0 +1,178 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="cs" target-language="en" id="CodeSystem-biological-method-cz" original="Resource CodeSystem-biological-method-cz" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CodeSystem-biological-method-cz" resname="CodeSystem.name">
+             <notes>
+               <note id="n1">CodeSystem.name</note>
+             </notes>
+        <source>CsBiologicalMethodCz</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-biological-method-cz" resname="CodeSystem.title">
+             <notes>
+               <note id="n1">CodeSystem.title</note>
+             </notes>
+        <source>Biologické metody použité v diagnostice (DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-biological-method-cz" resname="CodeSystem.publisher">
+             <notes>
+               <note id="n1">CodeSystem.publisher</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-biological-method-cz" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-biological-method-cz" resname="CodeSystem.description">
+             <notes>
+               <note id="n1">CodeSystem.description</note>
+             </notes>
+        <source>Číselník biologických metod používaných při diagnostice vzácných onemocnění.
+Vyjadřuje, jakým způsobem byla provedena biologická nebo laboratorní analýza, 
+která vedla ke zjištění genotypu nebo potvrzení diagnózy.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-biological-method-cz" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Czechia</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-biological-method-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Chromozomální analýza</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-biological-method-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Vyšetření chromozomů nebo jejich strukturálních změn.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-biological-method-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Chromosomal analysis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-biological-method-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>APCA (Amplified Probe-based Comparative Analysis)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-biological-method-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Metoda založená na hybridizaci amplifikovaných sond pro detekci variant.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-biological-method-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>APCA</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-biological-method-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Cílené sekvenování</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-biological-method-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Analýza specifických genů nebo úseků DNA pomocí cíleného sekvenování.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-biological-method-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Targeted sequencing</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-biological-method-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Sekvenování nové generace (NGS)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-biological-method-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Vysoce výkonná metoda sekvenování genomu nebo exomu.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-biological-method-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Next Generation Sequencing (NGS)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-biological-method-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Jiná metoda</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-biological-method-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Jiná biologická metoda mimo uvedené.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-biological-method-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Other</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-biological-method-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Nevztahuje se</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-biological-method-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Metoda není aplikovatelná.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-biological-method-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Not applicable</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

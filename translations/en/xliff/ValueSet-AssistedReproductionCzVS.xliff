@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="cs" target-language="en" id="ValueSet-AssistedReproductionCzVS" original="Resource ValueSet-AssistedReproductionCzVS" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ValueSet-AssistedReproductionCzVS" resname="ValueSet.name">
+             <notes>
+               <note id="n1">ValueSet.name</note>
+             </notes>
+        <source>AssistedReproductionCzVS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-AssistedReproductionCzVS" resname="ValueSet.title">
+             <notes>
+               <note id="n1">ValueSet.title</note>
+             </notes>
+        <source>Lékařsky asistovaná reprodukce (CZ)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-AssistedReproductionCzVS" resname="ValueSet.publisher">
+             <notes>
+               <note id="n1">ValueSet.publisher</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-AssistedReproductionCzVS" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-AssistedReproductionCzVS" resname="ValueSet.description">
+             <notes>
+               <note id="n1">ValueSet.description</note>
+             </notes>
+        <source>Zda bylo těhotenství výsledkem asistované reprodukce.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-AssistedReproductionCzVS" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Czechia</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

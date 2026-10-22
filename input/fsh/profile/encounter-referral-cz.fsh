@@ -38,7 +38,6 @@ Vztahuje se k části klinické trajektorie pacienta v DIGOVO.
 * partOf 0..1
 * partOf only Reference(CZ_Encounter_SpecializedCenter)
 
-* location 0..1
-* location.location only Reference(CZ_LocationCore)
+
 
 

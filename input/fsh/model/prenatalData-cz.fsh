@@ -1,6 +1,6 @@
 Logical: LogCzPrenatalData
 Id: LogPrenatalDataCz
-Title: "Prenatální a perinatální data"
+Title: "5. Prenatální a perinatální údaje"
 Description: """Logický model pro prenatální a perinatální údaje relevantní především u dětských pacientů."""
 
 * prenatalniData 0..1 Base "Prenatální / perinatální data" """Údaje o prenatálním a perinatálním období. 
@@ -14,4 +14,10 @@ Poznámka ze Scalesoft: pokud není relevantní, sekce zmizí celá."""
   * obvodHlavy 0..1 Quantity "Obvod hlavy při narození" """Obvod hlavy v centimetrech (centimetres)."""
   * vicecetneTehotenstvi 0..1 boolean "Vícečetné těhotenství" """Zda se jednalo o vícečetné těhotenství. Hodnoty: Yes / No."""
   * foetopatologie 0..1 boolean "Foetopatologie" """Informace o zjištěné foetopatologii. Hodnoty: Yes / No."""
-    
+
+// English metadata; element translations are maintained in input/translations/en.
+* ^description.extension[+].url = "http://hl7.org/fhir/StructureDefinition/translation"
+* ^description.extension[=].extension[0].url = "lang"
+* ^description.extension[=].extension[0].valueCode = #en
+* ^description.extension[=].extension[1].url = "content"
+* ^description.extension[=].extension[1].valueString = "Antenatal and perinatal information, particularly relevant to paediatric patients."

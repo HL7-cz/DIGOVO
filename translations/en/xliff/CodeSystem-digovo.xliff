@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="cs" target-language="en" id="CodeSystem-digovo" original="Resource CodeSystem-digovo" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CodeSystem-digovo" resname="CodeSystem.name">
+             <notes>
+               <note id="n1">CodeSystem.name</note>
+             </notes>
+        <source>DIGOVO</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-digovo" resname="CodeSystem.title">
+             <notes>
+               <note id="n1">CodeSystem.title</note>
+             </notes>
+        <source>DIGOVO CodeSystem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-digovo" resname="CodeSystem.publisher">
+             <notes>
+               <note id="n1">CodeSystem.publisher</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-digovo" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-digovo" resname="CodeSystem.description">
+             <notes>
+               <note id="n1">CodeSystem.description</note>
+             </notes>
+        <source>Kódy používané v projektu DIGOVO pro prenatální, perinatální a specializované klinické informace.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-digovo" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Czechia</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-digovo" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Bez prenatálně zjištěných malformací</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-digovo" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Jednotlivá prenatální malformace</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-digovo" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Vícečetné prenatální malformace</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-digovo" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Ano – těhotenství vzniklo asistovanou reprodukcí</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-digovo" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Ne – těhotenství nevzniklo asistovanou reprodukcí</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-digovo" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>N/A – informace není dostupná / není aplikovatelné</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="cs" target-language="en" id="ValueSet-vs-hpo-manifestations-cz" original="Resource ValueSet-vs-hpo-manifestations-cz" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ValueSet-vs-hpo-manifestations-cz" resname="ValueSet.name">
+             <notes>
+               <note id="n1">ValueSet.name</note>
+             </notes>
+        <source>VsHpoManifestationsCz</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-vs-hpo-manifestations-cz" resname="ValueSet.title">
+             <notes>
+               <note id="n1">ValueSet.title</note>
+             </notes>
+        <source>Fenotypické projevy (HPO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-vs-hpo-manifestations-cz" resname="ValueSet.publisher">
+             <notes>
+               <note id="n1">ValueSet.publisher</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-vs-hpo-manifestations-cz" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-vs-hpo-manifestations-cz" resname="ValueSet.description">
+             <notes>
+               <note id="n1">ValueSet.description</note>
+             </notes>
+        <source>Subset Human Phenotype Ontology (HPO) pro klinické projevy vzácných onemocnění.
+Používá se v rámci DIGOVO projektu.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-vs-hpo-manifestations-cz" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Czechia</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

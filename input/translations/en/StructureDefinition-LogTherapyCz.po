@@ -1,0 +1,107 @@
+# cs -> en
+
+#: StructureDefinition.title
+msgctxt "StructureDefinition.title"
+msgid "8. Léčba"
+msgstr "8. Treatments"
+
+#: StructureDefinition.element.LogTherapyCz/short
+msgctxt "StructureDefinition.element.LogTherapyCz/short"
+msgid "8. Léčba"
+msgstr "8. Treatments"
+
+#: StructureDefinition.element.LogTherapyCz/definition
+msgctxt "StructureDefinition.element.LogTherapyCz/definition"
+msgid "Logický model pro zachycení informací o terapii u pacientů, zejména při léčbě vzácných onemocnění. Obsahuje informace o léčivech, dávkování, dalších intervencích a způsobech léčby. V souladu s českými národními požadavky a standardem PZ."
+msgstr "Therapy information including medicinal products, dosage, other interventions and treatments."
+
+#: StructureDefinition.element.LogTherapyCz.terapie/short
+msgctxt "StructureDefinition.element.LogTherapyCz.terapie/short"
+msgid "Terapie pacienta"
+msgstr "Patient treatment"
+
+#: StructureDefinition.element.LogTherapyCz.terapie/definition
+msgctxt "StructureDefinition.element.LogTherapyCz.terapie/definition"
+msgid "Záznam o jedné nebo více terapeutických intervencích pacienta (např. léčiva, dávkování, jiné intervence)."
+msgstr "One or more treatment records including medicines, dosage and other interventions."
+
+#: StructureDefinition.element.LogTherapyCz.terapie.pokracujiciLecba/short
+msgctxt "StructureDefinition.element.LogTherapyCz.terapie.pokracujiciLecba/short"
+msgid "Pokračující léčba vzácného onemocnění"
+msgstr "Ongoing rare disease treatment"
+
+#: StructureDefinition.element.LogTherapyCz.terapie.pokracujiciLecba/definition
+msgctxt "StructureDefinition.element.LogTherapyCz.terapie.pokracujiciLecba/definition"
+msgid "Zda je léčba součástí pokračující terapie vzácného onemocnění (ano/ne)."
+msgstr "Whether the treatment forms part of ongoing therapy for the rare disease."
+
+#: StructureDefinition.element.LogTherapyCz.terapie.lekyVzacne/short
+msgctxt "StructureDefinition.element.LogTherapyCz.terapie.lekyVzacne/short"
+msgid "Léky na vzácné onemocnění"
+msgstr "Rare disease medicines"
+
+#: StructureDefinition.element.LogTherapyCz.terapie.lekyVzacne/definition
+msgctxt "StructureDefinition.element.LogTherapyCz.terapie.lekyVzacne/definition"
+msgid "Seznam léčiv užívaných pro vzácné onemocnění."
+msgstr "Medicinal products used to treat the rare disease."
+
+#: StructureDefinition.element.LogTherapyCz.terapie.lekyVzacne.pripravek/short
+msgctxt "StructureDefinition.element.LogTherapyCz.terapie.lekyVzacne.pripravek/short"
+msgid "Léčebný přípravek"
+msgstr "8.1 Medicinal / Treatment Product"
+
+#: StructureDefinition.element.LogTherapyCz.terapie.lekyVzacne.pripravek/definition
+msgctxt "StructureDefinition.element.LogTherapyCz.terapie.lekyVzacne.pripravek/definition"
+msgid "Kód léčebného přípravku podle ATC klasifikace."
+msgstr "Product code of pharmacological agents, biologics, advanced therapy medical products, or other medical products used in the patient’s treatment regimen.\n\nThis data element is Mandatory\n\nThe recommended data standard is EHDSMedication.classification (ATC product code)\n•\thttps://www.xt-ehr.eu/fhir/models/0.2.1/StructureDefinition-EHDSMedication-definitions.html#key_EHDSMedication.classification"
+
+#: StructureDefinition.element.LogTherapyCz.terapie.lekyVzacne.davkovaniACesta/short
+msgctxt "StructureDefinition.element.LogTherapyCz.terapie.lekyVzacne.davkovaniACesta/short"
+msgid "Dávkování a cesta podání"
+msgstr "8.2 Posology"
+
+#: StructureDefinition.element.LogTherapyCz.terapie.lekyVzacne.davkovaniACesta/definition
+msgctxt "StructureDefinition.element.LogTherapyCz.terapie.lekyVzacne.davkovaniACesta/definition"
+msgid "Popis dávky, četnosti podání a cesty podání (např. 500 mg 1x denně perorálně)."
+msgstr "Dosage instructions (dose, frequency, route, formulation) for each medicinal product.\n\nThis data element is Mandatory\n\nThe recommended data standard is EHDSDosaging (UCUM for units of measure. EDQM Standard Terms for units of presentation).\n•\thttps://www.xt-ehr.eu/fhir/models/0.2.1/StructureDefinition-EHDSDosaging.html"
+
+#: StructureDefinition.element.LogTherapyCz.terapie.jineLecby/short
+msgctxt "StructureDefinition.element.LogTherapyCz.terapie.jineLecby/short"
+msgid "Jiné léčby nebo intervence"
+msgstr "Other treatments or interventions"
+
+#: StructureDefinition.element.LogTherapyCz.terapie.jineLecby/definition
+msgctxt "StructureDefinition.element.LogTherapyCz.terapie.jineLecby/definition"
+msgid "Záznam o jiných léčbách nebo intervencích souvisejících s terapií (např. chirurgické zákroky, fyzioterapie, pomůcky)."
+msgstr "Other treatments such as surgery, physiotherapy or assistive devices."
+
+#: StructureDefinition.element.LogTherapyCz.terapie.jineLecby.pripravekNeboProstredek/short
+msgctxt "StructureDefinition.element.LogTherapyCz.terapie.jineLecby.pripravekNeboProstredek/short"
+msgid "Léčebný přípravek nebo prostředek"
+msgstr "Treatment product or device"
+
+#: StructureDefinition.element.LogTherapyCz.terapie.jineLecby.pripravekNeboProstredek/definition
+msgctxt "StructureDefinition.element.LogTherapyCz.terapie.jineLecby.pripravekNeboProstredek/definition"
+msgid "Kód léčebného přípravku či prostředku podle ATC klasifikace."
+msgstr "A medicinal product or device used as part of another treatment."
+
+#: StructureDefinition.element.LogTherapyCz.terapie.jineLecby.davkovaniACesta/short
+msgctxt "StructureDefinition.element.LogTherapyCz.terapie.jineLecby.davkovaniACesta/short"
+msgid "Dávkování a cesta podání"
+msgstr "Dosage and route of administration"
+
+#: StructureDefinition.element.LogTherapyCz.terapie.jineLecby.davkovaniACesta/definition
+msgctxt "StructureDefinition.element.LogTherapyCz.terapie.jineLecby.davkovaniACesta/definition"
+msgid "Popis dávky, četnosti podání a cesty podání."
+msgstr "Dose, frequency and route of administration."
+
+#: StructureDefinition.element.LogTherapyCz.terapie.intervence/short
+msgctxt "StructureDefinition.element.LogTherapyCz.terapie.intervence/short"
+msgid "Intervence"
+msgstr "8.3 Interventions"
+
+#: StructureDefinition.element.LogTherapyCz.terapie.intervence/definition
+msgctxt "StructureDefinition.element.LogTherapyCz.terapie.intervence/definition"
+msgid "Kód intervence dle klasifikací jako ICD-10, ICD-11 nebo SNOMED CT. Může jít o chirurgický zákrok, fyzioterapii apod."
+msgstr "Non-drug treatments and procedures undergone by the patient (surgical operations, device implants, physiotherapy programs).\n\nThis data element is Not Mandatory, however it is Strongly Recommended, especially if the intervention is curative.\n\nThe recommended data standard is SNOMED CT"
+

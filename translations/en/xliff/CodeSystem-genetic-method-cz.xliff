@@ -1,0 +1,220 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="cs" target-language="en" id="CodeSystem-genetic-method-cz" original="Resource CodeSystem-genetic-method-cz" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="CodeSystem.name">
+             <notes>
+               <note id="n1">CodeSystem.name</note>
+             </notes>
+        <source>CsGeneticMethodCz</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="CodeSystem.title">
+             <notes>
+               <note id="n1">CodeSystem.title</note>
+             </notes>
+        <source>Genetické a diagnostické metody (DIGOVO)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="CodeSystem.publisher">
+             <notes>
+               <note id="n1">CodeSystem.publisher</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="CodeSystem.description">
+             <notes>
+               <note id="n1">CodeSystem.description</note>
+             </notes>
+        <source>Číselník metod použitých pro potvrzení diagnózy vzácného onemocnění.
+Zahrnuje klinické, genetické, biochemické a zobrazovací metody.
+Vybráno podle logického modelu DIGOVO a harmonizováno s ERDRI Common Data Elements.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Czechia</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Klinické vyšetření</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Diagnóza založená na klinickém posouzení a symptomatologii.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Clinical evaluation</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Genetická metoda</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Potvrzení diagnózy pomocí genetické analýzy.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Genetic method</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Biochemická analýza</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Potvrzení diagnózy biochemickými testy (např. enzymová aktivita, metabolity).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Biochemical analysis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Biologická metoda</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Vyšetření založené na biologických nebo funkčních aspektech (např. buněčné testy).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Biological assay</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Zobrazovací metoda</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Potvrzení diagnózy pomocí zobrazovacích technik (např. MRI, CT).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Imaging method</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Funkční vyšetření</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Vyšetření zaměřené na funkční parametry orgánů nebo systémů.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Functional exploration</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Patologicko-anatomická analýza</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Diagnóza potvrzená histologicky nebo patologickým vyšetřením.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Pathological anatomy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Jiná metoda</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Jiná diagnostická metoda mimo uvedené.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-genetic-method-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Other</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

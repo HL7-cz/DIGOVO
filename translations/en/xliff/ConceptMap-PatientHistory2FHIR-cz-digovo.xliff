@@ -1,0 +1,169 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="cs" target-language="en" id="ConceptMap-PatientHistory2FHIR-cz-digovo" original="Resource ConceptMap-PatientHistory2FHIR-cz-digovo" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ConceptMap-PatientHistory2FHIR-cz-digovo" resname="ConceptMap.title">
+             <notes>
+               <note id="n1">ConceptMap.title</note>
+             </notes>
+        <source>DIGOVO PatientHistory Logical Model → FHIR Mapping</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-PatientHistory2FHIR-cz-digovo" resname="ConceptMap.publisher">
+             <notes>
+               <note id="n1">ConceptMap.publisher</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-PatientHistory2FHIR-cz-digovo" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-PatientHistory2FHIR-cz-digovo" resname="ConceptMap.description">
+             <notes>
+               <note id="n1">ConceptMap.description</note>
+             </notes>
+        <source>Mapování logického modelu DIGOVO 'Anamnéza pacienta (LogCzPatientHistory)' na konkrétní FHIR profily CZ DIGOVO.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-PatientHistory2FHIR-cz-digovo" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Czechia</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-PatientHistory2FHIR-cz-digovo" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Věk nebo datum začátku potíží</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-PatientHistory2FHIR-cz-digovo" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>CZ_Observation_PatientOnsetAge</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-PatientHistory2FHIR-cz-digovo" resname="ConceptMap.group.element.target.comment">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.comment</note>
+             </notes>
+        <source>Koncepční vazba; věk lze převést na valueQuantity, datum vyžaduje samostatnou reprezentaci. Přímý převod obou alternativ není definován.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-PatientHistory2FHIR-cz-digovo" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Věk nebo datum při diagnóze</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-PatientHistory2FHIR-cz-digovo" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Rozšíření CZ_Condition_AgeAtDiagnosis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-PatientHistory2FHIR-cz-digovo" resname="ConceptMap.group.element.target.comment">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.comment</note>
+             </notes>
+        <source>Koncepční vazba; rozšíření zachycuje věk, datum diagnózy vyžaduje samostatnou reprezentaci.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-PatientHistory2FHIR-cz-digovo" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Dědičnost onemocnění</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-PatientHistory2FHIR-cz-digovo" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>CZ_Observation_HereditaryPattern</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-PatientHistory2FHIR-cz-digovo" resname="ConceptMap.group.element.target.comment">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.comment</note>
+             </notes>
+        <source>Používá profil CZ_Observation_HereditaryPattern (Yes/No/Unknown – VsYesNoUnknownCz).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-PatientHistory2FHIR-cz-digovo" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Klinické projevy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-PatientHistory2FHIR-cz-digovo" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>CZ_Observation_PhenotypicManifestation</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-PatientHistory2FHIR-cz-digovo" resname="ConceptMap.group.element.target.comment">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.comment</note>
+             </notes>
+        <source>Používá profil CZ_Observation_PhenotypicManifestation – kódování dle HPO (VsHpoManifestationsCz).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-PatientHistory2FHIR-cz-digovo" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Vyšetření vztahující se k onemocnění</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-PatientHistory2FHIR-cz-digovo" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>CZ_Procedure_Examination</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-PatientHistory2FHIR-cz-digovo" resname="ConceptMap.group.element.target.comment">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.comment</note>
+             </notes>
+        <source>Vyšetření modelováno jako Procedure – profil CZ_Procedure_Examination (ValueSet VsSnomedProceduresCz).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-PatientHistory2FHIR-cz-digovo" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Funkční nebo strukturální postižení</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-PatientHistory2FHIR-cz-digovo" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>CZ_Observation_FunctionalDisability</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-PatientHistory2FHIR-cz-digovo" resname="ConceptMap.group.element.target.comment">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.comment</note>
+             </notes>
+        <source>Používá profil CZ_Observation_FunctionalDisability – kódování dle ICF (VsIcfFunctionalDisabilityCz).</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

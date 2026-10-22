@@ -1,0 +1,57 @@
+# cs -> en
+
+#: StructureDefinition.title
+msgctxt "StructureDefinition.title"
+msgid "12. Užitečné informace"
+msgstr "12. Useful information"
+
+#: StructureDefinition.element.LogUsefulInfoCz/short
+msgctxt "StructureDefinition.element.LogUsefulInfoCz/short"
+msgid "12. Užitečné informace"
+msgstr "12. Useful information"
+
+#: StructureDefinition.element.LogUsefulInfoCz/definition
+msgctxt "StructureDefinition.element.LogUsefulInfoCz/definition"
+msgid "Logický model pro zachycení doplňujících informací o onemocnění, doporučeních a hlavních varováních důležitých pro péči o pacienta. Součástí může být i pacientský souhrn."
+msgstr "Additional disease information, guidance and clinical alerts relevant to patient care and the patient summary."
+
+#: StructureDefinition.element.LogUsefulInfoCz.uzitecneInformace/short
+msgctxt "StructureDefinition.element.LogUsefulInfoCz.uzitecneInformace/short"
+msgid "Užitečné informace"
+msgstr "Useful information"
+
+#: StructureDefinition.element.LogUsefulInfoCz.uzitecneInformace/definition
+msgctxt "StructureDefinition.element.LogUsefulInfoCz.uzitecneInformace/definition"
+msgid "Související informace pro zdravotníky a pacienty."
+msgstr "Additional information for healthcare professionals and patients."
+
+#: StructureDefinition.element.LogUsefulInfoCz.uzitecneInformace.informaceOOnemocneni/short
+msgctxt "StructureDefinition.element.LogUsefulInfoCz.uzitecneInformace.informaceOOnemocneni/short"
+msgid "Informace o onemocnění a doporučení"
+msgstr "12.1 Disease Information and Guidelines"
+
+#: StructureDefinition.element.LogUsefulInfoCz.uzitecneInformace.informaceOOnemocneni/definition
+msgctxt "StructureDefinition.element.LogUsefulInfoCz.uzitecneInformace.informaceOOnemocneni/definition"
+msgid "Odkazy na validované informační zdroje – např. klinické doporučené postupy nebo informační materiály."
+msgstr "Links or references to disease-specific information resources, clinical practice guidelines, or care pathways relevant to the patient’s condition. Provides treating team with decision support and references to best practice care protocols.\n\nThis data element is Not Mandatory in the Electronic Health Record but is to be included in the Patient Summary of the EHDS.\n\nThe recommended data standard is EHDSCondition.externalResource\n•\thttps://www.xt-ehr.eu/fhir/models/0.2.1/StructureDefinition-EHDSCondition-definitions.html#key_EHDSCondition.externalResource"
+
+#: StructureDefinition.element.LogUsefulInfoCz.uzitecneInformace.hlavniVarovani/short
+msgctxt "StructureDefinition.element.LogUsefulInfoCz.uzitecneInformace.hlavniVarovani/short"
+msgid "Hlavní varování"
+msgstr "12.2 Main Alert Messages"
+
+#: StructureDefinition.element.LogUsefulInfoCz.uzitecneInformace.hlavniVarovani/definition
+msgctxt "StructureDefinition.element.LogUsefulInfoCz.uzitecneInformace.hlavniVarovani/definition"
+msgid "Důležitá klinická upozornění, např. alergie, rizika nebo jiná závažná sdělení. Součást pacientského souhrnu."
+msgstr "Critical clinical alerts concerning the patient that require attention (e.g., allergies, implantable devices, high-risk conditions, medication contraindications).\nHelps to highlight patient safety and alert the treating team at the point of care.\n\nThis data element is Not Mandatory in the Electronic Health Record but is to be included in the Patient Summary of the EHDS.\n\nThe recommended data standard is Logical Model: Alert Model\n•\thttps://www.xt-ehr.eu/fhir/models/0.2.1/StructureDefinition-EHDSAlert.html#root"
+
+#: StructureDefinition.element.LogUsefulInfoCz.uzitecneInformace.driveVyslovenaPrani/short
+msgctxt "StructureDefinition.element.LogUsefulInfoCz.uzitecneInformace.driveVyslovenaPrani/short"
+msgid "12.3 Dříve vyslovená přání"
+msgstr "12.3 Advanced Directives"
+
+#: StructureDefinition.element.LogUsefulInfoCz.uzitecneInformace.driveVyslovenaPrani/definition
+msgctxt "StructureDefinition.element.LogUsefulInfoCz.uzitecneInformace.driveVyslovenaPrani/definition"
+msgid "Zaznamenaná přání pacienta pro budoucí rozhodování o péči. Dataset označuje položku jako volitelnou v EHR a požadovanou pro EHDS Patient Summary; konkrétní reprezentace dokumentu je úkolem implementačního profilu."
+msgstr "Documented patient wishes regarding future healthcare decisions and end-of-life care preferences (Do not resuscitate orders, etc.). Informs treating team of patient’s advanced and legal directives.\n\nThis data element is Not Mandatory in the Electronic Health Record but is to be included in the Patient Summary of the EHDS.\n\nThe recommended data standard is Logical Model: Advance directive model\n•\thttps://www.xt-ehr.eu/fhir/models/0.2.1/StructureDefinition-EHDSAdvanceDirective.html#root"
+

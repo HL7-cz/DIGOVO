@@ -1,0 +1,31 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "VsYesNoUnknownNotAskedDigovoCz"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "Ano / Ne / Neznámé / Nezjišťováno (DIGOVO)"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# ValueSet.description
+#: ValueSet.description
+msgid "Čtyřstavové odpovědi podle datasetu vzácných onemocnění. Neznámá odpověď a nezjišťování jsou odlišné od záporné odpovědi."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Czechia"
+msgstr ""
+
